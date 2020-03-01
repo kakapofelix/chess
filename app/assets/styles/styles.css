@@ -1,0 +1,13 @@
+body {
+ color: green;
+
+}
+
+$mainBlue: #2f5572;
+
+.centered-text1 {
+
+    h4 {
+        color: $mainBlue;
+    }
+}

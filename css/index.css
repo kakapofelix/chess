@@ -1,0 +1,401 @@
+html, body {
+  font-family: inherit, sans-serif;
+  line-height: 18px;
+  max-height: 2500px;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: inherit, sans-serif;
+  line-height: 2;
+}
+
+#title {
+  text-align: center;
+  color: #fbfbfb;
+}
+
+/*Navigation bar*/
+
+.navbar {
+
+    &__content {
+        display: inline-block;
+        color: #fff;
+        letter-spacing: 0.2rem;
+    }
+
+}
+
+/*Homepage first page*/
+#introduction {
+  background-image: url("darkchess.jpg");
+}
+
+.chess-bg {
+  position: absolute;
+  display: block;
+  min-height: 100%;
+  min-width: 1024px;
+  z-index: -1;
+
+}
+
+.profile {
+  width: 40%;
+}
+
+.profile, .centered-text1, .centered-text2 {
+  margin: 50px auto;
+}
+
+/*Analysis, Couch, Tournaments description*/
+#articles {
+  background-color: #D1CFCE;
+  margin: -150px 0 -200px 0;
+  padding: 0;
+  height: 100%;
+}
+
+.title {
+  color: #605A56;
+}
+
+/*Top and bottom description*/
+.description-row {
+  margin-top: 0;
+  padding: 50px 0;
+  line-height: 2;
+  text-align: justify;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+}
+
+.description-details {
+  font-size: 22px;
+}
+
+.analysis-img, .tournaments-img {
+  box-shadow: 10px 10px 6px rgba(0, 0, 0, 0.5);
+  width: 40%;
+  border-style: solid;
+  border-width: thick;
+  border-color: #605A56;
+  float: left;
+  margin-right: 50px;
+  display: inline-block;
+}
+
+/*Middle descriptions*/
+.coach-img {
+  box-shadow: 10px 10px 6px rgba(0, 0, 0, 0.5);
+  width: 40%;
+  border-style: solid;
+  border-width: thick;
+  border-color: #605A56;
+  float: right;
+  margin-left: 30px;
+}
+
+/*Button*/
+.findout-middle {
+  margin: 20% 30% 0% 5%;
+  padding-left: 0%;
+}
+
+.findout, .findout-middle {
+  background-color: #FFFFFF;
+  width: 130px;
+  height: 40px;
+  background: linear-gradient(to bottom, #605A56 0%, #000000 100%);
+  /* W3C */
+  border: none;
+  border-radius: 5px;
+  position: absolute;
+  border-bottom: 2px solid #9C2E2C;
+  color: #fbfbfb;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, .4);
+  font-size: 12px;
+  text-align: left;
+  text-indent: 5px;
+  box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, .2);
+  cursor: pointer;
+}
+
+.findout:active {
+  box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, .2);
+  top: 1px;
+}
+
+.findout:after {
+  content: "";
+  width: 0;
+  height: 0;
+  display: block;
+  border-top: 20px solid #CF1A1A;
+  border-bottom: 20px solid #CF1A1A;
+  border-left: 15px solid transparent;
+  border-right: 13px solid #CF1A1A;
+  position: absolute;
+  opacity: 0.6;
+  right: 0;
+  top: 0;
+  border-radius: 0 5px 5px 0;
+}
+
+/*Sponsor section*/
+#sponsor {
+  background-color: #fff;
+  text-align: center;
+  max-height: 50px;
+  margin: 50px 0;
+  display: block;
+}
+
+.sponsor-section {
+  width: 100%;
+  background-color: #fff;
+}
+
+.chess24 {
+  width: 10%;
+}
+
+/*Container, container-fluid definition Bootstrap*/
+.container-fluid {
+  padding: 0;
+}
+
+#articles .container, #introduction .container {
+  position: relative;
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 300px;
+}
+
+/*Footer*/
+#footer {
+  background-color: #000;
+  color: #fff;
+  position: relative;
+  max-height: 300px;
+  margin-bottom: -300px;
+}
+
+.inner-footer {
+  text-align: center;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-container {
+  padding: 0;
+  flex-basis: 33, 33333333333333‬%;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.footer-container a {
+  font-family: "arial";
+  color: white;
+}
+
+.footer-container li {
+  display: inline-block;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.footer-icons {
+  margin-left: 100px;
+}
+
+.subscription-form {
+  margin: 0;
+  width: 100%;
+}
+
+.input-group {
+  padding: 10px;
+  width: 100%;
+}
+
+.footer-container i {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.footer-container p {
+  padding: 10px;
+  font-size: 20px;
+  margin-left: 100px;
+  font-weight: bold;
+  position: inline-block;
+}
+
+.button {
+  background-color: #fff;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+  border: none;
+  border-left: solid 2px black;
+}
+
+.button:hover {
+  background-color: #CF1A1A;
+  color: black;
+  border: none;
+  border-left: solid 2px black;
+}
+
+/*ABOUT ME page*/
+#aboutme {
+  background-color: #D1CFCE;
+  background-image: linear-gradient(to left, #D1CFCE, #605A56);
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.aboutme-container {
+  width: 100%;
+  height: 100%;
+  color: black;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.aboutme-description {
+  width: 70%;
+  line-height: 2;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-align: left;
+  letter-spacing: 1px;
+  float: right;
+  position: relative;
+}
+
+.aboutme-description h1, .aboutme-description p {
+  padding-top: 25px;
+}
+
+.aboutme-description h1 {
+  font-weight: bold;
+}
+
+.aboutme-description p:first-letter {
+  padding-left: 20px;
+}
+
+.aboutme-images {
+  position: absolute;
+  width: 50%;
+  height: auto;
+  top: 100px;
+  right: 800px;
+}
+
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+.clearfix::after,
+.calendar ol::after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/* ================
+Calendar Styling */
+.calendar {
+  border-radius: 10px;
+}
+
+.month {
+  font-size: 2rem;
+}
+
+@media (min-width: 992px) {
+  .month {
+    font-size: 3.5rem;
+  }
+}
+
+.calendar ol li {
+  float: left;
+  width: 14.28571%;
+}
+
+.calendar .day-names {
+  border-bottom: 1px solid #eee;
+}
+
+.calendar .day-names li {
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.calendar .days li {
+  border-bottom: 1px solid #eee;
+  min-height: 8rem;
+}
+
+.calendar .days li .date {
+  margin: 0.5rem 0;
+}
+
+.calendar .days li .event {
+  font-size: 0.75rem;
+  padding: 0.4rem;
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-radius: 4rem;
+  margin-bottom: 1px;
+}
+
+.calendar .days li .event.span-2 {
+  width: 200%;
+}
+
+.calendar .days li .event.begin {
+  border-radius: 1rem 0 0 1rem;
+}
+
+.calendar .days li .event.end {
+  border-radius: 0 1rem 1rem 0;
+}
+
+.calendar .days li .event.clear {
+  background: none;
+}
+
+.calendar .days li:nth-child(n+29) {
+  border-bottom: none;
+}
+
+.calendar .days li.outside .date {
+  color: #ddd;
+}
+
+#contact {
+  background: linear-gradient(to right, #000000 0%, #FFFFFF 100%);
+  margin: 0;
+  padding: 0;
+}

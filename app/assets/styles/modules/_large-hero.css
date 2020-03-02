@@ -1,0 +1,17 @@
+.large-hero {
+    position: relative;
+    text-align: center;
+
+    &__text-content {
+        position: absolute;       
+        color: #fff;
+        display:inline-block;
+
+    }
+    &__image-content {
+        position: absolute;
+                display:inline-block;
+
+    }
+
+}

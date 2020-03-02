@@ -13,14 +13,18 @@ module.exports = {
         path: path.resolve(__dirname, 'app')
     },
     devServer: {        
-        watchContentBase: true
-      },
+        contentBase: [
+            path.join(__dirname, 'app'),            
+          ],
+          watchContentBase: true,
+          compress: true
+        },
     mode:'development',
     watch: true,
     module: {
         rules: [
             { test: /\.css$/i,
-                use: ['style-loader','css-loader', {loader: 'postcss-loader', options: {plugins: postCSSPlugins}}]
+                use: ['style-loader','css-loader?url=false', {loader: 'postcss-loader', options: {plugins: postCSSPlugins}}]
             }
         ]
     }

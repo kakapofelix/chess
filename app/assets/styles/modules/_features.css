@@ -1,0 +1,20 @@
+#features {
+    background-color: #D1CFCE;
+
+}
+
+.features-item {
+
+    &__image-left {
+        float:left;
+        width: 50%;
+    }
+
+    &__image-right {
+        float:right;
+        width: 50%;
+    }
+
+
+
+}

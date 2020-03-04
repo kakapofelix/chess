@@ -14,15 +14,21 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!-- BOOTSTRAP SCRIPTS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+  </script>
 
 </head>
 
 <body>
 
-<!-- NAV BAR -->
+  <!-- NAV BAR -->
 
 
   <nav class="navbar">
@@ -32,71 +38,79 @@
       <li><a href="analysis&videos.html">Analysis&Videos</a></li>
       <li><a href="coaching.html">Coaching</a></li>
       <li><a href="tournaments.html">Tournaments</a></li>
-       <li><a href="contact.html">Contact</a></li>
-       <li class="navbar-login"><a href="aboutme.html">Sign in</a></li>
-     </ul>
-   </nav>
+      <li><a href="contact.html">Contact</a></li>
+      <li class="navbar-login"><a href="aboutme.html">Sign in</a></li>
+    </ul>
+  </nav>
 
   <div class="large-hero">
 
     <picture>
-      <source srcset="\assets\images\hero--large.jpg" media="(min-width: 1360px)">
-      <source srcset="\assets\images\hero--medium.jpg" media="(min-width: 990px)">
-      <source srcset="\assets\images\hero--small.jpg" media="(min-width: 640px)">
-      <img srcset="\assets\images\hero--small.jpg" alt="Chess tournament">
+      <source srcset="\assets\images\hero--large.jpg 1366w" media="(min-width: 1360px)">
+      <source srcset="\assets\images\hero--medium.jpg 1028w" media="(min-width: 990px)">
+      <source srcset="\assets\images\hero--small.jpg 804w" media="(min-width: 640px)">
+      <img srcset="\assets\images\hero--small.jpg 502w" alt="Chess tournament">
     </picture>
 
-    <div class="large-hero__text-content">
-      <h1 class="large-hero__title">Welcome to my site.</h1>
-      <h2 class="large-hero__subtitle">My name is Viktor Erdos. I am a world champion in chess and a hungarian chess grandmaster.</h2>
-    </div>
-    
-    <div class="large-hero__image-content">    
-      <img srcset="app\assets\images\profile.jpg" alt="Viktor Erdos profile">
+    <div class="wrapper">
+      <div class="large-hero__text-content">
+        <h1 class="large-hero__title">Welcome to my site.</h1>
+        <h2 class="large-hero__subtitle">My name is Viktor Erdos. I am a world champion in chess and a hungarian chess
+          grandmaster.</h2>
+      </div>
+
+      <div class="large-hero__image-content">
+        <img srcset="\assets\images\profile.jpg" alt="Viktor Erdos profile">
+      </div>
     </div>
   </div>
 
-  <section id="articles">
+  <div id="features">
 
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 col-md-6 col-sm-12">
+    <div class="wrapper">
 
-          <div class="description-row">
-            <img class="analysis-img" src="images\analysis.jpg" alt="chess tournaments">
+      <div class="features__first-section">
 
-            <h2 class="description-title">My analyses & videos</h2>
-            <p class="description-details">You can improve your strategy based on analysis. The key is continuous practice
-              & review your matches. Check out my detailed analysis.</p>
+        <div class="features-item">
+          <img class="features-item__image-left" src="\assets\images\features-analysis--smaller.jpg"
+            alt="chess analysis">
+          <h2 class="features-item__title">My analyses & videos</h2>
+          <p class="features-item__description">You can improve your strategy based on analysis. The key is continuous
+            practice
+            & review your matches. Check out my detailed analysis.</p>
+          <button class="findout">FIND OUT MORE</button>
+        </div>
 
-            <button class="findout">FIND OUT MORE</button>
-          </div>
+      </div>
 
-          <div class="description-row">
-            <img class="coach-img" src="images\coaching.jpg" alt="chess coaching">
+      <div class="features__second-section">
+
+        <div class="features-item">
+          <h2 class="features-item__title">I help you learning the basics or refreshing your knowledge</h2>
+          <p class="features-item__description">Learn the fundamentals or just improve your current knowledge with
+            watching
+            my tutorial!The tutorials are for everyone independently from your age or level. Check it out!</p>
+          <button class="findout">FIND OUT MORE</button>
+          <img class="features-item__image-right" src="\assets\images\features-coaching--smaller.jpg"
+            alt="chess coaching">
+        </div>
+      </div>
 
 
-            <h2 class="description-title">I help you learning the basics or refreshing your knowledge</h2>
-            <p class="description-details">Learn the fundamentals or just improve your current knowledge with watching
-              my tutorial!The tutorials are for everyone independently from your age or level. Check it out!</p>
+      <div class="features__third-section">
 
-            <button class="findout">FIND OUT MORE</button>
-          </div>
+        <div class="features-item">
+          <img class="features__image-left" src="\assets\images\features-tournaments--smaller.jpg"
+            alt="chess tournaments">
 
-
-          <div class="description-row">
-            <img class="tournaments-img" src="images\tournaments.jpg" alt="chess tournaments">
-
-            <h2 class="description-title">Take a look at my tournaments</h2>
-            <p class="description-details">I also have a calendar where you can follow my upcoming events.</p>
-
-            <button class="findout">FIND OUT MORE</button>
-          </div>
+          <h2 class="features__title">Take a look at my tournaments</h2>
+          <p class="features__description">I also have a calendar where you can follow my upcoming events.</p>
+          <button class="findout">FIND OUT MORE</button>
         </div>
       </div>
     </div>
+  </div>
 
-  </section>
 
   <section id="sponsor">
     <div class="container-fluid">

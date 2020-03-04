@@ -5,33 +5,35 @@
         position: absolute;
         top: 10%;
         left: 50%;
-        transform: translateX(-50%);   
+        transform: translateX(-50%);
         color: #fff;
         text-align: center;
         width: 70%;
-        
+
+
+
         @mixin atLarge {
-        max-width: 45%;
-        left: 12.5rem;
-        text-align: right;
-        top: 50%;
-        transform: translateY(-50%);
+            max-width: 45%;
+            left: 15%;
+            text-align: right;
+            top: 50%;
+            transform: translateY(-50%);
         }
-        
+
     }
 
     &__image-content {
         position: absolute;
-        top: 50%;
+        top: 40%;
         left: 50%;
         transform: translateX(-50%);
         max-width: 30%;
 
         @mixin atLarge {
-        top: 50%;
-        left: 65%;
-        transform: translateY(-50%);
-        max-width: 20%;
+            top: 50%;
+            left: 65%;
+            transform: translateY(-50%);
+            max-width: 20%;
         }
 
     }
@@ -40,12 +42,18 @@
         font-weight: 100;
         font-size: 2rem;
         line-height: 1.5;
-        max-width: 40rem;
-        text-shadow: 2px 2px 0 rgba(0,0,0, .1);
+        text-shadow: 2px 2px 0 rgba(0, 0, 0, .1);
+
+
+        @mixin atSmall {
+            font-weight: 150;
+            font-size: 1.5rem;
+
+        }
 
         @mixin atLarge {
-        font-weight: 200;
-        font-size: 2rem;
+            font-weight: 200;
+            font-size: 2rem;
 
         }
     }
@@ -55,8 +63,8 @@
         font-size: 2rem;
 
         @mixin atLarge {
-        font-weight: 200;
-        font-size: 2.5rem;
+            font-weight: 200;
+            font-size: 2.5rem;
         }
     }
 }

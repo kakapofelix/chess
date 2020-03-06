@@ -29,6 +29,17 @@
         transform: translateX(-50%);
         max-width: 30%;
 
+        
+        @mixin atSmall {
+            top: 50%;
+            transform: translateX(-50%);
+        }
+
+        @mixin atMedium {
+            top: 40%;
+            transform: translateX(-50%);
+        }
+
         @mixin atLarge {
             top: 50%;
             left: 65%;
@@ -40,21 +51,19 @@
 
     &__subtitle {
         font-weight: 100;
-        font-size: 2rem;
+        font-size: 1rem;
         line-height: 1.5;
         text-shadow: 2px 2px 0 rgba(0, 0, 0, .1);
 
 
         @mixin atSmall {
             font-weight: 150;
-            font-size: 1.5rem;
-
+            font-size: 1.2rem;
         }
 
         @mixin atLarge {
             font-weight: 200;
             font-size: 2rem;
-
         }
     }
 

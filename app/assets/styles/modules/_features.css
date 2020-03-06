@@ -4,69 +4,125 @@
 
 .features-item {
 
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-
-
 
     &--first {
         overflow: hidden;
         clear: both;
-        height: 350px;
+        height: 300px;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+      
+        &__image-left {
+            float: left;
+            width: 30%;
+            margin-top: 1rem;
+            box-shadow: 0 0 20px ;
+            border: 3px solid #605A56;
+
+            @mixin atMedium {
+                width: 30%;
+            }
+
+            @mixin atLarge {
+                width: 35%;
+            }
+        }
 
         &__title-right {
             text-align: left;
-            padding-left: 45%;
+            padding-left: 35%;
             font-weight: 500;
-            font-size: 2rem;
+            font-size: 1.2rem;
+
+            @mixin atSmall {
+                font-size: 1.5rem;
+            }
+
+            @mixin atMedium {
+                font-size: 2rem;
+                padding-left: 40%;
+            }
         }
 
-        &__image-left {
-            float: left;
-            width: 40%;
-        }
 
         &__description-right {
             max-width: 100%;
-            padding-left: 45%;
-            line-height: 1.5;
-            font-size: 1.2rem;
+            padding-left: 35%;
             font-weight: 200;
-        }
+            font-size: .9rem;
 
-        &__btn {
+            @mixin atSmall {
+                font-size: 1rem;
+                padding-left: 35%;
+            }
 
-            margin-left: 100px;
-
+            @mixin atMedium {
+                font-size: 1.2rem;
+                padding-left: 40%;
+                line-height: 1.5;
+            }
         }
     }
 
     &--second {
         overflow: hidden;
         clear: both;
-        height: 350px;
-
-        &__title-left {
-            text-align: right;
-            padding-right: 45%;
-            font-weight: 500;
-            font-size: 2rem;
-        }
+        height: 350px;  
+        padding-top: 1rem;
+        padding-bottom: 1rem;      
 
         &__image-right {
             float: right;
-            width: 40%;
+            width: 30%;
+            margin-top: 1rem;
+            box-shadow: 0 0 20px ;
+            border: 3px solid #605A56;
+
+            @mixin atMedium {
+                width: 30%;
+            }
+
+            @mixin atLarge {
+                width: 35%;
+            }
+        }
+
+        &__title-left {
+            text-align: right;
+            padding-right: 35%;
+            font-weight: 500;
+            font-size: 1.2rem;
+
+            @mixin atSmall {
+                font-size: 1.5rem;
+            }
+
+            @mixin atMedium {
+                font-size: 2rem;
+                padding-right: 40%;
+            }
         }
 
         &__description-left {
             max-width: 100%;
-            padding-right: 45%;
-            line-height: 1.5;
-            font-size: 1.2rem;
+            padding-right: 35%;
+            font-size: .9rem;
             font-weight: 200;
-        }
+            text-align: right;
 
-        &__btn {}
+
+            @mixin atSmall {
+                font-size: 1rem;
+                padding-right: 35%;
+            }
+
+            @mixin atMedium {
+                font-size: 1.2rem;
+                padding-right: 40%;
+                line-height: 1.5;
+            }
+
+        }
 
     }
 }

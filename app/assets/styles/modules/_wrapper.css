@@ -1,4 +1,16 @@
 .wrapper {
-    padding-left: 180px;
-    padding-right: 180px;
+    padding-left: 18px;
+    padding-right: 18px;
+
+    @mixin atMedium {
+        padding-left: 100px;
+        padding-right: 100px;    
+    }
+    
+
+    @mixin atLarge {
+        padding-left: 200px;
+        padding-right: 200px;
+        
+    }
 }

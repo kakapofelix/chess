@@ -1,14 +1,40 @@
 .btn {
         background-color: #FFFFFF;
-        width: 160px;
-        height: 40px;
+        width: 100px;
+        height: 20px;
         background: linear-gradient(to bottom, #605A56 0%, #000000 100%);
         border-bottom: 2px solid #9C2E2C;
         color: #fbfbfb;
-        font-weight: 600;
+        font-weight: 100;
         text-shadow: 1px 1px 1px rgba(0, 0, 0, .4);
-        font-size: 12px;
+        font-size: 8px;
         text-indent: 5px;
         box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, .2);
         cursor: pointer;
+        margin-left: 35%;
+
+        &__features-item--first {
+
+                @mixin atSmall {
+                        width: 120px;
+                        height: 30px;
+                        font-size: 10px;
+                        margin-left: 5%;
+                }
+
+                @mixin atMedium {
+                        width: 160px;
+                        height: 40px;
+                        font-size: 12px;
+                        font-weight: 600;
+                        margin-left: 5%;
+
+                }
+
+                @mixin atLarge {  
+
+                }
+
+        }
+
 }

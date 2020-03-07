@@ -1,0 +1,53 @@
+.sponsor-section {
+
+    &__image {
+
+        max-width: 10%;
+    }
+}
+
+.footer {
+
+    background-color: black;
+    color: white;
+    padding: 3rem 0;
+    text-align: center;
+
+    &--inner {
+
+        display: flex;
+
+        &__section {
+
+            flex: 1;
+
+            &--icons {
+                display: inline-block;
+                padding: 10px;
+                font-weight: bold;
+                font-size: 1.4rem;
+            }
+
+            &--white {
+                color: #fff;
+
+            }
+
+            &--title {
+                padding-right: 10rem;
+
+            }
+
+        }
+    }
+}
+
+.subscription-form {
+
+
+    &__input {
+        height: 1.5rem;
+        margin-top: .5rem;
+
+    }
+}

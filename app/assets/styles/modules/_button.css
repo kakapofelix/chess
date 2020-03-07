@@ -31,10 +31,26 @@
 
                 }
 
-                @mixin atLarge {  
-
-                }
+                @mixin atLarge {}
 
         }
 
+        &__footer-button {
+
+               width: 100px;
+               height: 25px;
+               border-bottom: 2px solid #fff;
+               font-size: 10px;
+
+
+
+               margin:0;
+        }
+}
+
+.btn:hover {
+        background-color: #CF1A1A;
+        color: black;
+        border: none;
+        border-left: solid 2px black;
 }

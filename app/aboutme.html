@@ -8,137 +8,113 @@
   <!-- GOOGLE FONTS -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu&display=swap" rel="stylesheet">
   <!-- CSS STYLESHEET -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="styles/styles.css">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-  <!-- BOOTSTRAP SCRIPTS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
 
-  <section id="title">
+  <!-- NAV BAR -->
+
+  <header class="header">
+
+    <a class="header__name" href="index.html">Viktor Erdos</a>
 
 
+    <div class="header__menu-icon">
+      <div class="header__menu-icon__middle">
 
-    <!-- NAV BAR -->
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
-      <a class="navbar-brand" href="index.html">VIKTOR ERDOS</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <ul class="navbar-nav navbar-center">
-          <li class="nav-item">
-            <a class="nav-link" href="aboutme.html">About me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="">Analysis & Videos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="">Coaching</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="tournaments.html">Tournaments</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-
-      <div id="login" class="navbar-nav">
-        <a class="nav-link" href="">Sign in</a>
-      </div>
-
-      <hr class="menuline" />
-
-    </nav>
-
-  </section>
-
-  <section id=aboutme>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 col-md-6 col-sm-12">
-          <div class="aboutme-container">
-            <div class="aboutme-description">
-              <h1>Viktor Erdos</h1>
-              <p> I was introduced to chess back in 1995, at age 8. My father taught me the basics, I used to go to the local chess club with him. I got my FIDE rating, 2135 in 1997. My first victory in an international tournament was in 1999.
-                2001 was the tourning point in my carrier. I managed to win both the rapid and the traditional U14 hungarian championship with 9/9 thus qualifying the world youth championship. There I also won, with 9 out of 11 including victories
-                against Nakamura and Tomashevsky. That was the time I became private student at my local high school, and started to concentrate on chess mainly. Shortly after finishing school I scored my last GM norms in 2007 and reached
-                2575, and from then on I consider myself as professional.<br>
-
-                <p class="results">Trainers I worked with: IM Ferenc Berebora 2001-2002, GM Peter Lukacs 2003-2011<br>
-                Highest rating: 2661 in 2013<br>
-                Highest rank: 87th<br>
-                Member of the hungarian national team since 2011. Best performance there: 4,5/7 on 2nd board, 2765 in 2017, Crete.<br>
-                Most significant result: in Minsk 2017, I qualified to the World Cup, there I managed to beat B. Amin in the first round, then lost to P. Svidler in rapid tie-breaks.<br>
-
-                My most important results as a Junior:
-                World team champion U16, 2003, TUR, Denizli
-                European team champion U18, 2003, HUN, Balatonlelle</p>
-              </p>
-              <img class="aboutme-images" src="images\aboutme.png" alt="Viktor Erdos about me">
-
-            </div>
-          </div>
-        </div>
       </div>
     </div>
 
+    <nav class="header__navbar">
+      <ul>
+        <li class="header__navbar-title"><a href="aboutme.html">About me</a></li>
+        <li class="header__navbar-title"><a href="analysis&videos.html">Analysis&Videos</a></li>
+        <li class="header__navbar-title"><a href="coaching.html">Coaching</a></li>
+        <li class="header__navbar-title"><a href="tournaments.html">Tournaments</a></li>
+        <li class="header__navbar-title"><a href="contact.html">Contact</a></li>
+        <li class="header__navbar-title header__navbar-login"><a href="aboutme.html">Sign in</a></li>
+      </ul>
+    </nav>
 
-  </section>
+  </header>
 
-  <footer id="footer">
+  <div class="aboutme">
+    <div class="wrapper">
 
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-12 col-md-6 col-sm-12">
-          <div class="inner-footer">
+      <div class="aboutme__description">
+        <p> I was introduced to chess back in 1995, at age 8. My father taught me the basics, I used to go to the local
+          chess club with him. I got my FIDE rating, 2135 in 1997. My first victory in an international tournament was
+          in
+          1999.
+          2001 was the tourning point in my carrier. I managed to win both the rapid and the traditional U14 hungarian
+          championship with 9/9 thus qualifying the world youth championship. There I also won, with 9 out of 11
+          including
+          victories
+          against Nakamura and Tomashevsky. That was the time I became private student at my local high school, and
+          started to concentrate on chess mainly. Shortly after finishing school I scored my last GM norms in 2007 and
+          reached
+          2575, and from then on I consider myself as professional.<br>
 
-            <div class="footer-container">
-              <h2>Follow</h2>
-              <div class="footer-icons">
-                <li> <a href="https://www.facebook.com/viktor.erdos.16"> <i class="fa fa-facebook"></i> </a> </li>
-                <li> <a href="icon"> <i class="fa fa-twitch"></i> </a> </li>
-                <li> <a href="icon"> <i class="fa fa-instagram"></i> </a> </li>
-              </div>
-            </div>
+          <p>Trainers I worked with: IM Ferenc Berebora 2001-2002, GM Peter Lukacs 2003-2011<br>
+            Highest rating: 2661 in 2013<br>
+            Highest rank: 87th<br>
+            Member of the hungarian national team since 2011. Best performance there: 4,5/7 on 2nd board, 2765 in 2017,
+            Crete.<br>
+            Most significant result: in Minsk 2017, I qualified to the World Cup, there I managed to beat B. Amin in the
+            first round, then lost to P. Svidler in rapid tie-breaks.<br>
 
-            <div class="footer-container">
-              <form class="subscription-form">
-                <h2>Subscribe to my newsletter</h2>
-                <div class="input-group">
-                  <div class="footer-icons">
-                    <i class="fa fa-envelope"></i>
-                  </div>
-                  <input class="input-group-field" type="email" placeholder="Email" required>
-                  <button class="button">Sign up now</button>
-                </div>
-
-              </form>
-            </div>
-
-            <div class="footer-container">
-              <h1>Contact</h1>
-              <a href="contact"></a>
-
-            </div>
-
-
-          </div>
-        </div>
+            My most important results as a Junior:
+            World team champion U16, 2003, TUR, Denizli
+            European team champion U18, 2003, HUN, Balatonlelle</p>
+        </p>
+        <img class="aboutme__description--image" src="\assets\images\aboutme.png" alt="Viktor Erdos about me">
       </div>
+
+    </div>
+  </div>
+
+  <footer class="footer">
+
+    <div class="sponsor-section">
+
+      <img class="sponsor-section__image" src="\assets\images\sponsor-section--small.png" alt="chess24 sponsor">
+    </div>
+
+    <div class="footer--inner">
+
+      <div class="footer--inner__section">
+        <h3 class="footer--inner__section--title">Follow</h3>
+        <li class="footer--inner__section--icons"><a class="footer--inner__section--white"
+            href="https://www.facebook.com/viktor.erdos.16"> <i class="fa fa-facebook"></i> </a> </li>
+        <li class="footer--inner__section--icons"><a class="footer--inner__section--white" href="icon"> <i
+              class="fa fa-twitch"></i> </a> </li>
+        <li class="footer--inner__section--icons"><a class="footer--inner__section--white" href="icon"> <i
+              class="fa fa-instagram"></i> </a> </li>
+      </div>
+
+      <div class="footer--inner__section">
+        <h3 class="footer--inner__section--title">Subscribe to my newsletter</h3>
+        <form class="subscription-form">
+          <i class="subscription-form fa fa-envelope"></i>
+          <input class="subscription-form__input" type="email" placeholder="Email" required>
+          <button class="btn btn__footer-button">Sign up now</button>
+        </form>
+      </div>
+
+      <div class="footer--inner__section">
+        <h3 class="footer--inner__section--title">Contact me</h3>
+        <p class="footer--inner__section--email">erdos.viktor@gmail.com</p>
+      </div>
+
     </div>
 
   </footer>
+
+  <script src="bundled.js"></script>
 
 </body>
 

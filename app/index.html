@@ -30,22 +30,33 @@
 
   <!-- NAV BAR -->
 
-  <header>
+  <header class="header">
 
-    
+      <div class="header__menu-icon">
+        <div class="header__menu-icon__middle">
+          
+        </div>
+      </div>
+
+      <nav class="header__navbar">
+        <ul>
+          <li class="header__navbar-title header__navbar-name"><a href="index.html">Viktor <br> Erdos</a></li>
+          <li class="header__navbar-title"><a href="aboutme.html">About me</a></li>
+          <li class="header__navbar-title"><a href="analysis&videos.html">Analysis&Videos</a></li>
+          <li class="header__navbar-title"><a href="coaching.html">Coaching</a></li>
+          <li class="header__navbar-title"><a href="tournaments.html">Tournaments</a></li>
+          <li class="header__navbar-title"><a href="contact.html">Contact</a></li>
+          <li class="header__navbar-title header__navbar-login"><a href="aboutme.html">Sign in</a></li>
+        </ul>
+      </nav>
+
+    <div class="wrapper">
+      <hr class="horizontal">
+    </div>
+
   </header>
 
-  <nav class="navbar">
-    <ul class="navbar__content">
-      <li class="navbar__title"><a href="index.html">About me</a></li>
-      <li><a href="aboutme.html">About me</a></li>
-      <li><a href="analysis&videos.html">Analysis&Videos</a></li>
-      <li><a href="coaching.html">Coaching</a></li>
-      <li><a href="tournaments.html">Tournaments</a></li>
-      <li><a href="contact.html">Contact</a></li>
-      <li class="navbar-login"><a href="aboutme.html">Sign in</a></li>
-    </ul>
-  </nav>
+
 
 
 
@@ -147,15 +158,15 @@
       <div class="footer--inner__section">
         <h3 class="footer--inner__section--title">Subscribe to my newsletter</h3>
         <form class="subscription-form">
-              <i class="subscription-form fa fa-envelope"></i>
-            <input class="subscription-form__input" type="email" placeholder="Email" required>
-            <button class="btn btn__footer-button">Sign up now</button>
+          <i class="subscription-form fa fa-envelope"></i>
+          <input class="subscription-form__input" type="email" placeholder="Email" required>
+          <button class="btn btn__footer-button">Sign up now</button>
         </form>
       </div>
 
       <div class="footer--inner__section">
         <h3 class="footer--inner__section--title">Contact me</h3>
-        <p>erdos.viktor@gmail.com</p>
+        <p class="footer--inner__section--email">erdos.viktor@gmail.com</p>
       </div>
 
     </div>

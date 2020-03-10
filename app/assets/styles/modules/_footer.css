@@ -2,7 +2,16 @@
 
     &__image {
 
-        max-width: 10%;
+        max-width: 20%;
+        margin-top: -80px;
+
+        @mixin atMedium {
+            max-width: 15%;
+        }
+
+        @mixin atLarge {
+            max-width: 10%;
+        }
     }
 }
 
@@ -23,9 +32,15 @@
 
             &--icons {
                 display: inline-block;
-                padding: 10px;
-                font-weight: bold;
-                font-size: 1.4rem;
+                padding: 15px 5px;
+
+
+                @mixin atLarge {
+                    padding: 10px;
+                    font-weight: bold;
+                    font-size: 1.4rem;
+
+                }
             }
 
             &--white {
@@ -34,10 +49,18 @@
             }
 
             &--title {
-                padding-right: 10rem;
+                font-size: 0.8rem;
+                font-weight: 300;
 
+                @mixin atLarge {
+                    padding-right: 10rem;
+                }
             }
 
+            &--email {
+                font-size: 0.6rem;
+                padding: 15px 5px;
+            }
         }
     }
 }
@@ -46,8 +69,14 @@
 
 
     &__input {
-        height: 1.5rem;
-        margin-top: .5rem;
+        height: 1.2rem;
+        width: 110px;
+        margin-bottom: .5rem;
+
+        @mixin atLarge {
+            height: 1.5rem;
+            margin-top: .5rem;
+        }
 
     }
 }

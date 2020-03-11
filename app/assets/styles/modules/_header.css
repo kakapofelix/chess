@@ -11,6 +11,7 @@
         top: 10px;
         right: 10px;
 
+
         &::before {
             content: "";
             position: absolute;
@@ -76,13 +77,13 @@
         width: 3rem;
 
         @mixin atSmall {
-            font-size: 1rem !important;
-            margin-left: 1rem;
-            margin-top: 1.5rem;
+            font-size: 1rem;
+            margin-left: 2rem;
+            margin-top: 1rem;
         }
 
         @mixin atMedium {
-            font-size: 1.4rem !important;
+            font-size: 1.4rem;
             margin-left: 3rem;
         }
         @mixin atLarge {
@@ -96,27 +97,22 @@
 
     &__navbar {
 
-        display: none;     
-        
+        display: none;   
+     
         @mixin atSmall {
             display: block;
-            padding-top: 0;
-            margin-left: 3rem;
-            margin-right: 3rem;
+            margin-left: 1rem;
+            margin-right: 1rem;
             width:100%;
+            left: 50%;
+            transform: translateX(25%);
+            text-align: center;
         }
 
         @mixin atMedium {
             display: block;
-            padding-top: 0;
-            margin-left: 6rem;
-            margin-right: 6rem;
         }
 
-        @mixin atLarge {
-            margin-left: 15rem;
-            margin-right: 15rem;
-        }
 
         &--is-visible {
             display: block;
@@ -139,25 +135,27 @@
         &-title {
             list-style: none;
             float: left;
-            padding-right: 10px;
-            padding-left: 10px;
-            margin-top: 20px;
-            font-size: 1.2rem;
+            padding-right: 5px;
+            padding-left: 5px;
+            margin-top: 10px;
+            font-size: .8rem;
+            margin-left: 40px;
 
             @mixin atSmall {
                 font-size: .6rem;
                 font-weight: 100;
                 padding-right: 5px;
                 padding-left: 5px;
-    
+                margin-top: 10px;   
+                margin-left: 0;
+ 
             }
 
             @mixin atMedium {
                 font-size: .8rem;
                 font-weight: 200;
                 padding-right: 10px;
-                padding-left: 10px;
-    
+                padding-left: 10px;    
             }
 
             @mixin atLarge {
@@ -165,6 +163,8 @@
                 float: left;
                 margin-top: 20px;
                 font-size: 1.2rem;
+                padding-right: 15px;
+                padding-left: 15px; 
             }
         }
 

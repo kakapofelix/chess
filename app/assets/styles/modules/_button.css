@@ -11,7 +11,6 @@
         text-indent: 5px;
         box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, .2);
         cursor: pointer;
-        margin-left: 35%;
 
         &__features-item--first {
 

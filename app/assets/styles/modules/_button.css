@@ -1,26 +1,20 @@
 .btn {
-        width: 100px;
+        width: 90px;
         height: 20px;
         background: linear-gradient(to bottom, #605A56 20%, #000000 80%);
-        border-bottom: 2px solid #9C2E2C;
-        border-top: 2px solid #333;
-        border-right: 2px solid #333;
-
-
+        border: none;
         color: #fbfbfb;
         font-weight: 100;
-        text-shadow: 1px 1px 1px rgba(0, 0, 0, .4);
-        font-size: 8px;
+        font-size: .4rem;
         text-indent: 5px;
         box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, .2);
         cursor: pointer;
-<<<<<<< HEAD
-=======
+
 
         @mixin atSmall {
                 width: 120px;
-                height: 30px;
-                font-size: 10px;
+                height: 25px;
+                font-size: .6rem;
         }
 
         @mixin atMedium {
@@ -28,21 +22,22 @@
                 height: 40px;
                 font-size: 12px;
                 font-weight: 600;
+                display: block;
 
         }
-
->>>>>>> contact
 
         &__features-item--first {
 
                 margin-left: 35%;
-                display: block;
+
+                @mixin atSmall {
+                        margin-left: 5%;
+
+                }
 
                 @mixin atMedium {
                         margin-left: 40%;
-                        display: block;
                 }
-
         }
 
         &__features-item--second {
@@ -52,25 +47,26 @@
 
                 @mixin atMedium {
                         margin-left: 40%;
-                        display: block;
                 }
         }
 
         &__footer-button {
 
-                width: 80px;
+                width: 110px;
+                margin-left: 10%;
                 height: 20px;
-                border-bottom: 1px solid #fff;
                 font-size: 10px;
-                margin-left: 16px;
+                margin-top: 10px;
                 padding: 0;
+                border-bottom: 1px solid #605A56;
+
+                @mixin atMedium {
+                        height: 25px;
+                        margin-left: 30%;
+                }
 
                 @mixin atLarge {
-                        width: 100px;
-                        height: 25px;
-                        border-bottom: 2px solid #fff;
-                        font-size: 10px;
-                        margin: 0;
+                        margin-left: 37%;
                 }
         }
 

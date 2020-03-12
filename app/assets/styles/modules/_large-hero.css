@@ -1,14 +1,23 @@
 .large-hero {
     position: relative;
+    color: $mainBlack;
 
     &__text-content {
         position: absolute;
-        top: 10%;
+        top: 17%;
         left: 50%;
         transform: translateX(-50%);
         color: #fff;
         text-align: center;
         width: 70%;
+
+        @mixin atSmall {
+            top: 15%;
+        }
+
+        @mixin atMedium {
+            top: 15%;
+        }
 
         @mixin atLarge {
             max-width: 45%;
@@ -21,19 +30,23 @@
 
     &__image-content {
         position: absolute;
-        top: 45%;
+        top: 50%;
         left: 50%;
         transform: translateX(-50%);
-        max-width: 40%;
-        
+        max-width: 35%;
+
         @mixin atSmall {
             top: 50%;
             transform: translateX(-50%);
+            max-width: 30%;
+
         }
 
         @mixin atMedium {
             top: 40%;
             transform: translateX(-50%);
+            max-width: 25%;
+
         }
 
         @mixin atLarge {
@@ -49,25 +62,38 @@
         font-size: 1rem;
         line-height: 1.5;
         text-shadow: 2px 2px 0 rgba(0, 0, 0, .1);
+        padding-top: 3rem;
 
         @mixin atSmall {
             font-weight: 150;
             font-size: 1.2rem;
+            padding-top: 2rem;
+
         }
 
         @mixin atLarge {
             font-weight: 200;
             font-size: 2rem;
+            padding-top: 4rem;
+
         }
     }
 
     &__title {
         font-weight: 150;
-        font-size: 2rem;
+        font-size: 1.5rem;
 
-        @mixin atLarge {
+        @mixin atSmall {
             font-weight: 200;
+            font-size: 2rem;
+        }
+
+        @mixin atMedium {
+            font-size: 2.2rem;
+        }
+        @mixin atLarge {
             font-size: 2.5rem;
+
         }
     }
 }

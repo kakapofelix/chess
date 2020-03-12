@@ -2,6 +2,11 @@
     padding-left: 18px;
     padding-right: 18px;
 
+    @mixin atSmall {
+        padding-left: 50px;
+        padding-right: 50px;  
+    }
+
     @mixin atMedium {
         padding-left: 100px;
         padding-right: 100px;    
@@ -9,8 +14,7 @@
     
 
     @mixin atLarge {
-        padding-left: 200px;
-        padding-right: 200px;
-        
+        padding-left: 250px;
+        padding-right: 250px;        
     }
 }

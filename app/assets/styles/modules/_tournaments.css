@@ -1,0 +1,92 @@
+.tournaments-section {
+    height: 100%;
+    background-color: #fff;
+    position: relative;
+}
+
+.upcoming-events {
+
+    margin-top: 10rem;
+    position: relative;
+    display: block;
+
+    &__title {
+        font-size: 1.5rem;
+        display: inline;
+
+        @mixin atMedium {
+            font-size: 2rem;
+        }
+
+
+        &--underline {
+            display: inline;
+            font-size: 1.5rem;
+            border-bottom: 1px solid #000;
+            padding-bottom: .6rem;
+
+            @mixin atMedium {
+                font-size: 2rem;
+            }
+        }
+    }
+
+    &__list {
+        list-style: none;
+        padding: 3rem 0 1rem 0;
+    }
+
+    li {
+        padding: 1rem 0;
+        width: 25px;
+    }
+}
+
+
+.past-events {
+
+    margin-top: 10rem;
+    position: relative;
+    display: block;
+
+    &__title {
+        font-size: 1.5rem;
+        display: inline;
+
+        @mixin atMedium {
+            font-size: 2rem;
+        }
+
+
+        &--underline {
+            display: inline;
+            font-size: 1.5rem;
+            border-bottom: 1px solid #000;
+            padding-bottom: .6rem;
+
+            @mixin atMedium {
+                font-size: 2rem;
+            }
+        }
+
+    }
+
+    &__list {
+        list-style: none;
+        padding: 3rem 0 1rem 0;
+    }
+
+    li {
+        padding: 1rem 0;
+        font-weight: 500;
+
+    }
+
+    img {
+        width: 25px;
+    }
+
+    span {
+        padding-left: 2rem;
+    }
+}

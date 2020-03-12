@@ -8,249 +8,131 @@
   <!-- GOOGLE FONTS -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu&display=swap" rel="stylesheet">
   <!-- CSS STYLESHEET -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="styles/styles.css">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <!-- BOOTSTRAP SCRIPTS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+    integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 
 </head>
 
 <body>
 
-  <section id="title">
+  <!-- NAV BAR -->
 
-    <!-- NAV BAR -->
+  <header class="header header-background">
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
-      <a class="navbar-brand" href="index.html">VIKTOR ERDOS</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <ul class="navbar-nav navbar-center">
-          <li class="nav-item">
-            <a class="nav-link" href="aboutme.html">About me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="analysis&videos.html">Analysis & Videos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="">Coaching</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="tournaments.html">Tournaments</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
+    <a class="header__name" href="index.html">Viktor Erdos</a>
+
+
+    <div class="header__menu-icon">
+      <div class="header__menu-icon__middle">
+
       </div>
+    </div>
 
-      <div id="login" class="navbar-nav">
-        <a class="nav-link" href="">Sign in</a>
-      </div>
-
-      <hr class="menuline" />
-
+    <nav class="header__navbar">
+      <ul>
+        <li class="header__navbar-title"><a href="aboutme.html">About me</a></li>
+        <li class="header__navbar-title"><a href="analysis.html">Analysis</a></li>
+        <li class="header__navbar-title"><a href="coaching.html">Coaching</a></li>
+        <li class="header__navbar-title"><a href="tournaments.html">Tournaments</a></li>
+        <li class="header__navbar-title"><a href="contact.html">Contact</a></li>
+        <li class="header__navbar-title header__navbar-login"><a href="login.html">Sign in</a></li>
+      </ul>
     </nav>
 
-  </section>
+  </header>
 
+  <div class="tournaments-section">
 
-  <div class="container py-5">
+    <div class="wrapper">
 
-    <!-- For Demo Purpose -->
-    <header class="text-center text-white mb-5">
-      <h1 class="display-4">Bootstrap Calendar</h1>
-      <p class="font-italic mb-0">A nicely-designed Bootstrap calendar widget. This calendar is just a for design purpose, you can make it work.</p>
-      <p class="font-italic">Snippet By <a href="https://bootstrapious.com" class="text-white">
-          <u>Bootstrapious</u></a>
-      </p>
-    </header>
+      <div class="upcoming-events">
+        <h1 class="upcoming-events__title">My <h1 class="upcoming-events__title--underline">upcoming Tournaments</h1>
+        </h1>
+        <ul class="upcoming-events__list">
+          <li> <img src="\assets\icons\knight.svg" alt="Erdos Viktor upcoming tournaments"> </li>
+          <li> <img src="\assets\icons\knight.svg" alt="Erdos Viktor upcoming tournaments"> </li>
+          <li> <img src="\assets\icons\knight.svg" alt="Erdos Viktor upcoming tournaments"> </li>
+          <li> <img src="\assets\icons\knight.svg" alt="Erdos Viktor upcoming tournaments"> </li>
+          <li> <img src="\assets\icons\knight.svg" alt="Erdos Viktor upcoming tournaments"> </li>
+          <li> <img src="\assets\icons\knight.svg" alt="Erdos Viktor upcoming tournaments"> </li>
+          <li> <img src="\assets\icons\knight.svg" alt="Erdos Viktor upcoming tournaments"> </li>
+        </ul>
 
-
-    <!-- Calendar -->
-    <div class="calendar shadow bg-white p-5">
-      <div class="d-flex align-items-center"><i class="fa fa-calendar fa-3x mr-3"></i>
-        <h2 class="month font-weight-bold mb-0 text-uppercase">December 2019</h2>
       </div>
-      <p class="font-italic text-muted mb-5">No events for this day.</p>
-      <ol class="day-names list-unstyled">
-        <li class="font-weight-bold text-uppercase">Sun</li>
-        <li class="font-weight-bold text-uppercase">Mon</li>
-        <li class="font-weight-bold text-uppercase">Tue</li>
-        <li class="font-weight-bold text-uppercase">Wed</li>
-        <li class="font-weight-bold text-uppercase">Thu</li>
-        <li class="font-weight-bold text-uppercase">Fri</li>
-        <li class="font-weight-bold text-uppercase">Sat</li>
-      </ol>
 
-      <ol class="days list-unstyled">
-        <li>
-          <div class="date">1</div>
-          <div class="event bg-success">Event with Long Name</div>
-        </li>
-        <li>
-          <div class="date">2</div>
-        </li>
-        <li>
-          <div class="date">3</div>
-        </li>
-        <li>
-          <div class="date">4</div>
-        </li>
-        <li>
-          <div class="date">5</div>
-        </li>
-        <li>
-          <div class="date">6</div>
-        </li>
-        <li>
-          <div class="date">7</div>
-        </li>
-        <li>
-          <div class="date">8</div>
-        </li>
-        <li>
-          <div class="date">9</div>
-        </li>
-        <li>
-          <div class="date">10</div>
-        </li>
-        <li>
-          <div class="date">11</div>
-        </li>
-        <li>
-          <div class="date">12</div>
-        </li>
-        <li>
-          <div class="date">13</div>
-          <div class="event all-day begin span-2 bg-warning">Event Name</div>
-        </li>
-        <li>
-          <div class="date">14</div>
-        </li>
-        <li>
-          <div class="date">15</div>
-          <div class="event all-day end bg-success">Event Name</div>
-        </li>
-        <li>
-          <div class="date">16</div>
-        </li>
-        <li>
-          <div class="date">17</div>
-        </li>
-        <li>
-          <div class="date">18</div>
-        </li>
-        <li>
-          <div class="date">19</div>
-        </li>
-        <li>
-          <div class="date">20</div>
-        </li>
-        <li>
-          <div class="date">21</div>
-          <div class="event bg-primary">Event Name</div>
-          <div class="event bg-success">Event Name</div>
-        </li>
-        <li>
-          <div class="date">22</div>
-          <div class="event bg-info">Event with Longer Name</div>
-        </li>
-        <li>
-          <div class="date">23</div>
-        </li>
-        <li>
-          <div class="date">24</div>
-        </li>
-        <li>
-          <div class="date">25</div>
-        </li>
-        <li>
-          <div class="date">26</div>
-        </li>
-        <li>
-          <div class="date">27</div>
-        </li>
-        <li>
-          <div class="date">28</div>
-        </li>
-        <li>
-          <div class="date">29</div>
-        </li>
-        <li>
-          <div class="date">30</div>
-        </li>
-        <li>
-          <div class="date">31</div>
-        </li>
-        <li class="outside">
-          <div class="date">1</div>
-        </li>
-        <li class="outside">
-          <div class="date">2</div>
-        </li>
-        <li class="outside">
-          <div class="date">3</div>
-        </li>
-        <li class="outside">
-          <div class="date">4</div>
-        </li>
-      </ol>
+
+      <div class="past-events">
+        <h1 class="past-events__title">My <h1 class="past-events__title--underline">past Tournaments</h1>
+        </h1>
+        <ul class="past-events__list">
+          <li> <img src="\assets\icons\knight.svg" alt="Erdos Viktor upcoming tournaments"> <span>The Four Nations Chess
+              League // 8th - 9th of February (2020)</span></li>
+          <li> <img src="\assets\icons\knight.svg" alt="Erdos Viktor upcoming tournaments"> <span>PRO League Group
+              Stage // 5th of February - 23th of January (2020)</span> </li>
+          <li> <img src="\assets\icons\knight.svg" alt="Erdos Viktor upcoming tournaments"> <span>The Four Nations Chess
+              League // 11th - 12th of February (2020)</span> </li>
+          <li> <img src="\assets\icons\knight.svg" alt="Erdos Viktor upcoming tournaments"> <span>68th Hungarian
+              Championship // 1th-17th of December (2019) </span> </li>
+          <li> <img src="\assets\icons\knight.svg" alt="Erdos Viktor upcoming tournaments"> <span>St Louis Winter
+              A // 10th - 18th of November (2019)</span></li>
+          <li> <img src="\assets\icons\knight.svg" alt="Erdos Viktor upcoming tournaments"> <span>22nd European
+              Teams // 25th of October - 2th of November (2019)</span> </li>
+          <li> <img src="\assets\icons\knight.svg" alt="Erdos Viktor upcoming tournaments"> <span>FIDE Chess.com Grand
+              Swiss // 10th - 21th of October (2019)</span> </li>
+          <li> <img src="\assets\icons\knight.svg" alt="Erdos Viktor upcoming tournaments"> <span>52nd Biel Master
+              Open // 22th - 29th of July (2019)</span> </li>
+        </ul>
+
+      </div>
+
     </div>
+
   </div>
 
 
-  <footer id="footer">
+  <footer class="footer">
 
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-12 col-md-6 col-sm-12">
-          <div class="inner-footer">
+    <div class="sponsor-section">
 
-            <div class="footer-container">
-              <h2>Follow</h2>
-              <div class="footer-icons">
-                <li> <a href="https://www.facebook.com/viktor.erdos.16"> <i class="fa fa-facebook"></i> </a> </li>
-                <li> <a href="icon"> <i class="fa fa-twitch"></i> </a> </li>
-                <li> <a href="icon"> <i class="fa fa-instagram"></i> </a> </li>
-              </div>
-            </div>
+      <img class="sponsor-section__image" src="\assets\images\sponsor-section--small.png" alt="chess24 sponsor">
+    </div>
 
-            <div class="footer-container">
-              <form class="subscription-form">
-                <h2>Subscribe to my newsletter</h2>
-                <div class="input-group">
-                  <div class="footer-icons">
-                    <i class="fa fa-envelope"></i>
-                  </div>
-                  <input class="input-group-field" type="email" placeholder="Email" required>
-                  <button class="button">Sign up now</button>
-                </div>
+    <div class="footer--inner">
 
-              </form>
-            </div>
-
-            <div class="footer-container">
-              <h1>Contact</h1>
-              <a href="contact"></a>
-
-            </div>
-
-
-          </div>
-        </div>
+      <div class="footer--inner__section">
+        <h3 class="footer--inner__section--title">Follow</h3>
+        <li class="footer--inner__section--icons"><a class="footer--inner__section--white"
+            href="https://www.facebook.com/viktor.erdos.16"> <i class="fa fa-facebook"></i> </a> </li>
+        <li class="footer--inner__section--icons"><a class="footer--inner__section--white" href="icon"> <i
+              class="fa fa-twitch"></i> </a> </li>
+        <li class="footer--inner__section--icons"><a class="footer--inner__section--white" href="icon"> <i
+              class="fa fa-instagram"></i> </a> </li>
       </div>
+
+      <div class="footer--inner__section">
+        <h3 class="footer--inner__section--title">Subscribe to my newsletter</h3>
+        <form class="subscription-form">
+          <i class="subscription-form fa fa-envelope"></i>
+          <input class="subscription-form__input" type="email" placeholder="Email" required>
+          <button class="btn btn__footer-button">Sign up now</button>
+        </form>
+      </div>
+
+      <div class="footer--inner__section">
+        <h3 class="footer--inner__section--title">Contact me</h3>
+        <p class="footer--inner__section--email">erdosviktor87@citromail.hu</p>
+      </div>
+
     </div>
 
   </footer>
 
+  <script src="bundled.js"></script>
 </body>
 
 </html>

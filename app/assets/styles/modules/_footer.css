@@ -2,14 +2,10 @@
 
     &__image {
 
-        max-width: 20%;
-        margin-top: -80px;
-
+        max-width: 15%;        
+        left:50%;
+        margin-bottom:20px;
         @mixin atMedium {
-            max-width: 15%;
-        }
-
-        @mixin atLarge {
             max-width: 10%;
         }
     }
@@ -21,8 +17,8 @@
     color: white;
     padding: 3rem 0;
     text-align: center;
-    max-height: 350px;
-    margin-bottom: -350px;
+    height: 250px;
+    margin-bottom: -250px;
 
     &--inner {
 
@@ -34,7 +30,9 @@
 
             &--icons {
                 display: inline-block;
-                padding: 15px 5px;
+                padding: 0 5px;
+                font-size: 1.2rem;
+
 
                 .fa.fa-facebook {
                     color: #3b5998;
@@ -50,14 +48,6 @@
                     background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
                     background-clip: text;
                     -webkit-background-clip: text;                 }
-
-
-                @mixin atLarge {
-                    padding: 10px;
-                    font-weight: bold;
-                    font-size: 1.4rem;
-
-                }
             }
 
             &--white {
@@ -66,17 +56,22 @@
             }
 
             &--title {
-                font-size: 0.8rem;
+                font-size: .8rem;
                 font-weight: 300;
+                padding-bottom: 30px;  
 
-                @mixin atLarge {
-                    padding-right: 10rem;
+                @mixin atSmall{
+                    font-size: 1rem;
                 }
             }
 
             &--email {
-                font-size: 0.6rem;
-                padding: 15px 5px;
+
+                font-size: .6rem;
+
+                @mixin atSmall {
+                    font-size: .8rem;
+                }
             }
         }
     }
@@ -84,16 +79,14 @@
 
 .subscription-form {
 
-
     &__input {
         height: 1.2rem;
         width: 110px;
-        margin-bottom: .5rem;
 
-        @mixin atLarge {
-            height: 1.5rem;
+        @mixin atMedium {
+            height: 1.4rem;
             margin-top: .5rem;
+            width: 140px;
         }
-
     }
 }

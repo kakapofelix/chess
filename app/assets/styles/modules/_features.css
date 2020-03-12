@@ -1,33 +1,29 @@
 #features {
-    background-color: #D1CFCE;
+    background-color: $mainGrey;
 }
 
 .features-item {
 
-
     &--first {
         overflow: hidden;
         clear: both;
-        height: 100px;
+        height: 250px;
         padding-top: 30px;
-        padding-bottom: 180px;
 
         @mixin atSmall {
-
-        }
-
-        @mixin atLarge {
             height: 300px;
-            padding-top: 100px;
-            padding-bottom: 400px;   
+        }
+
+        @mixin atMedium {
+            height: 400px;
 
         }
-      
+
         &__image-left {
             float: left;
             max-width: 30%;
             margin-top: 1rem;
-            box-shadow: 0 0 20px ;
+            box-shadow: 0 0 20px;
             border: 3px solid #605A56;
 
             @mixin atMedium {
@@ -40,20 +36,22 @@
         &__title-right {
             text-align: left;
             padding-left: 35%;
-            font-weight: 500;
-            font-size: 1.2rem;
+            font-weight: 600;
+            font-size: 1rem;
+            margin-top: 1rem;
 
             @mixin atSmall {
-                font-size: 1.5rem;
+                font-size: 1.2rem;
             }
 
             @mixin atMedium {
-                font-size: 1.6rem;
                 padding-left: 40%;
+                margin-top: 2rem;
+                font-size: 1.5rem;
             }
 
             @mixin atLarge {
-                font-size: 2rem;
+                font-size: 1.8rem;
             }
         }
 
@@ -61,8 +59,10 @@
         &__description-right {
             max-width: 100%;
             padding-left: 35%;
-            font-weight: 200;
-            font-size: .9rem;
+            font-weight: 500;
+            font-size: .8rem;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
 
             @mixin atSmall {
                 font-size: 1rem;
@@ -70,9 +70,10 @@
             }
 
             @mixin atMedium {
-                font-size: 1.2rem;
                 padding-left: 40%;
                 line-height: 1.5;
+                padding-top: 1.5rem;
+                padding-bottom: 1.2rem;
             }
         }
     }
@@ -80,21 +81,23 @@
     &--second {
         overflow: hidden;
         clear: both;
-        height: 100px;
-        padding-top: 0;
-        padding-bottom: 200px;  
-        
-        @mixin atLarge {
-            padding-top: 50px;
-            padding-bottom: 400px;      
+        height: 250px;
+
+        @mixin atSmall {
+            height: 300px;
+        }
+
+        @mixin atMedium {
+            height: 400px;
 
         }
+
 
         &__image-right {
             float: right;
             max-width: 30%;
             margin-top: 1rem;
-            box-shadow: 0 0 20px ;
+            box-shadow: 0 0 20px;
             border: 3px solid #605A56;
 
             @mixin atMedium {
@@ -102,34 +105,40 @@
                 margin-top: 2rem;
 
             }
-
-            @mixin atLarge {
-                max-width: 30%;
-            }
         }
 
         &__title-left {
             text-align: right;
             padding-right: 35%;
-            font-weight: 500;
-            font-size: 1.2rem;
+            font-weight: 600;
+            font-size: 1rem;
+            margin-top: 1rem;
 
             @mixin atSmall {
-                font-size: 1.5rem;
+                font-size: 1.2rem;
             }
 
             @mixin atMedium {
-                font-size: 2rem;
+                font-size: 1.5rem;
                 padding-right: 40%;
+                margin-top: 2rem;
+
+            }
+
+            @mixin atLarge {
+                font-size: 1.8rem;
             }
         }
 
         &__description-left {
             max-width: 100%;
             padding-right: 35%;
-            font-size: .9rem;
-            font-weight: 200;
+            font-size: .8rem;
+            font-weight: 500;
             text-align: right;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+
 
 
             @mixin atSmall {
@@ -138,9 +147,10 @@
             }
 
             @mixin atMedium {
-                font-size: 1.2rem;
                 padding-right: 40%;
                 line-height: 1.5;
+                padding-top: 1.5rem;
+                padding-bottom: 1.2rem;
             }
 
         }

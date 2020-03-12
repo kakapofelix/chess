@@ -1,12 +1,16 @@
 @import "base/_mixins";
 @import "base/_global";
-@import "modules/_large-hero";
+@import "base/_variables";
 @import "modules/_wrapper";
+@import "modules/_large-hero.css";
 @import "modules/_features.css";
 @import "modules/_button.css";
 @import "modules/_footer.css";
 @import "modules/_header.css";
 @import "modules/_introduction.css";
 @import "modules/_contact-form.css";
+@import "modules/_tournaments.css";
+@import "modules/_login.css";
+
 
 

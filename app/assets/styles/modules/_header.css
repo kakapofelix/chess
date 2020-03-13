@@ -6,7 +6,7 @@
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-
+    box-shadow: 0 0 20px 0 #000000;
 
     &__menu-icon {
         width: 20px;
@@ -14,7 +14,6 @@
         position: absolute;
         top: 10px;
         right: 10px;
-
 
         &::before {
             content: "";
@@ -114,8 +113,6 @@
         @mixin atMedium {
             display: block;
             transform: translateX(25%);
-            margin-left: 1rem;
-
 
         }
 
@@ -155,7 +152,6 @@
                 font-weight: 200;
                 padding-right: 10px;
                 padding-left: 10px;
-
             }
 
             @mixin atLarge {
@@ -163,6 +159,8 @@
                 font-size: 1.2rem;
                 padding-right: 15px;
                 padding-left: 15px;
+                margin-left: .5rem;
+
             }
         }
 

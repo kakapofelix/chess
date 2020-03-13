@@ -1,0 +1,20 @@
+.analysis {
+    background-color: #fff;
+    height: 800px;
+    position: relative;
+}
+
+.analysis-container {
+    background-color: orange;
+    position: absolute;
+        transform: translateX(-50%);
+        color: $mainBlack;
+        top:20%;
+
+
+    &__description {
+        color: $mainBlack;
+        font-size:3rem;
+    
+    }
+}

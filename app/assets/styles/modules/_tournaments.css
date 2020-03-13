@@ -1,12 +1,12 @@
 .tournaments-section {
     height: 100%;
-    background-color: #fff;
+    background-color: #FAFAFA;
     position: relative;
 }
 
 .upcoming-events {
 
-    margin-top: 10rem;
+    padding-top: 10rem;
     position: relative;
     display: block;
 
@@ -45,7 +45,7 @@
 
 .past-events {
 
-    margin-top: 10rem;
+    margin-top: 5rem;
     position: relative;
     display: block;
 

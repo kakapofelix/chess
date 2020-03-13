@@ -1,5 +1,6 @@
 #features {
     background-color: $mainGrey;
+    margin:0;
 }
 
 .features-item {
@@ -70,6 +71,7 @@
             }
 
             @mixin atMedium {
+                font-size: 1.2rem;
                 padding-left: 40%;
                 line-height: 1.5;
                 padding-top: 1.5rem;
@@ -148,6 +150,7 @@
 
             @mixin atMedium {
                 padding-right: 40%;
+                font-size: 1.2rem;
                 line-height: 1.5;
                 padding-top: 1.5rem;
                 padding-bottom: 1.2rem;

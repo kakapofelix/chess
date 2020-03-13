@@ -33,6 +33,11 @@
                 padding: 0 5px;
                 font-size: 1.2rem;
 
+                @mixin atMedium {
+                    font-size: 2rem;
+    
+                }
+
 
                 .fa.fa-facebook {
                     color: #3b5998;
@@ -50,6 +55,8 @@
                     -webkit-background-clip: text;                 }
             }
 
+         
+
             &--white {
                 color: #fff;
 
@@ -63,6 +70,12 @@
                 @mixin atSmall{
                     font-size: 1rem;
                 }
+
+                @mixin atMedium{
+                    font-size: 1.5rem;
+                    padding-bottom: 20px;  
+
+                }
             }
 
             &--email {
@@ -71,6 +84,10 @@
 
                 @mixin atSmall {
                     font-size: .8rem;
+                }
+
+                @mixin atMedium {
+                    font-size: 1.2rem;
                 }
             }
         }
@@ -85,7 +102,7 @@
 
         @mixin atMedium {
             height: 1.4rem;
-            margin-top: .5rem;
+            margin-top: .2rem;
             width: 140px;
         }
     }

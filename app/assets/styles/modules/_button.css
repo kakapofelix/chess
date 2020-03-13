@@ -42,11 +42,18 @@
 
         &__features-item--second {
 
-                margin-left: 45%;
-                display: block;
+                margin-left: 65%;
+
+                @mixin atSmall {
+                        margin-left: 25%;
+                }
 
                 @mixin atMedium {
-                        margin-left: 40%;
+                        margin-right: 20%;
+                }
+
+                @mixin atLarge {
+                        margin-left: 45%;
                 }
         }
 
@@ -66,7 +73,7 @@
                 }
 
                 @mixin atLarge {
-                        margin-left: 37%;
+                        margin-left: 40%;
                 }
         }
 

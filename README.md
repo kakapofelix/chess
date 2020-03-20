@@ -9,11 +9,9 @@ Follow the hungarian chess grandmaster's tournaments, check his analysis and lea
 Installing [Node.js](https://nodejs.org/en/) 
 
 ## To Run Locally
-Run yarn to install dependencies.
-webpack.config.js
-
-
-Run yarn build:watch to start webpack in watch mode.
+Install [DevServer](https://webpack.js.org/configuration/dev-server/)
+Write in the terminal and run "npm run dev"
+See the website on http://localhost:8080/
 
 ## Tooling
 This repo is using:

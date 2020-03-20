@@ -8,10 +8,17 @@ Follow the hungarian chess grandmaster's tournaments, check his analysis and lea
 ## Prerequisites
 Installing [Node.js](https://nodejs.org/en/) 
 
-## To Run Locally
+## Installation
+Clone the repo
+git clone https://github.com/kakapofelix/chess
+
+Install NPM packages
 Install [DevServer](https://webpack.js.org/configuration/dev-server/)
-Write in the terminal and run "npm run dev"
-See the website on http://localhost:8080/
+
+
+## To Run Locally
+Run "npm run dev"
+Localhost is set up by default
 
 ## Tooling
 This repo is using:

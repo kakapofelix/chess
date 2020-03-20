@@ -18,6 +18,7 @@ Install [DevServer](https://webpack.js.org/configuration/dev-server/)
 
 ## To Run Locally
 Run "npm run dev"
+
 Localhost is set up by default
 
 ## Tooling

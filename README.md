@@ -6,7 +6,7 @@ Follow the hungarian chess grandmaster's tournaments, check his analysis and lea
 
 
 ## Prerequisites
-[Installing Node.js] https://nodejs.org/en/
+Installing [Node.js](https://nodejs.org/en/) 
 
 ## To Run Locally
 Run yarn to install dependencies.

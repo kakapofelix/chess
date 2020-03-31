@@ -6,7 +6,15 @@
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    box-shadow: 0 0 20px 0 #000000;
+
+    &--is-expanded {
+        background-color: #000;
+        height: 200px;
+
+        @mixin atMedium {
+            background-color: transparent;
+        }
+    }
 
     &__menu-icon {
         width: 20px;
@@ -49,7 +57,7 @@
             transition: transform .3s ease-out;
         }
 
-        @mixin atSmall {
+        @mixin atMedium {
             display: none;
         }
     }
@@ -73,16 +81,12 @@
 
         color: #fff;
         text-decoration: none;
-        font-size: 1rem;
+        font-size: 1.2rem;
         margin-left:1rem;
         margin-top: 1rem;
+        font-weight: 600;
         position: absolute;
         width: 3rem;
-
-        @mixin atSmall {
-            margin-left: 1rem;
-            margin-top: 1rem;
-        }
 
         @mixin atMedium {
             font-size: 1.4rem;
@@ -101,17 +105,13 @@
 
         display: none;
 
-        @mixin atSmall {
+        @mixin atMedium {
             display: block;
             margin-left: 0;
             margin-right: 0;
             width: 100%;
             transform: translateX(17%);
             text-align: center;
-        }
-
-        @mixin atMedium {
-            display: block;
             transform: translateX(25%);
 
         }
@@ -122,33 +122,34 @@
 
         &-login {
 
-            @mixin atSmall {
+            @mixin atLarge {
+                margin-left:7rem !important;
+
             }
 
-            @mixin atMedium {
-            }
+
         }
 
         &-title {
             list-style: none;
-            float: left;
-            padding-right: 5px;
-            padding-left: 5px;
+            display: inline-block;
+            padding-right: 0;
+            padding-left: 0;
             margin-top: 1.5rem;
-            font-size: .7rem;
             margin-left: 5rem;
+            margin-right: 5rem;
 
             @mixin atSmall {
                 font-weight: 100;
                 padding-right: 7px;
+                float: left;
+                margin-right: 0;
                 padding-left: 7px;
                 margin-top: 2rem;
                 margin-left: 0;
-
             }
 
             @mixin atMedium {
-                font-size: .9rem;
                 font-weight: 200;
                 padding-right: 10px;
                 padding-left: 10px;
@@ -156,11 +157,9 @@
 
             @mixin atLarge {
                 list-style: none;
-                font-size: 1.2rem;
                 padding-right: 15px;
                 padding-left: 15px;
                 margin-left: .5rem;
-
             }
         }
 

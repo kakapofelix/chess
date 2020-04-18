@@ -1,162 +1,75 @@
 #features {
     background-color: $mainGrey;
-    margin:0;
+    margin: 0;
 }
 
-.features-item {
+.features-container-right {
+    display: flex;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 
-    &--first {
-        overflow: hidden;
-        clear: both;
-        height: 250px;
-        padding-top: 30px;
+    &__image {
+        border-radius: 10px;
 
-        @mixin atSmall {
-            height: 300px;
-        }
 
         @mixin atMedium {
-            height: 400px;
 
-        }
-
-        &__image-left {
-            float: left;
-            max-width: 30%;
-            margin-top: 1rem;
-            box-shadow: 0 0 20px;
-            border: 3px solid #605A56;
-
-            @mixin atMedium {
-                max-width: 30%;
-                margin-top: 2rem;
-
-            }
-        }
-
-        &__title-right {
-            text-align: left;
-            padding-left: 35%;
-            font-weight: 600;
-            font-size: 1rem;
-            margin-top: 1rem;
-
-            @mixin atSmall {
-                font-size: 1.2rem;
-            }
-
-            @mixin atMedium {
-                padding-left: 40%;
-                margin-top: 2rem;
-                font-size: 1.5rem;
-            }
-
-            @mixin atLarge {
-                font-size: 1.8rem;
-            }
-        }
-
-
-        &__description-right {
-            max-width: 100%;
-            padding-left: 35%;
-            font-weight: 500;
-            font-size: .8rem;
-            padding-top: 1rem;
-            padding-bottom: 1rem;
-
-            @mixin atSmall {
-                font-size: 1rem;
-                padding-left: 35%;
-            }
-
-            @mixin atMedium {
-                font-size: 1.2rem;
-                padding-left: 40%;
-                line-height: 1.5;
-                padding-top: 1.5rem;
-                padding-bottom: 1.2rem;
-            }
+            flex: 1;
+            margin: 3rem 3rem 3rem 0;
         }
     }
 
-    &--second {
-        overflow: hidden;
-        clear: both;
-        height: 250px;
 
-        @mixin atSmall {
-            height: 300px;
-        }
+    &__description {
 
         @mixin atMedium {
-            height: 400px;
+
+            flex: 1;
+            margin: 3rem 0 3rem 3rem;
+        }     
+
+        &__p {
+            padding-top: 2rem;
+            line-height: 1.8;
 
         }
 
+        &__title {
+            color: $mainPurple;
+        }
+    }
+}
 
-        &__image-right {
-            float: right;
-            max-width: 30%;
-            margin-top: 1rem;
-            box-shadow: 0 0 20px;
-            border: 3px solid #605A56;
+.features-container-left {
 
-            @mixin atMedium {
-                max-width: 30%;
-                margin-top: 2rem;
+    display: flex;
 
-            }
+    &__description {
+
+        @mixin atMedium {
+
+            flex: 1;
+            margin: 1rem 3rem 1rem 0;
         }
 
-        &__title-left {
-            text-align: right;
-            padding-right: 35%;
-            font-weight: 600;
-            font-size: 1rem;
-            margin-top: 1rem;
-
-            @mixin atSmall {
-                font-size: 1.2rem;
-            }
-
-            @mixin atMedium {
-                font-size: 1.5rem;
-                padding-right: 40%;
-                margin-top: 2rem;
-
-            }
-
-            @mixin atLarge {
-                font-size: 1.8rem;
-            }
+        &__p {
+            padding-top: 2rem;
+            line-height: 1.8;
         }
 
-        &__description-left {
-            max-width: 100%;
-            padding-right: 35%;
-            font-size: .8rem;
-            font-weight: 500;
-            text-align: right;
-            padding-top: 1rem;
-            padding-bottom: 1rem;
-
-
-
-            @mixin atSmall {
-                font-size: 1rem;
-                padding-right: 35%;
-            }
-
-            @mixin atMedium {
-                padding-right: 40%;
-                font-size: 1.2rem;
-                line-height: 1.5;
-                padding-top: 1.5rem;
-                padding-bottom: 1.2rem;
-            }
-
+        &__title {
+            color: $mainGreen;
         }
+    }
 
+    &__image {
+        border-radius: 10px;
+
+
+        @mixin atMedium {
+
+            flex: 1;
+            margin: 1rem 0 1rem 3rem;
+        }
     }
 }

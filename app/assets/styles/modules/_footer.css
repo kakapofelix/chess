@@ -2,9 +2,10 @@
 
     &__image {
 
-        max-width: 15%;        
-        left:50%;
-        margin-bottom:20px;
+        max-width: 15%;
+        left: 50%;
+        margin-bottom: 20px;
+
         @mixin atMedium {
             max-width: 10%;
         }
@@ -15,10 +16,10 @@
 
     background-color: black;
     color: white;
-    padding: 3rem 0;
+    padding: 4rem 0;
     text-align: center;
-    height: 250px;
-    margin-bottom: -250px;
+    height: 300px;
+    margin-bottom: -300px;
 
     &--inner {
 
@@ -35,9 +36,7 @@
 
                 @mixin atMedium {
                     font-size: 2rem;
-    
                 }
-
 
                 .fa.fa-facebook {
                     color: #3b5998;
@@ -50,31 +49,27 @@
                 .fa.fa-instagram {
                     color: transparent;
                     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-                    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
                     background-clip: text;
-                    -webkit-background-clip: text;                 }
+                }
             }
 
-         
+            &--white {       
 
-            &--white {
                 color: #fff;
-
             }
 
             &--title {
                 font-size: .8rem;
                 font-weight: 300;
-                padding-bottom: 30px;  
+                padding-bottom: 30px;
 
-                @mixin atSmall{
+                @mixin atSmall {
                     font-size: 1rem;
                 }
 
-                @mixin atMedium{
+                @mixin atMedium {
                     font-size: 1.5rem;
-                    padding-bottom: 20px;  
-
+                    padding-bottom: 20px;
                 }
             }
 

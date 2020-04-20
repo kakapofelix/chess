@@ -1,12 +1,10 @@
 .tournaments-section {
-    height: 100%;
-    background-color: #FAFAFA;
-    position: relative;
+    background-color: $mainGrey;
 }
 
 .upcoming-events {
 
-    margin-top: 10rem;
+    padding-top: 13rem;
 
 
     &__title {
@@ -16,7 +14,6 @@
         @mixin atMedium {
             font-size: 2rem;
         }
-
 
         &--underline {
             display: inline;
@@ -41,7 +38,6 @@
 
         li {
             padding: 1rem 0;
-            width: 25px;
             margin-left: 1rem;
         }
     }
@@ -49,7 +45,7 @@
 
 .past-events {
 
-    margin-top: 7rem;
+    padding: 7rem 0;
 
 
     &__title {
@@ -76,6 +72,7 @@
         list-style: none;
         border: solid 50px $mainPurple;
         margin-top: 4rem;
+        
 
         img {
             width: 15px;
@@ -83,7 +80,6 @@
 
         li {
             padding: 1rem 0;
-            width: 25px;
             margin-left: 1rem;
         }
     }

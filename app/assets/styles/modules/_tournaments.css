@@ -6,9 +6,8 @@
 
 .upcoming-events {
 
-    padding-top: 10rem;
-    position: relative;
-    display: block;
+    margin-top: 10rem;
+
 
     &__title {
         font-size: 1.5rem;
@@ -33,20 +32,25 @@
 
     &__list {
         list-style: none;
-        padding: 3rem 0 1rem 0;
-    }
+        border: solid 50px black;
+        margin-top: 4rem;
 
-    li {
-        padding: 1rem 0;
-        width: 25px;
+        img {
+            width: 15px;
+        }
+
+        li {
+            padding: 1rem 0;
+            width: 25px;
+            margin-left: 1rem;
+        }
     }
 }
 
 .past-events {
 
-    margin-top: 5rem;
-    position: relative;
-    display: block;
+    margin-top: 7rem;
+
 
     &__title {
         font-size: 1.5rem;
@@ -59,7 +63,7 @@
         &--underline {
             display: inline;
             font-size: 1.5rem;
-            border-bottom: 1px solid #000;
+            border-bottom: 1px solid $mainBlack;
             padding-bottom: .6rem;
 
             @mixin atMedium {
@@ -70,16 +74,18 @@
 
     &__list {
         list-style: none;
-        padding: 3rem 0 1rem 0;
-    }
+        border: solid 50px $mainPurple;
+        margin-top: 4rem;
 
-    li {
-        padding: 1rem 0;
-        font-weight: 500;
-    }
+        img {
+            width: 15px;
+        }
 
-    img {
-        width: 25px;
+        li {
+            padding: 1rem 0;
+            width: 25px;
+            margin-left: 1rem;
+        }
     }
 
     span {

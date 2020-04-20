@@ -82,7 +82,7 @@
         color: #fff;
         text-decoration: none;
         font-size: 1.2rem;
-        margin-left:1rem;
+        margin-left: 1rem;
         margin-top: 1rem;
         font-weight: 600;
         position: absolute;
@@ -98,6 +98,10 @@
             margin-left: 7rem;
             margin-top: .5rem;
             font-size: 1.8rem;
+        }
+
+        &__black {
+            color: $mainBlack;
         }
     }
 
@@ -123,11 +127,9 @@
         &-login {
 
             @mixin atLarge {
-                margin-left:7rem !important;
+                margin-left: 7rem !important;
 
             }
-
-
         }
 
         &-title {
@@ -138,6 +140,64 @@
             margin-top: 1.5rem;
             margin-left: 5rem;
             margin-right: 5rem;
+            color: #fff;
+
+
+            @mixin atSmall {
+                font-weight: 100;
+                padding-right: 7px;
+                float: left;
+                margin-right: 0;
+                padding-left: 7px;
+                margin-top: 2rem;
+                margin-left: 0;
+            }
+
+            @mixin atMedium {
+                font-weight: 200;
+                padding-right: 10px;
+                padding-left: 10px;
+            }
+
+            @mixin atLarge {
+                list-style: none;
+                padding-right: 15px;
+                padding-left: 15px;
+                margin-left: .5rem;
+            }      
+            
+            a{
+                color:#fff;
+            }
+
+
+            a::after {
+                content: "";
+                display: block;
+                width: 0;
+                height: 2px;
+                background: #fff;
+                transition: width .3s;
+                margin-top: 5px;
+            }
+
+            a:hover::after {
+                width: 100%;
+                transition: width .3s;
+            }
+
+        }
+
+        &-title__black {
+            list-style: none;
+            display: inline-block;
+            padding-right: 0;
+            padding-left: 0;
+            margin-top: 1.5rem;
+            margin-left: 5rem;
+            margin-right: 5rem;
+            color: $mainBlack;
+
 
             @mixin atSmall {
                 font-weight: 100;
@@ -161,37 +221,40 @@
                 padding-left: 15px;
                 margin-left: .5rem;
             }
-        }
 
+            a {
+                color:$mainBlack;
+            }        
+
+            a::after {
+                content: "";
+                display: block;
+                width: 0;
+                height: 2px;
+                background: white;
+                transition: width .3s;
+                margin-top: 5px;
+            }
+
+            a:hover::after {
+                width: 100%;
+                transition: width .3s;
+            }
+        }
+        
         ul {
-            padding:0;
-            margin:0;
+            padding: 0;
+            margin: 0;
         }
 
-        a {
-            color: #fff;
-            text-decoration: none;
-        }
-
-        a::after {
-            content: "";
-            display: block;
-            width: 0;
-            height: 2px;
-            background: #fff;
-            transition: width .3s;
-            margin-top: 5px;
-        }
-
-        a:hover::after {
-            width: 100%;
-            transition: width .3s;
+        li {
+            list-style-type: none;
         }
 
     }
-}
 
-.header-background {
-    background-color: $mainBlack;
-    display: block;
+    .header-background {
+        display: block;
+    }
+
 }

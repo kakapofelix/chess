@@ -119,22 +119,22 @@
 
         }
 
+        &-image {
+            width: 17px;
+            position: absolute;
+            margin-right: 7rem;
+            margin-top: .5rem;
+            float:right;
+        }
+
         &--is-visible {
             display: block;
         }
 
-        &-login {
-
-            @mixin atLarge {
-                margin-left: 7rem !important;
-
-            }
-        }
 
         &-title {
             padding: 0;
             margin: 1.5rem 5rem 0 5rem;
-
             @mixin atSmall {
                 font-weight: 100;
                 float: left;
@@ -171,7 +171,7 @@
             a:hover::after {
                 width: 100%;
                 transition: width .3s;
-            }
+            }    
         }
 
         &-title__black {
@@ -245,7 +245,7 @@
     display: block;
 }
 
-.drop-down-letter {
+.dropdown-header {
     font-size: 10px;
     font-weight: 600;
     display: inline;

@@ -7,8 +7,6 @@
 
   <title>Contact Viktor Erdos Chess</title>
 
-  <!-- GOOGLE FONTS -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu&display=swap" rel="stylesheet">
   <!-- CSS STYLESHEET -->
   <link rel="stylesheet" href="styles/styles.css">
 
@@ -53,12 +51,13 @@
 
   <div class="contact">
 
-    <picture class="contact__image" >
-      <source srcset="\assets\images\contact-image--large.jpg 1496w, \assets\images\contact-image--large-hi-dpi.jpg 2589w" media="(min-width: 1200x)">
-      <source srcset="\assets\images\contact-image--medium.jpg 1100w" media="(min-width: 800px)">
-      <source srcset="\assets\images\contact-image--small.jpg 750w" media="(min-width: 530px)">
-      <img srcset="\assets\images\contact-image--smaller.jpg 480w" alt="Chess contact Viktor Erdos">
-    </picture>
+    <picture class="contact__image">
+      <source srcset="\assets\images\coaching-site-large.jpg 1300w, \assets\images\coaching-site-hi-dpi.jpg 5892w"
+          media="(min-width: 1200x)">
+      <source srcset="\assets\images\coaching-site-medium.jpg 980w" media="(min-width: 800px)">
+      <source srcset="\assets\images\coaching-site-small.jpg 670w" media="(min-width: 530px)">
+      <img srcset="\assets\images\coaching-site-smaller.jpg 400w" alt="Chess tournament">
+  </picture>
 
     <div class="contact__section">
       <h1 class="contact__section--title">Get in touch</h1>
@@ -83,42 +82,9 @@
   </div>
 
 
-  <footer class="footer">
+  <div id="footer-section"></div>
 
-    <div class="sponsor-section">
-
-      <img class="sponsor-section__image" src="\assets\images\sponsor-section--small.png" alt="chess24 sponsor">
-    </div>
-
-    <div class="footer--inner">
-
-      <div class="footer--inner__section">
-        <h3 class="footer--inner__section--title">Follow</h3>
-        <li class="footer--inner__section--icons"><a class="footer--inner__section--white"
-            href="https://www.facebook.com/viktor.erdos.16"> <i class="fa fa-facebook"></i> </a> </li>
-        <li class="footer--inner__section--icons"><a class="footer--inner__section--white" href="icon"> <i
-              class="fa fa-twitch"></i> </a> </li>
-        <li class="footer--inner__section--icons"><a class="footer--inner__section--white" href="icon"> <i
-              class="fa fa-instagram"></i> </a> </li>
-      </div>
-
-      <div class="footer--inner__section">
-        <h3 class="footer--inner__section--title">Subscribe to my newsletter</h3>
-        <form class="subscription-form">
-          <i class="subscription-form fa fa-envelope"></i>
-          <input class="subscription-form__input" type="email" placeholder="Email" required>
-          <button class="btn btn__footer-button">Sign up now</button>
-        </form>
-      </div>
-
-      <div class="footer--inner__section">
-        <h3 class="footer--inner__section--title">Contact me</h3>
-        <p class="footer--inner__section--email">erdosviktor87@citromail.hu</p>
-      </div>
-
-    </div>
-
-  </footer>
+  <script src="\assets\scripts\modules\HtmlLoad.js"></script>
 
   <script src="bundled.js"></script>
 </body>

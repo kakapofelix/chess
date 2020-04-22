@@ -36,7 +36,7 @@
 
         &__submit {
                 background-color: $mainPurple;
-                color: black;
+                color: #fff;
                 font-weight: 700;
         }
         

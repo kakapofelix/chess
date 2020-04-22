@@ -49,9 +49,11 @@
 
 .contact-form {
 
+    margin-top:3rem;
+
     &__field {
         position: relative;
-        margin: 32px 0;     
+        margin: 1rem 0;     
         
         #message {
             height: 200px;

@@ -1,5 +1,6 @@
 .coaching {    
-
+    background-color: $mainBlue;
+    height: 50rem;
     position: relative;
 }
 

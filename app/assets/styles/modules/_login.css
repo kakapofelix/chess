@@ -1,7 +1,7 @@
 #login-section{
 
     height: 800px;
-    background-color: #111;
+    background-color: $mainGreen;
     top:0;
     position: relative;
 
@@ -11,8 +11,8 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    width: 50%;
-    height: 40%;
+    width: 35rem;
+    height: 20rem;
     display: grid;
     justify-items: center;
     align-items: center;
@@ -77,4 +77,19 @@
     background-color: #3a3a3a;
     cursor: pointer;
     outline: none;
+  }
+
+  .login-signup {
+    font-size: 0.6rem;
+    color: $mainGreen;
+    font-weight: 600;
+    display: inline-block;
+  }
+
+  .login-signup-strong {
+    font-weight: 1000;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: underline;
+
   }

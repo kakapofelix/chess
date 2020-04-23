@@ -73,9 +73,11 @@
                 }
             }
 
-            &--email {
+            a {
 
                 font-size: .6rem;
+                color:white;
+                text-decoration: none;
 
                 @mixin atSmall {
                     font-size: .8rem;

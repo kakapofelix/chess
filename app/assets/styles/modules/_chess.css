@@ -1,8 +1,20 @@
+.chess-board {
+    width: 356px;
+    height: 359px;
+    background: transparent;
+    vertical-align: middle;
+}
+
+#main-table {
+    margin: auto;
+    text-align: center;
+}
+
 table {
-    display: table;
     border-collapse: separate;
-    border-spacing: 5px;
-    border-color:grey;
+    border-spacing: 0;
+    border: solid 2px grey;
+    margin: 10px;
 }
 
 tbody {
@@ -35,5 +47,14 @@ td {
     vertical-align: middle;
     align-items: center;
     height: 43px;
-    width: 43px;;
+    width: 43px;
+
+    &__light {
+        background-color: $light-cell;
+    }
+
+    &__dark {
+        background-color: $dark-cell;
+    }
 }
+

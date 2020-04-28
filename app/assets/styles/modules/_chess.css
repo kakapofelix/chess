@@ -1,0 +1,39 @@
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 5px;
+    border-color:grey;
+}
+
+tbody {
+    display: table-row-group;
+}
+
+tr {
+    display: table-row;
+}
+
+#board-title {
+    text-align: center;
+    width: 700px;
+}
+
+td {
+    width: 600px;
+}
+
+#board-container {
+    width: 100%;
+    text-align: center;
+}
+
+.table-row {
+    height: 44px;
+}
+
+.table-cell {
+    vertical-align: middle;
+    align-items: center;
+    height: 43px;
+    width: 43px;;
+}

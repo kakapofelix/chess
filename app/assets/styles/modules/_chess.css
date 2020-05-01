@@ -89,7 +89,7 @@ td {
     align-items: center;
     height: 43px;
     width: 43px;
-
+    
     &__light {
         background-color: $light-cell;
     }

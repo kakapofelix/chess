@@ -15,6 +15,7 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
     integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 
 </head>
 
@@ -123,10 +124,14 @@
 
   </div>
 
+    <!--Include footer.html with jQuery -->
 
-  <div id="footer-section"></div>
 
-  <script src="\assets\scripts\modules\HtmlLoad.js"></script>
+  <footer class="footer"></footer>
+
+  <script>
+    $(".footer").load("_footer.html");
+  </script>
 
   <script src="bundled.js"></script>
 </body>

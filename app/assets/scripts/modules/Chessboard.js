@@ -1,1 +1,0 @@
-var wKing = ('url: ')

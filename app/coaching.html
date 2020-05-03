@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="styles/styles.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 
 </head>
 
@@ -72,9 +73,13 @@
 
     </div>
 
-    <div id="footer-section"></div>
+        <!--Include footer.html with jQuery -->
 
-    <script src="\assets\scripts\modules\HtmlLoad.js"></script>
+    <footer class="footer"></footer>
+
+    <script>
+      $(".footer").load("_footer.html");
+    </script>
 
     <script src="bundled.js"></script>
 </body>

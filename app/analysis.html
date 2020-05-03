@@ -3,17 +3,17 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content= "width=device-width, initial-scale=1.0"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>Analysis Viktor Erdos Chess</title>
 
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu&display=swap" rel="stylesheet">
   <!-- CSS STYLESHEET -->
-  <link rel="stylesheet" href="styles/styles.css">
+  <link href="styles/styles.css" type="text/css">
+
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
-  <script src="js/chessboard-0.3.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 
 </head>
 
@@ -37,32 +37,32 @@
         <li class="header__navbar-title__black"><a href="aboutme.html">About me</a></li>
         <li class="header__navbar-title__black"><a href="analysis.html">Analysis</a></li>
         <li class="header__navbar-title__black navbar-hover"><a href="coaching.html">Coaching <span
-          class="dropdown-header">v</span></a>
-  <ul class=sub-navbar>
-      <li><a href="">Videos</a></li>
-      <li><a href="">Books</a></li>
-  </ul>
+              class="dropdown-header">v</span></a>
+          <ul class=sub-navbar>
+            <li><a href="">Videos</a></li>
+            <li><a href="">Books</a></li>
+          </ul>
 
-</li>
-<li class="header__navbar-title__black"><a href="tournaments.html">Tournaments</a></li>
-<li class="header__navbar-title__black"><a href="contact.html">Contact</a></li>
+        </li>
+        <li class="header__navbar-title__black"><a href="tournaments.html">Tournaments</a></li>
+        <li class="header__navbar-title__black"><a href="contact.html">Contact</a></li>
 
-<li class="header__navbar-title__black navbar-hover"><a href="login.html"> <img class="header__navbar-image"
-          src="\assets\icons\pawn-black.png" alt="Viktor Erdos chess login">
-      <span class="dropdown-header">v</span>
-  </a>
+        <li class="header__navbar-title__black navbar-hover"><a href="login.html"> <img class="header__navbar-image"
+              src="\assets\icons\pawn-black.png" alt="Viktor Erdos chess login">
+            <span class="dropdown-header">v</span>
+          </a>
 
-  <ul class=sub-navbar>
-      <li><a href="login.html">Login</a></li>
-      <li><a href="">Sign up</a></li>
-  </ul>
-</li>
+          <ul class=sub-navbar>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="">Sign up</a></li>
+          </ul>
+        </li>
 
-</ul>
-</nav>
+      </ul>
+    </nav>
 
   </header>
-  
+
   <div class="analysis">
     <div class="wrapper">
 
@@ -74,14 +74,18 @@
     </div>
   </div>
 
-  <div id="chess-analysis-container"></div>
 
-  <script src="\assets\scripts\modules\HtmlLoad-chessgame.js"></script>
-  <script src="\assets\scripts\modules\Chessboard.js"></script>
+  <div id="ChessBoard"></div>
 
-  <div id="footer-section"></div>
 
-  <script src="\assets\scripts\modules\HtmlLoad.js"></script>
+    <!--Include footer.html with jQuery -->
+
+
+  <footer class="footer"></footer>
+
+  <script>
+    $(".footer").load("_footer.html");
+  </script>
 
   <script src="bundled.js"></script>
 </body>

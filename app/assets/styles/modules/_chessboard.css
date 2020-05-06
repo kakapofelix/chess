@@ -1,7 +1,37 @@
+#chessboard-container {
+display: flex;
+justify-content: center;
+text-align: center;
+}
 #board {
-margin-bottom: 200px;
-position: relative;
-margin-right: auto;
-margin-left: auto;
-display: block;
+  flex: 1;
+  border: solid 5px;
+}
+
+#analysis-description {
+  flex: 1;
+}
+
+
+.container-width-second {
+  overflow-y: scroll;
+  width: 600px;
+  text-align: left;
+  vertical-align: top;
+  padding: 0 20px;
+
+}
+
+#main-table {
+  margin: 10rem auto;
+  text-align: center;
+  width: 1000px;
+
+  h3 {
+    margin-bottom:20px;
+  }
+}
+
+#main-table span{
+  font-size: 0.8rem;
 }

@@ -261,6 +261,9 @@ createPieces();
 
 setTimeout(drawBoard, 500);
 
+
+pieces.addEventListener("click", makeNextMove);
+
 function makeNextMove() {
     function inner() {
         if (moveNum === 1) {
@@ -270,7 +273,8 @@ function makeNextMove() {
         moveNum++;
         drawBoard();
         drawAllPieces();
+
     }
     return inner;
-
 }
+

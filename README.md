@@ -32,3 +32,4 @@ This repo is using:
 * React Hook & I18NEXT
 * Webpack
 * Node Package Manager
+* Git

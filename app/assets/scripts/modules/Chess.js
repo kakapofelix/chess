@@ -261,20 +261,146 @@ createPieces();
 
 setTimeout(drawBoard, 500);
 
+//moving chess pieces
 
-pieces.addEventListener("click", makeNextMove);
 
-function makeNextMove() {
-    function inner() {
-        if (moveNum === 1) {
-            pieces[19].y = 4;
-        }
 
-        moveNum++;
-        drawBoard();
-        drawAllPieces();
+$('#move1').on('click', function () {
 
-    }
-    return inner;
-}
+    pieces[19].y = 4;
 
+    moveNum++;
+    drawBoard();
+    drawAllPieces();
+});
+$('#move2').on('click', function () {
+
+    pieces[11].y = 2;
+    pieces[11].x = 5;
+
+    $("#move1").click();
+    moveNum++;
+    drawBoard();
+    drawAllPieces();
+});
+
+$('#move3').on('click', function () {
+
+    pieces[18].y = 4;
+
+    $("#move1").click();
+    $("#move2").click();
+    moveNum++;
+    drawBoard();
+    drawAllPieces();
+});
+
+$('#move4').on('click', function () {
+
+    pieces[6].y = 2;
+
+    $("#move1").click();
+    $("#move2").click();
+    $("#move3").click();
+    moveNum++;
+    drawBoard();
+    drawAllPieces();
+});
+
+$('#move5').on('click', function () {
+
+    pieces[26].y = 5;
+    pieces[26].x = 2;
+
+    $("#move1").click();
+    $("#move2").click();
+    $("#move3").click();
+    $("#move4").click();
+    moveNum++;
+    drawBoard();
+    drawAllPieces();
+});
+
+$('#move6').on('click', function () {
+
+    pieces[13].y = 1;
+    pieces[13].x = 6;
+
+    $("#move1").click();
+    $("#move2").click();
+    $("#move3").click();
+    $("#move4").click();
+    $("#move5").click();
+    moveNum++;
+    drawBoard();
+    drawAllPieces();
+});
+
+$('#move7').on('click', function () {
+
+    pieces[20].y = 4;
+
+    $("#move1").click();
+    $("#move2").click();
+    $("#move3").click();
+    $("#move4").click();
+    $("#move5").click();
+    $("#move6").click();
+    moveNum++;
+    drawBoard();
+    drawAllPieces();
+});
+
+$('#move8').on('click', function () {
+
+    pieces[3].y = 2;
+
+    $("#move1").click();
+    $("#move2").click();
+    $("#move3").click();
+    $("#move4").click();
+    $("#move5").click();
+    $("#move6").click();
+    $("#move7").click();
+    moveNum++;
+    drawBoard();
+    drawAllPieces();
+});
+
+$('#move9').on('click', function () {
+
+    pieces[27].y = 5;
+    pieces[27].x = 5;
+
+    $("#move1").click();
+    $("#move2").click();
+    $("#move3").click();
+    $("#move4").click();
+    $("#move5").click();
+    $("#move6").click();
+    $("#move7").click();
+    $("#move8").click();
+
+    moveNum++;
+    drawBoard();
+    drawAllPieces();
+});
+
+$('#move10').on('click', function () {
+
+    pieces[9].x = 5;
+    pieces[15].x = 6;
+
+    $("#move1").click();
+    $("#move2").click();
+    $("#move3").click();
+    $("#move4").click();
+    $("#move5").click();
+    $("#move6").click();
+    $("#move7").click();
+    $("#move8").click();
+    $("#move9").click();
+    moveNum++;
+    drawBoard();
+    drawAllPieces();
+});

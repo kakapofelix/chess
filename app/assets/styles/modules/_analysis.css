@@ -1,20 +1,11 @@
 .analysis {
-    background-color: #fff;
-    height: 800px;
+    height: 1500px;
     position: relative;
 }
+.analysis-description {
+    background-color: $mainGreen;
+    padding-top:200px;
 
-.analysis-container {
-    background-color: orange;
-    position: absolute;
-        transform: translateX(-50%);
-        color: $mainBlack;
-        top:20%;
+    height: 400px;
 
-
-    &__description {
-        color: $mainBlack;
-        font-size:3rem;
-    
-    }
 }

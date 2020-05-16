@@ -63,81 +63,78 @@
 
   </header>
 
+
+
+  <!-- chess analysis -->
+
   <div class="analysis">
-    <div class="wrapper">
 
-      <div class="construction construction--black">
+    <div class="analysis-description">
 
-        <p class="construction__description">Our Website is Under Construction</p>
 
-      </div>
     </div>
-  </div>
 
-    <!-- chess analysis -->
-
-
-  <table id="main-table">
-    <tbody>
-      <tr>
-        <td>
-          <h3 id="board-title">1. Game analysis: Viktor Erdos - Borna Derakhshani 2020.02.09</h3>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <div id="board-container">
-            <table>
-              <tbody>
-                <tr>
-                  <td class="container-width">
-                    <table id="chess-board-container">
-                      <tbody>
-                        <td>
-                          <table id="chess-board">
-                            <tbody id="board">
-                              <canvas id="board" width="400" height="400">
-                              </canvas>
-
-
-                            </tbody>
-
-
-                          </table>
-                        </td>
-                        <tr>
+    <table id="main-table">
+      <tbody>
+        <tr>
+          <td>
+            <h3 id="board-title">1. Game analysis: Viktor Erdos - Borna Derakhshani 2020.02.09</h3>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div id="board-container">
+              <table>
+                <tbody>
+                  <tr>
+                    <td class="container-width">
+                      <table id="chess-board-container">
+                        <tbody>
                           <td>
-                            <div class="navigation-container">
-                              <a href="">
-                                <img src="\assets\images\first-arrow.png" alt="play one move">
-                              </a>
+                            <table id="chess-board">
+                              <tbody id="board">
+                                <canvas id="board" width="400" height="400">
+                                </canvas>
 
-                              <a href="">
-                                <img src="\assets\images\left-arrow.png" alt="play one move">
-                              </a>
-                              <a href="">
-                                <img src="\assets\images\reload.png" alt="play one move">
-                              </a>
-                              <a href="">
-                                <img src="\assets\images\right-arrow.png" alt="play one move">
-                              </a>
-                              <a href="">
-                                <img src="\assets\images\last-arrow.png" alt="play one move">
-                              </a>
-                            </div>
+
+                              </tbody>
+
+
+                            </table>
                           </td>
-                        </tr>
-                        <tr>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <td></td>
-                        </tr>
-                      </tbody>
+                          <tr>
+                            <td>
+                              <div class="navigation-container">
+                                <a href="">
+                                  <img src="\assets\images\first-arrow.png" alt="play one move">
+                                </a>
 
-                    </table>
-                  </td>
-                  <td class="container-width container-width-second">
+                                <a href="">
+                                  <img src="\assets\images\left-arrow.png" alt="play one move">
+                                </a>
+                                <a href="">
+                                  <img src="\assets\images\reload.png" alt="play one move">
+                                </a>
+                                <a href="">
+                                  <img src="\assets\images\right-arrow.png" alt="play one move">
+                                </a>
+                                <a href="">
+                                  <img src="\assets\images\last-arrow.png" alt="play one move">
+                                </a>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                          </tr>
+                        </tbody>
+
+                      </table>
+                    </td>
+                    <td class="container-width container-width-second">
                       <span>A következő játszmára a 9. fordulóban került sor, s éreztem, hogy
                         különösen nagy jelentősége lehet. Az azeri Mamedov korosztályom
                         (annó a 14 év alatti vb-n 2001-ben már össze is csaptunk), így egész
@@ -153,19 +150,42 @@
                         el az izgalom, kisebb a mozgásigény épp ezért jobban bele tud
                         feküdni a játszmába...:-) Nem kell feltétlenül elhinni ezt tőlem, de
                         meglepő, hogy mennyire pozitív a mérlegem ilyenkor.</span>
-                      <b>1.</b> <a href="#first-move">d4</a>
-                      <a href="#second-move">Nf6</a>
-                      <b>2.</b> <a href="">c4</a>
-                      <a href="">g6</a>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </td>
-      </tr>
-    </tbody>
-  </table>
+                      <b>1.</b> <button id="move1">d4</button>
+                      <button id="move2">Nf6</button>
+                      <span>1...d5-re is bőven volt esély. A szláv manapság a fő repertoárja klasszikus időbeosztás
+                        esetén.</span>
+                      <b>2.</b> <button id="move3">c4</button>
+                      <button id="move4">g6</button>
+                      <span>Szóval a királyindiai kerül terítékre. Ellenfelem alighanem valamilyen g3-as kezelésre,
+                        esetleg Saemisch szisztémára számíthatott.</span>
+                      <b>3.</b> <button id="move5">Nc3</button>
+                      <button id="move6">Bg7</button>
+                      <b>4.</b> <button id="move7">e4</button>
+                      <button id="move8">d6</button>
+                      <span>
+                        Az első meglepetés. 2011-ben Könnyű Jani megsemmisítő vereséget mért rám a klasszikus
+                        változatban,
+                        azóta nem játszottam így.
+                        A már "klasszikusnak" számító 16 évvel ezelőtti játszmánkban picit jobban álltam, de ügyes
+                        játékkal kitartotta az állást.
+                      </span>
+
+                      <b>5.</b> <button id="move9">Nf3</button>
+                      <button id="move10">0-0</button>
+
+
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+
 
   <script src="\assets\scripts\modules\Chess.js"></script>
 

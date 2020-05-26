@@ -1,9 +1,10 @@
 .analysis {
     height: 1500px;
     position: relative;
+    background-image:  linear-gradient(to bottom, $mainGreen, #28332F);
+
 }
 .analysis-description {
-    background-color: $mainGreen;
     padding-top:200px;
 
     height: 400px;

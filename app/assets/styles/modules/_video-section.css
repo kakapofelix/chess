@@ -1,0 +1,15 @@
+#video-section {
+    background-color: $mainBlue;
+    height: 600px;
+    display:flex;
+    justify-content: center;
+}
+
+.video-container {
+    margin-top:70px;
+
+    h2 {
+        margin-bottom:2rem;
+        text-align: center;
+    }
+}

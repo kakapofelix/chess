@@ -81,60 +81,61 @@
             <h3 id="board-title">1. Game analysis: Viktor Erdos - Borna Derakhshani 2020.02.09</h3>
           </td>
         </tr>
-        <tr>
+        <tr id="analysis-container">
           <td>
-            <div id="board-container">
-              <table>
-                <tbody>
-                  <tr>
-                    <td class="container-width">
-                      <table id="chess-board-container">
-                        <tbody>
+            <table>
+              <tbody>
+                <tr>
+                  <td class="container-width">
+                    <table id="chess-board-container">
+                      <tbody>
+                        <td>
+                          <table id="chess-board">
+                            <tbody id="board">
+                              <canvas id="board" width="400" height="400">
+                              </canvas>
+
+
+                            </tbody>
+
+
+                          </table>
+                        </td>
+                        <tr>
                           <td>
-                            <table id="chess-board">
-                              <tbody id="board">
-                                <canvas id="board" width="400" height="400">
-                                </canvas>
+                            <div class="navigation-container">
+                              <a href="">
+                                <img src="\assets\images\first-arrow.png" alt="play one move">
+                              </a>
 
-
-                              </tbody>
-
-
-                            </table>
+                              <a href="">
+                                <img src="\assets\images\left-arrow.png" alt="play one move">
+                              </a>
+                              <a href="">
+                                <img src="\assets\images\reload.png" alt="play one move">
+                              </a>
+                              <a href="">
+                                <img src="\assets\images\right-arrow.png" alt="play one move">
+                              </a>
+                              <a href="">
+                                <img src="\assets\images\last-arrow.png" alt="play one move">
+                              </a>
+                            </div>
                           </td>
-                          <tr>
-                            <td>
-                              <div class="navigation-container">
-                                <a href="">
-                                  <img src="\assets\images\first-arrow.png" alt="play one move">
-                                </a>
+                        </tr>
+                        <tr>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td></td>
+                        </tr>
+                      </tbody>
 
-                                <a href="">
-                                  <img src="\assets\images\left-arrow.png" alt="play one move">
-                                </a>
-                                <a href="">
-                                  <img src="\assets\images\reload.png" alt="play one move">
-                                </a>
-                                <a href="">
-                                  <img src="\assets\images\right-arrow.png" alt="play one move">
-                                </a>
-                                <a href="">
-                                  <img src="\assets\images\last-arrow.png" alt="play one move">
-                                </a>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td></td>
-                          </tr>
-                          <tr>
-                            <td></td>
-                          </tr>
-                        </tbody>
+                    </table>
+                  </td>
+                  <td>
+                    <div class="container-width container-width-second">
 
-                      </table>
-                    </td>
-                    <td class="container-width container-width-second">
                       <span>A következő játszmára a 9. fordulóban került sor, s éreztem, hogy
                         különösen nagy jelentősége lehet. Az azeri Mamedov korosztályom
                         (annó a 14 év alatti vb-n 2001-ben már össze is csaptunk), így egész
@@ -149,15 +150,15 @@
                         fáradtabb picit az ember, épp ezért jobban fókuszál, kevésbé ragadja
                         el az izgalom, kisebb a mozgásigény épp ezért jobban bele tud
                         feküdni a játszmába...:-) Nem kell feltétlenül elhinni ezt tőlem, de
-                        meglepő, hogy mennyire pozitív a mérlegem ilyenkor.</span>
+                        meglepő, hogy mennyire pozitív a mérlegem ilyenkor.</span> <br> <br>
                       <b>1.</b> <button id="move1">d4</button>
                       <button id="move2">Nf6</button>
                       <span>1...d5-re is bőven volt esély. A szláv manapság a fő repertoárja klasszikus időbeosztás
-                        esetén.</span>
+                        esetén.</span> <br> <br>
                       <b>2.</b> <button id="move3">c4</button>
                       <button id="move4">g6</button>
                       <span>Szóval a királyindiai kerül terítékre. Ellenfelem alighanem valamilyen g3-as kezelésre,
-                        esetleg Saemisch szisztémára számíthatott.</span>
+                        esetleg Saemisch szisztémára számíthatott.</span> <br> <br>
                       <b>3.</b> <button id="move5">Nc3</button>
                       <button id="move6">Bg7</button>
                       <b>4.</b> <button id="move7">e4</button>
@@ -173,12 +174,12 @@
                       <b>5.</b> <button id="move9">Nf3</button>
                       <button id="move10">0-0</button>
 
+                    </div>
 
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
           </td>
         </tr>
       </tbody>

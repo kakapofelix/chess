@@ -1,12 +1,77 @@
 .analysis {
-    height: 1500px;
+    height: 1800px;
     position: relative;
-    background-image:  linear-gradient(to bottom, $mainGreen, #28332F);
+    background-image: linear-gradient(to bottom, $mainGreen, #28332F);
 
 }
+
 .analysis-description {
-    padding-top:200px;
+    padding-top: 200px;
 
     height: 400px;
 
+}
+
+.knight-image-container {
+    height: 380px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+
+    .knight1 {
+        flex: 1;
+        width: 117px;
+        height: 117px;
+        rotate: 2rem;
+        margin-top: 180px;
+        transform: rotate(20deg);
+    }
+
+    .knight2 {
+        flex: 1;
+        width: 148px;
+        height: 148px;
+        margin: 90px 120px 0 120px;
+        transform: rotate(-20deg);
+    }
+
+    .knight3 {
+        flex: 1;
+        width: 180px;
+        height: 180px;
+        transform: rotate(20deg);
+    }
+}
+
+.analysing-game {
+    display: flex;
+
+    &__important {
+        flex: 2;
+        background-color: $mainGrey;
+        margin-right: 20px;
+        padding: 30px;
+
+        h2 {
+            text-align: center;
+            padding-bottom: 20px;
+        }
+
+        h4 {
+            text-align: center;
+            padding-bottom: 30px;
+        }
+    }
+
+    &__mygame {
+        flex: 1;
+        background-color: $mainGrey;
+        margin-left: 20px;
+        padding: 30px;
+
+        h2 {
+            text-align: center;
+            padding-bottom: 60px;
+        }
+    }
 }

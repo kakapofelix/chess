@@ -7,9 +7,7 @@
 
 .analysis-description {
     padding-top: 200px;
-
     height: 400px;
-
 }
 
 .knight-image-container {
@@ -17,6 +15,35 @@
     padding-top: 100px;
     display: flex;
     justify-content: center;
+    position: relative;
+
+    p {
+        background-color: #131010;
+        display: inline;
+        color: white;
+        padding: 8px 8px 8px 0;
+        position: absolute;
+        font-weight: 800;
+    }
+
+    .fun {
+        top:250px;
+    }
+
+    .tactics {
+        top:200px;
+        left:320px;
+    }
+
+    .strategy {
+        right:270px;
+    }
+
+    .knight-label {
+        display: block;
+        background-color: #28332F;
+        color:red;
+    }
 
     .knight1 {
         flex: 1;
@@ -46,11 +73,13 @@
 .analysing-game {
     display: flex;
 
+
     &__important {
         flex: 2;
         background-color: $mainGrey;
         margin-right: 20px;
         padding: 30px;
+        border: solid 5px $mainBlue;
 
         h2 {
             text-align: center;
@@ -68,10 +97,15 @@
         background-color: $mainGrey;
         margin-left: 20px;
         padding: 30px;
+        border: solid 5px $mainBlue;
+
 
         h2 {
             text-align: center;
             padding-bottom: 60px;
+        }
+        a {
+            text-decoration: underline;
         }
     }
 }

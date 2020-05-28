@@ -1,0 +1,62 @@
+.aboutme {
+    background-color: $mainGrey;
+    color: black;
+}
+
+.aboutme-background-image {
+    background-image: url("assets/images/aboutme-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    list-style-type: none;
+    text-align: center;
+    line-height: 2.5;
+    height: 450px;
+}
+
+.aboutme-description {
+    line-height: 1.8;
+    position: relative;
+    padding-bottom:200px;
+
+    &__introduction {
+        box-shadow: 5px 5px 10px $mainPurple;
+        padding: 2rem 25rem 2rem 3rem;
+        color: $mainPurple;
+        margin-top: -3rem;
+        background-color: $mainGrey;  
+        
+        .awards {
+            text-align: center;
+            padding-bottom:2rem;
+            list-style-type: none;
+
+            h2 {
+                padding-bottom:1rem;
+            }
+        }
+    }
+
+    &__images {
+        position: absolute;
+        width: 238px;
+        top:-20px;
+        right:50px;
+        line-height: 0;
+
+        img {
+            margin-bottom:20px;
+            box-shadow: 5px 5px 10px $mainPurple;
+        }
+        p {
+            margin-bottom:30px;
+            font-size:0.8rem;
+            display: block;
+            text-align: center;
+        }
+    }
+}
+
+p:first-letter {
+    padding-left: 20px;
+}

@@ -1,6 +1,5 @@
 .large-hero {
     position: relative;
-    color: $mainBlack;
 
     &__text-content {
         position: absolute;

@@ -8,7 +8,7 @@
   <title>About Viktor Erdos Chess</title>
 
   <!-- CSS STYLESHEET -->
-  <link rel="stylesheet" href="styles/styles.css">
+  <link href="styles/styles.css">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
@@ -21,7 +21,7 @@
 
   <header class="header">
 
-    <a class="header__name header__name__black" href="index.html">Viktor Erdos</a>
+    <a class="header__name" href="index.html">Viktor Erdos</a>
 
 
     <div class="header__menu-icon">
@@ -30,23 +30,23 @@
       </div>
     </div>
 
-    <nav class="header__navbar">
+    <nav class="header-navbar">
       <ul>
-        <li class="header__navbar-title__black"><a href="aboutme.html">About me</a></li>
-        <li class="header__navbar-title__black"><a href="analysis.html">Analysis</a></li>
-        <li class="header__navbar-title__black navbar-hover"><a href="coaching.html">Coaching <span
+        <li class="header-navbar__title"><a href="aboutme.html">About me</a></li>
+        <li class="header-navbar__title"><a href="analysis.html">Analysis</a></li>
+        <li class="header-navbar__title navbar-hover"><a href="coaching.html">Coaching <span
               class="dropdown-header">v</span></a>
           <ul class=sub-navbar>
-            <li><a href="">Videos</a></li>
-            <li><a href="">Books</a></li>
+            <li><a href="coaching.html">Videos</a></li>
+            <li><a href="coaching.html">Books</a></li>
           </ul>
 
         </li>
-        <li class="header__navbar-title__black"><a href="tournaments.html">Tournaments</a></li>
-        <li class="header__navbar-title__black"><a href="contact.html">Contact</a></li>
+        <li class="header-navbar__title"><a href="tournaments.html">Tournaments</a></li>
+        <li class="header-navbar__title"><a href="contact.html">Contact</a></li>
 
-        <li class="header__navbar-title__black navbar-hover"><a href="login.html"> <img class="header__navbar-image"
-              src="\assets\icons\pawn-black.png" alt="Viktor Erdos chess login">
+        <li class="header-navbar__title navbar-hover"><a class="no-decoration" href="login.html"> <img
+              class="header-navbar__image" src="\assets\icons\pawn-white.png" alt="Viktor Erdos chess login">
             <span class="dropdown-header">v</span>
           </a>
 
@@ -62,66 +62,69 @@
   </header>
 
   <div class="aboutme">
+
+    <div class="aboutme-background-image">
+    </div>
+
     <div class="wrapper">
-      <div class="aboutme-container">
-        <div class="aboutme-container__description">
 
-          <div class="aboutme-container__description__titles">
+      <div class="aboutme-description">
+
+        <div class="aboutme-description__introduction">
+          <div class="awards">
             <h2>Awarded Titles</h2>
-            <li>Grandmaster 2007</li>
-            <li>Member of the Olympic Team</li>
-            <li>U18 World Champion</li>
-            <hr>
-
+            <li><h4>Grandmaster 2007</h4></li>
+            <li><h4>Member of the Olympic Team</h4></li>
+            <li><h4>U18 World Champion</h4></li>
           </div>
-          <div class="aboutme-container__description__introduction">
 
-            <p> I was introduced to chess back in 1995, at age 8. My father taught me the basics, I used to go to the
-              local
-              chess club with him. I got my FIDE rating, 2135 in 1997. My first victory in an international tournament
-              was
-              in 1999.
-              2001 was the tourning point in my carrier. I managed to win both the rapid and the traditional U14
-              hungarian
-              championship with 9/9 thus qualifying the world youth championship. There I also won, with 9 out of 11
-              including
-              victories
-              against Nakamura and Tomashevsky. That was the time I became private student at my local high school, and
-              started to concentrate on chess mainly. Shortly after finishing school I scored my last GM norms in 2007
-              and
-              reached
-              2575, and from then on I consider myself as professional.
+          <p> I was introduced to chess back in 1995, at age 8. My father taught me the basics, I used to go to the
+            local
+            chess club with him. I got my FIDE rating, 2135 in 1997. My first victory in an international tournament
+            was
+            in 1999.
+            2001 was the tourning point in my carrier. I managed to win both the rapid and the traditional U14
+            hungarian
+            championship with 9/9 thus qualifying the world youth championship. There I also won, with 9 out of 11
+            including
+            victories
+            against Nakamura and Tomashevsky. That was the time I became private student at my local high school, and
+            started to concentrate on chess mainly. Shortly after finishing school I scored my last GM norms in 2007
+            and
+            reached
+            2575, and from then on I consider myself as professional.
+            <br>
+            <br>
+            <p>I am member of the Hungarian National Team since 2011. Best performance there: 4,5/7 on 2nd board, 2765
+              in
+              2017,
+              Crete.<br>
+              Most significant result: in Minsk 2017, I qualified to the World Cup, there I managed to beat B. Amin in
+              the
+              first round, then lost to P. Svidler in rapid tie-breaks.<br>
+
+              My most important results as a Junior:
+              World team champion U16, 2003, TUR, Denizli
+              European team champion U18, 2003, HUN, Balatonlelle
               <br>
               <br>
-              <p>I am member of the Hungarian National Team since 2011. Best performance there: 4,5/7 on 2nd board, 2765
-                in
-                2017,
-                Crete.<br>
-                Most significant result: in Minsk 2017, I qualified to the World Cup, there I managed to beat B. Amin in
-                the
-                first round, then lost to P. Svidler in rapid tie-breaks.<br>
-
-                My most important results as a Junior:
-                World team champion U16, 2003, TUR, Denizli
-                European team champion U18, 2003, HUN, Balatonlelle
-                <br>
-                <br>
-                <p> Trainers I worked with: IM Ferenc Berebora 2001-2002, GM Peter Lukacs 2003-2011<br>
-                  Highest rating: 2661 in 2013<br>
-                  Highest rank: 87th</p>
-          </div>
+              <p> Trainers I worked with: IM Ferenc Berebora 2001-2002, GM Peter Lukacs 2003-2011<br>
+                Highest rating: 2661 in 2013<br>
+                Highest rank: 87th</p>
         </div>
-
-
-        <div class="aboutme-container__image">
+        <div class="aboutme-description__images">
           <img src="\assets\images\aboutme-image2.jpg" alt="Viktor Erdos about me">
+          <p> <i>Winter Classic 13.11.2019</i></p>
           <img src="\assets\images\aboutme-image.jpg" alt="Viktor Erdos about me">
+          <p><i>Fide Grandpi 11.10.2019</i></p>
+          <img src="\assets\images\aboutme-image3.jpg" alt="Viktor Erdos about me">
         </div>
+
       </div>
     </div>
   </div>
 
-    <!--Include footer.html with jQuery -->
+  <!--Include footer.html with jQuery -->
 
 
   <footer class="footer"></footer>

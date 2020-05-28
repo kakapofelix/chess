@@ -9,7 +9,7 @@
 
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu&display=swap" rel="stylesheet">
   <!-- CSS STYLESHEET -->
-  <link href="styles/styles.css" type="text/css">
+  <link href="styles/styles.css">
 
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -23,7 +23,7 @@
 
   <header class="header">
 
-    <a class="header__name header__name__black" href="index.html">Viktor Erdos</a>
+    <a class="header__name" href="index.html">Viktor Erdos</a>
 
 
     <div class="header__menu-icon">
@@ -32,23 +32,23 @@
       </div>
     </div>
 
-    <nav class="header__navbar">
+    <nav class="header-navbar">
       <ul>
-        <li class="header__navbar-title__black"><a href="aboutme.html">About me</a></li>
-        <li class="header__navbar-title__black"><a href="analysis.html">Analysis</a></li>
-        <li class="header__navbar-title__black navbar-hover"><a href="coaching.html">Coaching <span
+        <li class="header-navbar__title"><a href="aboutme.html">About me</a></li>
+        <li class="header-navbar__title"><a href="analysis.html">Analysis</a></li>
+        <li class="header-navbar__title navbar-hover"><a href="coaching.html">Coaching <span
               class="dropdown-header">v</span></a>
           <ul class=sub-navbar>
-            <li><a href="">Videos</a></li>
-            <li><a href="">Books</a></li>
+            <li><a href="coaching.html">Videos</a></li>
+            <li><a href="coaching.html">Books</a></li>
           </ul>
 
         </li>
-        <li class="header__navbar-title__black"><a href="tournaments.html">Tournaments</a></li>
-        <li class="header__navbar-title__black"><a href="contact.html">Contact</a></li>
+        <li class="header-navbar__title"><a href="tournaments.html">Tournaments</a></li>
+        <li class="header-navbar__title"><a href="contact.html">Contact</a></li>
 
-        <li class="header__navbar-title__black navbar-hover"><a href="login.html"> <img class="header__navbar-image"
-              src="\assets\icons\pawn-black.png" alt="Viktor Erdos chess login">
+        <li class="header-navbar__title navbar-hover"><a class="no-decoration" href="login.html"> <img
+              class="header-navbar__image" src="\assets\icons\pawn-white.png" alt="Viktor Erdos chess login">
             <span class="dropdown-header">v</span>
           </a>
 
@@ -70,154 +70,166 @@
   <div class="analysis">
     <div class="wrapper">
 
-    <div class="knight-image-container">
-      <label for="Fun"> <img class="knight1" src="\assets\images\chess-icon-47608.png"
-          alt="Viktor chess analysis Fun"></label>
-      <label for="Tactics"><img class="knight2" src="\assets\images\chess-icon-47608.png"
-          alt="Viktor chess analysis Tactics"></label>
-      <label for="Strategy"><img class="knight3" src="\assets\images\chess-icon-47608.png"
-          alt="Viktor chess analysis Strategy"></label>
-    </div>
-
-    <div class="analysing-game">
-      <div class="analysing-game__important">
-        <h2>Why game analyzing is so important?</h2>
-        <h4>How to be a better player?</h4>
-        <p>If you want to be a successful player, or a good one at least, always remember three very important words:
-          <strong> analysing, analysing and analysing.</strong> Oh sorry, that was four words actually. <br> <br>
-
-          I bet many chess player do not analyze their games. Surprise! It is not a good practice! Whether you just won
-          or lost, you want to move on, concentrate and prepare for your next game. Believe me, I want it, too and I
-          know it is hard to sit down and spend time with analyzing your game you just lost, BUT you have to do this! So
-          now the big question is how to analyze your game? I can give you some tips: <br> <br>
-
-          <strong>#1</strong> write notes immediately after the game. Just few words to help recall the thoughts later.<br> <br>
-
-          <strong>#2</strong> pay attention to each movement and reconsider the decision. You have to understand your movements.<br> <br>
-
-          <strong>#3</strong> remember when you were hezitating. Think about that position and look at your options. Why were you
-          hezitating? You have to answer your questions.<br> <br>
-
-          <strong>#4</strong> memorize and practice certain situations when you are not quite sure about.
-        </p>
+      <div class="knight-image-container">
+        <div>
+          <p class="kight-label fun"> Fun </p> <img class="knight1" src="\assets\images\chess-icon-47608.png"
+              alt="Viktor chess analysis Fun"></div>
+        <div>
+          <p class="kight-label tactics" >Tactics</p><img class="knight2"
+              src="\assets\images\chess-icon-47608.png" alt="Viktor chess analysis Tactics"></div>
+        <div>
+          <p class="kight-label strategy">Strategy</p><img class="knight3"
+              src="\assets\images\chess-icon-47608.png" alt="Viktor chess analysis Strategy"></div>
       </div>
-      <div class="analysing-game__mygame">
-        <h2>My game analysis </h2>
-        <p>1. Viktor - Borna Derakhshani 09.02.2020</p>
+
+      <div class="analysing-game">
+        <div class="analysing-game__important">
+          <h2>Why game analyzing is so important?</h2>
+          <h4>How to be a better player?</h4>
+          <p>If you want to be a successful player, or a good one at least, always remember three very important words:
+            <strong> analysing, analysing and analysing.</strong> Oh sorry, that was four words actually. <br> <br>
+
+            I bet many chess player do not analyze their games. Well, not a ruprise that it is not a good practice.
+            Whether you just
+            won
+            or lost, you want to move on, concentrate and prepare for your next game. Believe me, I want it, too and I
+            know it is hard to sit down and spend time with analyzing your game you just lost, BUT you have to do this!
+            So
+            now the big question is how to analyze your game? I can give you some tips: <br> <br>
+
+            <strong>#1</strong> write notes immediately after the game. Just few words to help recall the thoughts
+            later.<br> <br>
+
+            <strong>#2</strong> pay attention to each movement and reconsider the decision. You have to understand your
+            movements.<br> <br>
+
+            <strong>#3</strong> remember when you were hezitating. Think about that position and look at your options.
+            Why were you
+            hezitating? You have to answer your questions.<br> <br>
+
+            <strong>#4</strong> memorize and practice certain situations when you are not quite sure about.
+          </p>
+        </div>
+        <div class="analysing-game__mygame">
+          <h2>My game analysis </h2>
+          <a href="#scroll-game">1. Viktor - Borna Derakhshani 09.02.2020</a>
+        </div>
       </div>
+
+      <section id="scroll-game">
+
+        <table id="main-table">
+          <tbody>
+            <tr>
+              <td>
+                <h3 id="board-title">1. Game analysis: Viktor Erdos - Borna Derakhshani 2020.02.09</h3>
+              </td>
+            </tr>
+            <tr id="analysis-container">
+              <td>
+                <table>
+                  <tbody>
+                    <tr>
+                      <td class="container-width">
+                        <table id="chess-board-container">
+                          <tbody>
+                            <td>
+                              <table id="chess-board">
+                                <tbody id="board">
+                                  <canvas id="board" width="400" height="400">
+                                  </canvas>
+
+
+                                </tbody>
+
+
+                              </table>
+                            </td>
+                            <tr>
+                              <td>
+                                <div class="navigation-container">
+                                  <a href="">
+                                    <img src="\assets\images\first-arrow.png" alt="play one move">
+                                  </a>
+
+                                  <a href="">
+                                    <img src="\assets\images\left-arrow.png" alt="play one move">
+                                  </a>
+                                  <a href="">
+                                    <img src="\assets\images\reload.png" alt="play one move">
+                                  </a>
+                                  <a href="">
+                                    <img src="\assets\images\right-arrow.png" alt="play one move">
+                                  </a>
+                                  <a href="">
+                                    <img src="\assets\images\last-arrow.png" alt="play one move">
+                                  </a>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td></td>
+                            </tr>
+                            <tr>
+                              <td></td>
+                            </tr>
+                          </tbody>
+
+                        </table>
+                      </td>
+                      <td>
+                        <div class="container-width container-width-second">
+
+                          <span>A következő játszmára a 9. fordulóban került sor, s éreztem, hogy
+                            különösen nagy jelentősége lehet. Az azeri Mamedov korosztályom
+                            (annó a 14 év alatti vb-n 2001-ben már össze is csaptunk), így egész
+                            jól ismerem. Tudtam, hogy kiváló formában van (értékszáma is erre
+                            utalt), de úgy gondoltam, hogy ellene akadhat bőven keresnivalóm,
+                            hiszen erőssége inkább a ravasz, taktikus állásokban rejlik, s nem a
+                            mély stratégiákban, így a pozíciójátékban könnyen eltévedhet hosszú
+                            távon, ami az én erős oldalam. Így nyugodt mederbe próbáltam terelni
+                            a játszmát, bízva abban, hogy az állások apró nüanszait majd jobban
+                            kiaknázom. Mellesleg egy kis megfázással küzdöttem az utolsó
+                            napokban, de ez néha még "előny" is tud lenni. Kihat a közérzetre,
+                            fáradtabb picit az ember, épp ezért jobban fókuszál, kevésbé ragadja
+                            el az izgalom, kisebb a mozgásigény épp ezért jobban bele tud
+                            feküdni a játszmába...:-) Nem kell feltétlenül elhinni ezt tőlem, de
+                            meglepő, hogy mennyire pozitív a mérlegem ilyenkor.</span> <br> <br>
+                          <b>1.</b> <button id="move1">d4</button>
+                          <button id="move2">Nf6</button>
+                          <span>1...d5-re is bőven volt esély. A szláv manapság a fő repertoárja klasszikus időbeosztás
+                            esetén.</span> <br> <br>
+                          <b>2.</b> <button id="move3">c4</button>
+                          <button id="move4">g6</button>
+                          <span>Szóval a királyindiai kerül terítékre. Ellenfelem alighanem valamilyen g3-as kezelésre,
+                            esetleg Saemisch szisztémára számíthatott.</span> <br> <br>
+                          <b>3.</b> <button id="move5">Nc3</button>
+                          <button id="move6">Bg7</button>
+                          <b>4.</b> <button id="move7">e4</button>
+                          <button id="move8">d6</button>
+                          <span>
+                            Az első meglepetés. 2011-ben Könnyű Jani megsemmisítő vereséget mért rám a klasszikus
+                            változatban,
+                            azóta nem játszottam így.
+                            A már "klasszikusnak" számító 16 évvel ezelőtti játszmánkban picit jobban álltam, de ügyes
+                            játékkal kitartotta az állást.
+                          </span>
+
+                          <b>5.</b> <button id="move9">Nf3</button>
+                          <button id="move10">0-0</button>
+
+                        </div>
+
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
     </div>
-
-    <table id="main-table">
-      <tbody>
-        <tr>
-          <td>
-            <h3 id="board-title">1. Game analysis: Viktor Erdos - Borna Derakhshani 2020.02.09</h3>
-          </td>
-        </tr>
-        <tr id="analysis-container">
-          <td>
-            <table>
-              <tbody>
-                <tr>
-                  <td class="container-width">
-                    <table id="chess-board-container">
-                      <tbody>
-                        <td>
-                          <table id="chess-board">
-                            <tbody id="board">
-                              <canvas id="board" width="400" height="400">
-                              </canvas>
-
-
-                            </tbody>
-
-
-                          </table>
-                        </td>
-                        <tr>
-                          <td>
-                            <div class="navigation-container">
-                              <a href="">
-                                <img src="\assets\images\first-arrow.png" alt="play one move">
-                              </a>
-
-                              <a href="">
-                                <img src="\assets\images\left-arrow.png" alt="play one move">
-                              </a>
-                              <a href="">
-                                <img src="\assets\images\reload.png" alt="play one move">
-                              </a>
-                              <a href="">
-                                <img src="\assets\images\right-arrow.png" alt="play one move">
-                              </a>
-                              <a href="">
-                                <img src="\assets\images\last-arrow.png" alt="play one move">
-                              </a>
-                            </div>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <td></td>
-                        </tr>
-                      </tbody>
-
-                    </table>
-                  </td>
-                  <td>
-                    <div class="container-width container-width-second">
-
-                      <span>A következő játszmára a 9. fordulóban került sor, s éreztem, hogy
-                        különösen nagy jelentősége lehet. Az azeri Mamedov korosztályom
-                        (annó a 14 év alatti vb-n 2001-ben már össze is csaptunk), így egész
-                        jól ismerem. Tudtam, hogy kiváló formában van (értékszáma is erre
-                        utalt), de úgy gondoltam, hogy ellene akadhat bőven keresnivalóm,
-                        hiszen erőssége inkább a ravasz, taktikus állásokban rejlik, s nem a
-                        mély stratégiákban, így a pozíciójátékban könnyen eltévedhet hosszú
-                        távon, ami az én erős oldalam. Így nyugodt mederbe próbáltam terelni
-                        a játszmát, bízva abban, hogy az állások apró nüanszait majd jobban
-                        kiaknázom. Mellesleg egy kis megfázással küzdöttem az utolsó
-                        napokban, de ez néha még "előny" is tud lenni. Kihat a közérzetre,
-                        fáradtabb picit az ember, épp ezért jobban fókuszál, kevésbé ragadja
-                        el az izgalom, kisebb a mozgásigény épp ezért jobban bele tud
-                        feküdni a játszmába...:-) Nem kell feltétlenül elhinni ezt tőlem, de
-                        meglepő, hogy mennyire pozitív a mérlegem ilyenkor.</span> <br> <br>
-                      <b>1.</b> <button id="move1">d4</button>
-                      <button id="move2">Nf6</button>
-                      <span>1...d5-re is bőven volt esély. A szláv manapság a fő repertoárja klasszikus időbeosztás
-                        esetén.</span> <br> <br>
-                      <b>2.</b> <button id="move3">c4</button>
-                      <button id="move4">g6</button>
-                      <span>Szóval a királyindiai kerül terítékre. Ellenfelem alighanem valamilyen g3-as kezelésre,
-                        esetleg Saemisch szisztémára számíthatott.</span> <br> <br>
-                      <b>3.</b> <button id="move5">Nc3</button>
-                      <button id="move6">Bg7</button>
-                      <b>4.</b> <button id="move7">e4</button>
-                      <button id="move8">d6</button>
-                      <span>
-                        Az első meglepetés. 2011-ben Könnyű Jani megsemmisítő vereséget mért rám a klasszikus
-                        változatban,
-                        azóta nem játszottam így.
-                        A már "klasszikusnak" számító 16 évvel ezelőtti játszmánkban picit jobban álltam, de ügyes
-                        játékkal kitartotta az állást.
-                      </span>
-
-                      <b>5.</b> <button id="move9">Nf3</button>
-                      <button id="move10">0-0</button>
-
-                    </div>
-
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
   </div>
 
 
@@ -232,6 +244,7 @@
   <script>
     $(".footer").load("_footer.html");
   </script>
+
 
 
   <script src="bundled.js"></script>

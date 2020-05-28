@@ -169,7 +169,7 @@ function createPieces() {
     piece.image = bKing;
     piece.x = 4;
     piece.y = 0;
-    piece.height = 55;
+    piece.height = 50;
     piece.width = 45;
     pieces[15] = piece;
 

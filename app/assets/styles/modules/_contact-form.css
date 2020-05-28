@@ -93,13 +93,14 @@
 .label {
     position: absolute;
     left: 20px;
-    bottom: 10px;
     top: 10px;
     font-size: .8rem;
     line-height: 26px;
     font-weight: 400;
     cursor: text;
     transition: transform .2s ease-in-out;
+    max-width: 554px;
+    
 
     @mixin atMedium {
         font-size: 1.2rem;

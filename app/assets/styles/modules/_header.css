@@ -2,10 +2,13 @@
     position: absolute;
     z-index: 1;
     width: 100%;
-    height: 6rem;
+    height: 4.8rem;
     top: 0;
     left: 50%;
     transform: translateX(-50%);
+    background-color: #131010;
+    box-shadow: 1px 1px 5px #131010;
+
 
     &--is-expanded {
         background-color: #000;
@@ -81,31 +84,25 @@
 
         color: #fff;
         text-decoration: none;
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         margin-left: 1rem;
-        margin-top: 1rem;
+        margin-top: 0.7rem;
         font-weight: 600;
         position: absolute;
         width: 3rem;
 
         @mixin atMedium {
-            font-size: 1.4rem;
+            font-size: 1.5rem;
             margin-left: 3rem;
         }
 
         @mixin atLarge {
-
             margin-left: 7rem;
-            margin-top: .5rem;
-            font-size: 1.8rem;
         }
 
-        &__black {
-            color: $mainBlack;
-        }
     }
 
-    &__navbar {
+.header-navbar {
 
         display: none;
 
@@ -118,8 +115,7 @@
             transform: translateX(25%);
         }
 
-        &-image {
-            width: 16px;
+        &__image {
             margin-left: 5rem;
             top: 30%;
         }
@@ -128,20 +124,19 @@
             display: block;
         }
 
-        &-title {
+        &__title {
+            list-style: none;
+            display: inline-block;
             padding: 0;
             margin: 1.5rem 5rem 0 5rem;
-            
 
             @mixin atSmall {
-                font-weight: 100;
                 float: left;
-                margin: 2rem 0 0 0;
                 padding: 0 7px;
+                margin: 2rem 0 0 0;
             }
 
             @mixin atMedium {
-                font-weight: 200;
                 padding: 0 10px;
             }
 
@@ -151,10 +146,13 @@
                 margin-left: .5rem;
             }
 
+            .no-decoration::after {
+                background: #131010;
+            }
+
             a {
                 color: #fff;
             }
-
 
             a::after {
                 content: "";
@@ -162,52 +160,6 @@
                 width: 0;
                 height: 2px;
                 background: #fff;
-                transition: width .3s;
-                margin-top: 5px;
-            }
-
-            a:hover::after {
-                width: 100%;
-                transition: width .3s;
-            }
-        }
-
-        &-title__black {
-            list-style: none;
-            display: inline-block;
-            padding: 0;
-            margin: 1.5rem 5rem 0 5rem;
-            color: $mainBlack;
-
-            @mixin atSmall {
-                font-weight: 100;
-                float: left;
-                padding: 0 7px;
-                margin: 2rem 0 0 0;
-            }
-
-            @mixin atMedium {
-                font-weight: 200;
-                padding: 0 10px;
-            }
-
-            @mixin atLarge {
-                list-style: none;
-                padding: 0 15px;
-                margin-left: .5rem;
-            }
-
-            a {
-                color: $mainBlack;
-                text-decoration: none;
-            }
-
-            a::after {
-                content: "";
-                display: block;
-                width: 0;
-                height: 2px;
-                background: black;
                 transition: width .3s;
                 margin-top: 5px;
             }

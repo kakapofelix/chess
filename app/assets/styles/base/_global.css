@@ -4,8 +4,13 @@ body {
   padding:0;
   overflow-x: hidden;
   height: 100%;
-  
 }
+
+html {
+  scroll-behavior: smooth;  
+
+}
+
 
 img {
   max-width: 100%;

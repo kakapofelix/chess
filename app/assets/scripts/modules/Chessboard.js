@@ -8,7 +8,7 @@ var board = ChessBoard('board5', config);
 var game = new Chess();
 
 
-var pgn = '1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.e4 d6 5.Nf3 0-0 6.O-O e4 7.Re1 Kd7 8.Rxe4 Qg5 9.Nxg5 f6 10.Qg4+ Ne6 11.Qxe6+ Kd8 12.Qe8#  1-0';
+var pgn = '.Nc3 1.d4 Nf6 2.c4 g6 3Bg7 4.e4 d6 5.Nf3 0-0 6.O-O e4 7.Re1 Kd7 8.Rxe4 Qg5 9.Nxg5 f6 10.Qg4+ Ne6 11.Qxe6+ Kd8 12.Qe8#  1-0';
 game.load_pgn(pgn);
 $('#pgn5').html(pgn);
 
@@ -62,9 +62,25 @@ $('#resetBtn').on('click', function () {
 //moving pieces on button click
 
 $('#move1').on('click', function () {
-    board.move('e2-e4')
+    board.position('rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq d3 0 1')
 })
 
 $('#move2').on('click', function () {
-    board.move('d2-d4', 'g8-f6')
+    board.position('rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2')
+})
+
+$('#move3').on('click', function () {
+    board.position('rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq c3 0 2')
+})
+
+$('#move4').on('click', function () {
+    board.position('rnbqkb1r/pppppp1p/5np1/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3')
+})
+
+$('#move5').on('click', function () {
+    board.position('rnbqkb1r/pppppp1p/5np1/8/2PP4/2N5/PP2PPPP/R1BQKBNR b KQkq - 1 3')
+})
+
+$('#move6').on('click', function () {
+    board.position('rnbqk2r/ppppppbp/5np1/8/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4')
 })

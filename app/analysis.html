@@ -126,130 +126,88 @@
       </div>
 
       <section id="scroll-game">
-
         <table id="main-table">
-          <tbody>
-            <tr>
-              <td>
-                <h3 id="board-title">1. Game analysis: Viktor Erdos - Borna Derakhshani 2020.02.09</h3>
-              </td>
-            </tr>
-            <tr id="analysis-container">
-              <td>
-                <table>
-                  <tbody>
-                    <tr>
-                      <td class="container-width">
-                        <table id="chess-board-container">
-                          <tbody>
-                            <td>
-                              <table id="chess-board">
-                                <tbody>
-                                  <div class="chessboard" id="board5" style="margin: 0 auto; width: 400px;">
-                                  </div>
-                                </tbody>
-
-
-                              </table>
-                            </td>
-                            <tr>
+          <div class="wrapper">
+            <tbody>
+              <tr>
+                <td>
+                  <h3 id="board-title">1. Game analysis: Viktor Erdos - Mamedov Rauf 2017.06.08</h3>
+                </td>
+              </tr>
+              <tr id="analysis-container">
+                <td>
+                  <table>
+                    <tbody>
+                      <tr>
+                        <td class="container-width">
+                          <table id="chess-board-container">
+                            <tbody>
                               <td>
-                                <div class="navigation-container">
-                                  <div style="margin: 5px auto; width: 400px;">
-
-                                    <button id="startPositionBtn">
-                                      <img src="assets\images\first-arrow.png" alt="play one move">
-                                    </button>
-
-                                    <button id="prevBtn">
-                                      <img src="assets\images\left-arrow.png" alt="play one move">
-                                    </button>
-
-                                    <button id="resetBtn">
-                                      <img src="assets\images\reload.png" alt="play one move">
-                                    </button>
-
-                                    <button id="nextBtn">
-                                      <img src="assets\images\right-arrow.png" alt="play one move">
-                                    </button>
-
-                                    <button id="endPositionBtn">
-                                      <img src="assets\images\last-arrow.png" alt="play one move">
-                                    </button>
-                                    
-                                    <p><span id="pgn5"></span></p>
-                                  </div>
-                                </div>
-
+                                <table id="chess-board">
+                                  <tbody>
+                                    <div class="chessboard" id="board5" style="margin: 0 auto; width: 400px;">
+                                    </div>
+                                  </tbody>
+                                </table>
                               </td>
-                            </tr>
-                            <tr>
-                              <td></td>
-                            </tr>
-                            <tr>
-                              <td></td>
-                            </tr>
-                          </tbody>
+                              <tr>
+                                <td>
+                                  <div class="navigation-container">
+                                    <div style="margin: 5px auto; width: 400px;">
 
-                        </table>
-                      </td>
-                      <td>
-                        <div class="container-width container-width-second">
-                          <div id="moves">
+                                      <button id="startPositionBtn">
+                                        <img src="assets\images\first-arrow.png" alt="play one move">
+                                      </button>
 
-                            <span>A következő játszmára a 9. fordulóban került sor, s éreztem, hogy
-                              különösen nagy jelentősége lehet. Az azeri Mamedov korosztályom
-                              (annó a 14 év alatti vb-n 2001-ben már össze is csaptunk), így egész
-                              jól ismerem. Tudtam, hogy kiváló formában van (értékszáma is erre
-                              utalt), de úgy gondoltam, hogy ellene akadhat bőven keresnivalóm,
-                              hiszen erőssége inkább a ravasz, taktikus állásokban rejlik, s nem a
-                              mély stratégiákban, így a pozíciójátékban könnyen eltévedhet hosszú
-                              távon, ami az én erős oldalam. Így nyugodt mederbe próbáltam terelni
-                              a játszmát, bízva abban, hogy az állások apró nüanszait majd jobban
-                              kiaknázom. Mellesleg egy kis megfázással küzdöttem az utolsó
-                              napokban, de ez néha még "előny" is tud lenni. Kihat a közérzetre,
-                              fáradtabb picit az ember, épp ezért jobban fókuszál, kevésbé ragadja
-                              el az izgalom, kisebb a mozgásigény épp ezért jobban bele tud
-                              feküdni a játszmába...:-) Nem kell feltétlenül elhinni ezt tőlem, de
-                              meglepő, hogy mennyire pozitív a mérlegem ilyenkor.</span> <br> <br>
-                            <b>1.</b> <button data-move="0" id="move1">d4</button>
-                            <button data-move="1" id="move2">Nf6</button>
-                            <span>1...d5-re is bőven volt esély. A szláv manapság a fő repertoárja klasszikus
-                              időbeosztás
-                              esetén.</span> <br> <br>
-                            <b>2.</b> <button data-move="2" id="move3">c4</button>
-                            <button data-move="3" id="move4">g6</button>
-                            <span>Szóval a királyindiai kerül terítékre. Ellenfelem alighanem valamilyen g3-as
-                              kezelésre,
-                              esetleg Saemisch szisztémára számíthatott.</span> <br> <br>
-                            <b>3.</b> <button data-move="4" id="move5">Nc3</button>
-                            <button data-move="5" id="move6">Bg7</button>
-                            <b>4.</b> <button data-move="6" id="move7">e4</button>
-                            <button data-move="7" id="move8">d6</button>
-                            <span>
-                              Az első meglepetés. 2011-ben Könnyű Jani megsemmisítő vereséget mért rám a klasszikus
-                              változatban,
-                              azóta nem játszottam így.
-                              A már "klasszikusnak" számító 16 évvel ezelőtti játszmánkban picit jobban álltam, de ügyes
-                              játékkal kitartotta az állást.
-                            </span>
+                                      <button id="prevBtn">
+                                        <img src="assets\images\left-arrow.png" alt="play one move">
+                                      </button>
 
-                            <b>5.</b> <button id="move9">Nf3</button>
-                            <button id="move10">0-0</button>
+                                      <button id="resetBtn">
+                                        <img src="assets\images\reload.png" alt="play one move">
+                                      </button>
 
-                          </div>
-                        </div>
+                                      <button id="nextBtn">
+                                        <img src="assets\images\right-arrow.png" alt="play one move">
+                                      </button>
 
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </td>
-            </tr>
-          </tbody>
+                                      <button id="endPositionBtn">
+                                        <img src="assets\images\last-arrow.png" alt="play one move">
+                                      </button>
+
+                                      <p><span id="pgn5"></span></p>
+                                    </div>
+                                  </div>
+
+                                </td>
+                              </tr>
+                              <tr>
+                                <td></td>
+                              </tr>
+                              <tr>
+                                <td></td>
+                              </tr>
+                            </tbody>
+
+                          </table>
+                        </td>
+                        <td class="container-width-second">
+                            <div id="moves">
+                              <span></span>
+
+                            </div>
+
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
         </table>
-      </section>
     </div>
+    </section>
+  </div>
   </div>
 
 

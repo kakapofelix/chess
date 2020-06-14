@@ -1,65 +1,81 @@
-#analysis-container {
-  overflow: hidden;
-}
 
-#chessboard-container {
-display: flex;
-justify-content: center;
-text-align: center;
-}
-#board {
-  flex: 1;
-  border: solid 5px;
+.container-width {
+  border: solid 1px black;
+
+  flex:1;
+
 }
 
 .container-width-second {
   height: 450px;
-  text-align: left;
   padding: 0 20px;
   flex: 1;
   overflow: scroll;
-
-  button {
-    background-color: $mainGreen;
-    border:none;
-    cursor: pointer;
-    padding:5px;
-  }
+  border: solid 1px black;
+  width: 515px;
+  vertical-align: text-top;
+  text-align: left;
 }
 
 #main-table {
   margin: 50px auto;
-  text-align: center;
   background-color: $mainGrey;
-  padding:20px;
   border: solid 5px $mainBlue;
+  justify-content: center;
+  text-align: center;
+  display: flex;
 
 
   h3 {
-    margin-bottom:20px;
+    margin-bottom: 20px;
   }
 }
 
-#main-table span{
+#main-table span {
   line-height: 2;
   font-size: 0.8rem;
 }
 
+#moves {
+
+  button {
+    background-color: transparent;
+    color: $mainGreen;
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+  }
+
+  /*
+
+  .bold {
+    font-weight: 800;
+  }
+  .color-border {
+    background-color: transparent;
+    color: $mainGreen;
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+  }
+
+  */
+}
 
 .navigation-container {
-  color:black;
-  font-size:1.5rem;
+  color: black;
+  font-size: 1.5rem;
 
   height: 50px;
-  button{
-    border:none;
-    cursor:pointer;
+
+  button {
+    border: none;
+    cursor: pointer;
   }
 }
 
 #pgn5 {
   background-color: red;
-  color:black;
-  font-size:1.5rem;
+  color: black;
+  font-size: 1.5rem;
 }
-

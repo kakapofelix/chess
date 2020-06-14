@@ -1,20 +1,23 @@
 
 .container-width {
   border: solid 1px black;
-
   flex:1;
-
 }
 
 .container-width-second {
   height: 450px;
   padding: 0 20px;
   flex: 1;
-  overflow: scroll;
   border: solid 1px black;
   width: 515px;
   vertical-align: text-top;
   text-align: left;
+  line-height:1;  
+
+  button {
+    text-align: left;
+    line-height:1;    
+  }
 }
 
 #main-table {
@@ -24,7 +27,6 @@
   justify-content: center;
   text-align: center;
   display: flex;
-
 
   h3 {
     margin-bottom: 20px;
@@ -37,6 +39,8 @@
 }
 
 #moves {
+  overflow: scroll;
+  height: 450px;
 
   button {
     background-color: transparent;

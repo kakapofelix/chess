@@ -1,8 +1,7 @@
 .analysis {
-    height: 1800px;
+    height: 4800px;
     position: relative;
     background-image: linear-gradient(to bottom, $mainGreen, #28332F);
-
 }
 
 .analysis-description {
@@ -79,7 +78,7 @@
         background-color: $mainGrey;
         margin-right: 20px;
         padding: 30px;
-        border: solid 5px $mainBlue;
+        border: solid 5px $mainBlack;
 
         h2 {
             text-align: center;
@@ -97,7 +96,7 @@
         background-color: $mainGrey;
         margin-left: 20px;
         padding: 30px;
-        border: solid 5px $mainBlue;
+        border: solid 5px $mainBlack;
 
 
         h2 {
@@ -108,4 +107,8 @@
             text-decoration: underline;
         }
     }
+}
+
+.cbreplay {
+    border: solid 5px $mainBlack;
 }

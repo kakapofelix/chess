@@ -1,0 +1,78 @@
+﻿[Event "Bundesliga, Wiesbaden-Trier"]
+[Site "?"]
+[Date "2013.03.17"]
+[Round "12"]
+[White "Erdős, Viktor"]
+[Black "Khenkin, Igor"]
+[Result "1-0"]
+[ECO "A05"]
+[WhiteElo "2637"]
+[BlackElo "2655"]
+[PlyCount "93"]
+[EventDate "2011.12.08"]
+
+{This was the only ocassion during my Bundesliga career when I only played a
+single game on a double-round weekend. That was due to a canceled flight. My
+opponent was really surprised to see me showing up :)} 1. Nf3 c5 (1... d5 {
+was more likely to happen.}) 2. b3 $5 {I borrowed this "anti-fianchetto" idea
+from Kramnik. He won a spectacular game against Jones, and he also had
+advantage in his encounter with Gelfand. I prepared this line especially for
+this game.} b6 {A real suprise. 2...d5 and 2...Nc6 are the usual moves.} ({
+One of my intented lines:} 2... d5 3. e3 (3. Bb2 f6 4. e4 $5 dxe4 5. Nh4 {
+leads to wild complications.}) 3... Nc6 4. Bb2 Nf6 5. g3 $5 (5. Bb5) 5... e6 6.
+Bg2 Be7 7. O-O O-O 8. c4 {and we transposed into a normal reversed-benoni type
+of position.}) 3. Bb2 Bb7 4. g3 Nf6 5. Bg2 g6 $5 {Strategically speaking a
+risky decision.} (5... e6 {is the normal way to play.}) 6. Bxf6 $5 {I took the
+oppurtunity to change the charachter of the game. I give up the bishop pair in
+order to ruin black's pawn structure, and after 7.c4 I'm trying to secure an
+outpost on d5 square to my minor pieces.} exf6 7. c4 $1 f5 (7... d5 {would
+have been the best.} 8. Nh4 (8. cxd5 Bxd5 9. Nc3 Bb7) 8... Qd7 9. Nc3 dxc4 10.
+bxc4 (10. Bxb7 Qxb7 11. O-O cxb3) 10... Nc6 $1 $13 {is ok according to the
+computer.}) 8. Nc3 Bg7 9. Rc1 Nc6 10. O-O O-O {Normal developing moves.} 11.
+Ne1 (11. e3 {was an alternative.}) 11... a6 12. Nd3 $1 {The N is heading for
+d5 via a bit unusual squares.} Rb8 13. Nf4 d6 14. e3 Re8 15. Nfd5 $14 {I
+managed to reach my strategic goal.} Ba8 (15... Bc8 {may have been my choice
+with black pieces, but it doesn't solve the main problems.} 16. Nf6+ Bxf6 17.
+Bxc6 Rf8 18. Nd5) (15... Bxc3 16. Rxc3 Nb4 (16... Kg7 17. Qa1) 17. Nxb4 cxb4
+18. Rd3 $14) 16. a4 $1 {Not allowing any counterplay!} Qd7 17. Qc2 Ne5 (17...
+a5 $5 {is reasonable to block the entire queenside.}) 18. Rb1 Bc6 {
+Weird-looking move allowing me to seize the initiative in this relatively calm
+position.} 19. f4 $1 (19. h3 {was also interesting with the intention of: 20.
+f4 Bxd5 21.cxd5! trapping my opponent's active knight.}) 19... Bxd5 (19... Ng4
+20. h3 $5 (20. b4) 20... Nf6 (20... Bxd5 21. Nxd5 Nf6 22. b4 $14) 21. Nxf6+
+Bxf6 22. Bxc6 Qxc6 23. Nd5 {The difference between the two minor pieces is
+quite visible.} Bg7 24. g4 $5 {This can be prepared, but there's nothing wrong
+with this immediate push.} fxg4 25. hxg4 Qd7 26. f5 $36) 20. Nxd5 Nc6 21. b4 $1
+Ne7 $6 (21... a5 {would have been Khenkin's best bet.} 22. bxc5 bxc5 23. Rb5
+Nb4 24. Qb3 Qa7 $14) (21... cxb4 22. Nxb4 Nxb4 23. Rxb4 $16) 22. bxc5 bxc5 (
+22... Nxd5 23. c6 $1 {Very important "zwischenzug"!} Qxc6 24. Bxd5 Qc5 25. g4
+$1 {The computer attacks immediately!} (25. Qb3 Qa5 26. Qb4) (25. Rb3 Qa5 26.
+Rfb1 Qxa4 27. Qc1) 25... fxg4 26. f5 $16) 23. Nb6 $1 $16 {I'm very proud of
+this move. White temporarily closes the only open file in order to gain time
+for his heavy pieces to enter the battle, while avoiding unnecessary exchanges.
+Black has no counterplay.} Qc7 24. a5 Bf6 $6 {Final mistake but it's hard to
+give good advice here.} ({After} 24... Nc6 25. Bxc6 Qxc6 26. Nd5 {Rb6 is
+coming!}) 25. Qa4 $1 Rbd8 (25... Kg7 26. Nd7 $1 Rxb1 27. Rxb1 $18) (25... Red8
+26. Nd7 Rxb1 27. Nxf6+ Kg7 28. Rxb1 Kxf6 29. Qa1+ Ke6 30. Rb7 Qc8 31. Qg7 $18)
+26. Nd5 $1 $18 {Simple and strong. Black's queenside is about to fall. The
+appereance of the opposite coloured bishops help the attacker when heavy
+pieces on the board, old principle in chess.} Nxd5 27. Bxd5 Re7 (27... Rb8 28.
+Rb6 (28. Rb7 {winning an exchange, but Rb6 is even stronger.})) 28. Rb6 h5 29.
+Rfb1 Qc8 30. Rc6 Qd7 31. Rbb6 {The game is practically over, but in my
+opponent's timetrouble I didn't really take seriously his counterplay, so he
+could create some "threats".} h4 32. Qb3 Kg7 33. Rxa6 g5 34. Rab6 hxg3 35. hxg3
+gxf4 36. gxf4 Qe8 37. Rxd6 Rxd6 38. Rxd6 Bd4 $5 39. Bf3 $6 (39. Qd3 {The
+Houdini is not scared of ghosts...} Bxe3+ 40. dxe3 Rxe3 41. Qxf5 Re1+ 42. Kh2
+Qe2+ 43. Bg2 {was the simplest.}) 39... Qh8 40. Qd1 $6 (40. Kg2 Re8 41. exd4
+Re1 42. Kg3 $1 {Chess is pretty easy with the help of our silicon friends :).}
+Rg1+ 43. Bg2) 40... Qh4 (40... Qb8 {better is:} 41. Rd5 Qxf4 42. exd4 {but he
+is lost anyway,}) 41. Kg2 $1 {This was the point of my overcautious play.} Rxe3
+(41... Bf6 42. Qh1) (41... Bxe3 42. dxe3 Rxe3 43. a6 $1 Re1 44. Qxe1 $1 Qxe1
+45. a7 $18 {Nice knock-out line.}) 42. dxe3 Bxe3 43. Qa1+ $1 {This was the
+most convincing way to end the game at once.} Kg8 (43... Kh7 44. Qh1) (43...
+Kf8 {would have allowed me to finish the game in style:} 44. Qh8+ $1 Qxh8 45.
+Rd8+ Kg7 46. Rxh8 Kxh8 47. a6 {and the a pawn cannot be stopped.}) 44. Qh1 $1 {
+The white queen uses three of the corners, rare situation :)} Qf2+ 45. Kh3 Bxf4
+46. Rd8+ Kh7 47. Qg2 {black resigned, in view of the inevitable exchange of
+the queens or mate.} 1-0
+

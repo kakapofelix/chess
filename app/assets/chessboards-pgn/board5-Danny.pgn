@@ -1,0 +1,139 @@
+﻿[Event "EICC Jerusalem"]
+[Site "?"]
+[Date "2015.03.08"]
+[Round "11"]
+[White "Raznikov, Danny"]
+[Black "Erdős, Viktor"]
+[Result "0-1"]
+[ECO "E35"]
+[WhiteElo "2494"]
+[BlackElo "2615"]
+[PlyCount "56"]
+
+{A szörnyű, 9. fordulós vereségem miatt gyakorlatilag elvesztettem a
+kvalifikációs esélyeimet, így különösebb örömre nem lehetett okom. Viszont az
+utolsó forduló előtti kellemesen eltöltött szabadnap feldobott annyira, hogy
+erőt vegyek magamon és megpróbáljak szépen búcsúzni a tornától.} 1. d4 Nf6 2.
+c4 e6 {Egy kis meglepetés, a versenyen addig 2...g6-ot léptem. A Nimzó-,
+Vezérindiait már a Stefansson ellen előkészítettem, viszont ő úgy gondolta,
+hogy kb. 40 darab 1.d4-es játszma után pont nekem kell 1.e4-gyel nyitnia :).}
+3. Nc3 Bb4 4. Qc2 {A 4.e3-as Nimzóra is volt sansz.} d5 5. cxd5 exd5 (5... Qxd5
+{is nagyon népszerű, az utolsó néhány játszmámban fehérrel csak ezzel
+szembesültem, pl.:} 6. e3 c5 {A román csb-n Jianu-tól nem számítottam erre a
+változatra, így már ekkor gondolkozóba estem.} 7. a3 $5 {Eddig csak 7.Bd2-őt
+léptem itt, ami nem ad semmit.} Bxc3+ 8. bxc3 b6 9. f3 $5 {Szinte újítás, kb.
+20 perc meditálás eredményeképp léptem.} Nbd7 $6 {Túl sablonos, ellenfelem
+elnézhette a következő furcsa tervet.} (9... O-O {lett volna az egyik kritikus
+folytatás. A játszma közben a következőt számolgattam:} 10. e4 Qc6 11. Qb2 Ba6
+12. Bxa6 Nxa6 13. Ne2 Rfc8 14. Be3 cxd4 15. cxd4 Qc2 16. Ra2 {Világossal
+kicsit kényelmesebb.}) 10. e4 Qc6 11. Qb2 $1 {Ez volt az alapeszmém. Világos
+stabilizálta a centrumát és gyorsan befejezi a fejlődést.} O-O 12. Bb5 $1 {
+Fontos tempónyerés.} Qc7 13. Ne2 Bb7 14. O-O $14 {/+/- Erdős - Jianu,
+Calimanesti 2014}) 6. Bg5 h6 {Eddig 6...c5-öt háromszor vetettem be, és bár
+mindig jól álltam, nyerni nem tudtam, így gondoltam kicsit variálok.} 7. Bh4 (
+7. Bxf6 {A klasszikus vari, de ez meglehetősen igénytelen mai szemmel nézve.}
+Qxf6 8. a3 Bxc3+ 9. Qxc3 c6 10. e3 O-O 11. Nf3 Re8 12. Bd3 (12. Be2 Bg4 13. O-O
+Nd7) 12... Bf5) 7... c5 8. dxc5 Be6 {Egy relatíve új változat, már égtem a
+vágytól, hogy én is kipróbálhassam :)} (8... O-O $5 {A másik lépéssor, de
+nekem a szöveglépés egy hangyányit szimpatikusabb.}) 9. e3 O-O 10. Nf3 Nbd7 11.
+Be2 (11. a3 Bxc3+ $1 12. Qxc3 g5 13. Bg3 Ne4 14. Qd4 Ndxc5 15. Rd1 Rc8 16. b4 {
+viszont érdekes:} (16. Be2 {átmegy a játszmába!}) 16... Nb3 (16... Na4 17. Bd3)
+17. Qb2 d4 $1 18. Nxd4 Nc3 19. Rd3 Na4 20. Nxe6 Nxb2 21. Rxd8 Rfxd8 22. Nxd8
+Rc1+ (22... Rxd8 23. Be2) 23. Ke2 Rc2+ 24. Kf3 f5 $1 $11 {változatot elemeztem
+a játszmát megelezően.}) 11... Rc8 12. a3 {Objektíve aligha hiba, de 12.a3
+után világosnak nagyon precízen kell játszania, ha nem akar bajba kerülni. 12.
+c6 illetve 12.0-0 (lásd: Gonda - Perunovic előző szám) sokkal stabilabb. A
+világossal játszók alighanem nincsenek tudatában sötét alapeszméjének.} Bxc3+
+$1 (12... Bxc5 13. O-O {után világos picit jobban áll, alighanem erre
+számítanak a 11 illetve 12.a3-at lépők.}) 13. Qxc3 g5 $1 {Sötét nem viccel,
+azonnal magához ragadja a kezdeményezést.} 14. Bg3 Ne4 (14... Nxc5 {-tel is
+lehet kezdeni, de nem látom, hogy mi az előnye a 14...Ne4 lespórolásának.}) 15.
+Qd4 ({Lehetséges:} 15. Qc2 Ndxc5 (15... Rxc5 16. Qd3 (16. Qb1)) 16. O-O Bd7 $1
+{/\ Ba4!} 17. a4 $2 (17. b4 Na4 18. Qa2 Nac3 19. Qb2 Nxe2+ 20. Qxe2 Bg4 $11 {
+Krejci - Kosten, Germany 2014}) 17... Qb6 $1 18. Qd1 Qxb2 19. Be5 Qb3 20. Bb5
+Qxd1 21. Rfxd1 Bc6 22. Bb2 Nb3 23. Rab1 Rfd8 {után sötét előnybe került,
+Ushenina - Hou Yifan, Sharjah GP 2014}) 15... Ndxc5 16. Rd1 Nb3 $1 $146 {
+A Houdinivel konzultálva jöttem rá erre az erős újításra.} ({Gyorsan remire
+adták a kínai honfitársak:} 16... Qb6 17. O-O Nb3 {1/2:1/2 Zhou - Yu, Las
+Vegas 2014}) 17. Qb4 (17. Qxa7 $2 Nec5 $1) 17... Nc1 $1 {Az előző lépés
+értelme, ez a váratlan huszárlépés. A világos állásába behatoló paripa
+meglehetősen zavaró.} 18. Nd4 {Egyetlen, világosnak oda kell adnia a futóját,
+amiáltal a világos mezők feletti uralma jelentősen lecsökken. A játszmában
+válik ez igazán relevánssá.} (18. Bf1 {-nek a szeme se áll jól:} Bg4 {és sötét
+kezdeményez.}) 18... Nxe2 {Szinte azonnal léptem, hiszen komolyabban csak ezt
+elemeztem.} (18... a5 {-ön akadt meg a szemem kicsit, de nem tetszett} 19. Qb5
+Rc5 20. Qxb7 Nxe2 21. Nxe2 Bc8 22. Qa7) 19. Kxe2 $2 {Naiv lépés és komoly hiba
+is egyben. Világos abban a hitben volt, hogy most 20.f3-al eltávolítja a lovat,
+és miért is ütne visszafele a huszárral, amikor inkább összeköti a bástyákat 
+(Rc1 is egy terv), fenyeget egyáltalán valami?! Aligha számított olyan konkrét
+problémákra mint, amikkel a játszmában szembesülni kényszerült.} (19. Nxe2 {
+Passzív, de ezt kell lépni.} Rc4 {Nincs nagyon alternatíva.} 20. Qxb7 (20. Qxc4
+$1 dxc4 21. Rxd8 Rxd8 22. Nd4 c3 $5 (22... Nc5 23. Kd2) 23. bxc3 (23. Kd1 cxb2
+24. Kc2 Bd5 25. f3) 23... Rc8 24. Nxe6 (24. f3 Rxc3) 24... Rxc3 25. Ke2 fxe6 {
+tűnt érdekesnek parti közben.}) 20... Qa5+ 21. b4 Qxa3 22. O-O Rxb4 23. Qe7 Rb3
+24. Qxa3 (24. Qc7 Rc8 25. Qe5 Rb6) 24... Rxa3 25. Ra1 Rxa1 26. Rxa1 Ra8 27. Ra5
+$15 {Az otthoni elemzésem kb. itt fejeződött be. 20.Qxc4-ről csupán annyit
+állapítottam meg, hogy kb. egál, de hát az ilyenek úgyse jönnek ki soha...})
+19... Rc4 $1 $17 {Sötétnek sebtiben kell cselekednie, különben elolvad a
+kezdeményezése! Viszont ez már hirtelen több is mint egy sima kis támadás,
+szinte döntő az előny!} 20. Qxb7 $6 ({Veszít:} 20. Qxc4 dxc4 21. Nxe6 Qb6 22.
+Nxf8 Qxb2+ 23. Kf3 Nc3 $1 $19) (20. Qb3 {se old meg mindent:} Qa5 $1 21. f3 (
+21. Rhe1 Bd7) 21... Qa6 $1 22. Ke1 (22. fxe4 Rxd4+ 23. Kf2 dxe4 24. Qc2 Rd3)
+22... Nc5 23. Qa2 Nd3+ 24. Rxd3 Rc1+ 25. Rd1 Rxd1+ 26. Kxd1 Qd3+ 27. Ke1 Qxe3+
+28. Ne2 Re8 $1 29. b3 (29. Bf2 Qd3 30. Qa1 (30. b3 d4 31. Qd2 Qxb3) 30... Bd7)
+29... Bd7 30. Qd2 Bb5 31. Qxe3 Rxe3 32. Kd2 Rxe2+ 33. Kc3 Rxg2 $17) (20. Qb5 $1
+{lett volna a legszívósabb. Terve, hogy csak 20...a6 után ütné le a b7-et,
+elkerülvén ezzel a játszmában bekövetkező manővert.} Bg4+ $5 21. f3 Nc5 {
+22...a6 vezérfogás a terv!} 22. b4 $5 (22. Be1 Bd7 23. Qa5 Ba4 $1) 22... a6 23.
+Qxc5 Rxc5 24. bxc5 Bc8 25. Kf2 Re8 $15 {/=/+ világos helyzete nem reménytelen.}
+) 20... Qa5 $1 {A játszma közben idáig voltam képes visszaemlékezni a
+felkészülésemre. Tudtam és éreztem is, hogy sötét nagyon jól áll, de a lépések
+már nem rémlettek tovább. Ahogy nézegettem az állást, nem is nagyon ötlött fel
+bennem semmilyen védelem. Nyerve lennék már most? A kérdés megválaszolása
+helyett inkább elmentem sétálni egyet, hogy kicsit megnyugtassam magam. Fiatal
+izraeli ellenfelem mindenesetre ette rendesen az idejét, ez azért mindenképp
+jó jel volt.} 21. f3 $2 {Gépi szemmel nézve gyenge, de teljesen érhető
+ellenfelem próbálkozása. Lehet, hogy a válaszlépésem kerülte el korábban a
+figyelmét és most már úgy érezte nincs mit tenni, így is meglépi?} (21. Kf1 Bc8
+$1 22. Nc6 Qa4 23. Ne7+ Kh7 24. Qxd5 Be6 25. Qd3 Qc2 $1 {volt a Houdinival
+végzett munkám konklúziója. Elég nehezen érthető vari, nem csoda, hogy nem
+emlékeztem rá :)}) (21. Rd3 {után a gépi tündérvarik:} Bc8 22. b4 (22. Qe7 Rxd4
+$3 (22... Ba6) 23. exd4 Ba6 24. Qb4 Qxb4 25. axb4 Re8 $1) 22... Qa4 23. Qxd5
+Rxd4 $3 24. Qxd4 (24. Rxd4 $2 Nc3+) 24... Qc2+ 25. Rd2 (25. Kf3 Bb7) 25... Ba6+
+26. Ke1 Qb1+ 27. Rd1 Qa2 28. Rd2 Nxd2 29. Qxd2 Qa1+ 30. Qd1 Qxa3 $19) 21... Bc8
+$1 $19 {Az eddig picit tétlen futó döntő erővel jelenik meg az f1-a6 átlón!}
+22. Be1 $5 (22. Qb3 {-ra nagyon tetszetős a következő változat:} Ba6 $1 23.
+fxe4 Rc2+ 24. Kf3 dxe4+ 25. Kg4 (25. Kxe4 Re8+ 26. Kf3 g4+ $1 27. Kxg4 Qg5+ 28.
+Kh3 Bc8+ 29. Ne6 Rxe6 30. Rd8+ Qxd8) 25... Bc8+ 26. Kh5 Qa6 $1 {Idáig
+számolgattam, itt úgy gondoltam, hogy matt kell legyen valahol :)} 27. Ne6 Bxe6
+$1 {A gép azonnal látja a megoldást:} 28. Qxc2 Bg4+ $1 29. Kxg4 Qe6+ 30. Kh5
+Qg6+ 31. Kg4 f5+ 32. Kh3 Qh5+ 33. Bh4 Qg4#) (22. Qe7 {-re 22...Ba6 simán nyer,
+de nekem tetszett 22...Rc2 is.} Rc2+ (22... Ba6 23. fxe4 Rxd4+ (23... Rc7+) 24.
+Kf3 dxe4+ 25. Kg4 Be2+ 26. Kh3 Qf5#) 23. Kf1 (23. Nxc2 Ba6+ 24. Rd3 Bxd3+ 25.
+Kxd3 Qd2#) 23... Ba6+ 24. Kg1 Qd2 $3 {Ennek a lépésnek nem tudtam volna
+ellenállni. Gyönyörű!} 25. Nxc2 (25. Rxd2 Rc1+ 26. Be1 Rxe1#) 25... Qxd1+ 26.
+Be1 (26. Ne1 Qe2) 26... Rc8 $1 {Ezt nem láttam előre, de azért valószínűleg,
+ha kijön az állás kicsit elgondolkodok rajta :)} (26... Qxc2 27. h4 $1 (27.
+fxe4 Qe2 {Sima lenne, de 27.h4 még kitart egy kicsit.}))) 22... Qa6 $1 {
+Praktikus döntés. 22...Qa4 "jobban nyer", de nekem egyből a 22...Qa6 ugrott be.
+A játszmában elég egy nyerést is megtalálni és meghúzni :)} (22... Qa4 23. b3
+Qxa3 $1 24. Qxd5 Rxd4 $3 {Ennyire még azért nem kiforrott a taktikusi vénám.}
+25. exd4 (25. Qxd4 Ba6+ 26. Rd3 Qa2+ 27. Kf1 Qc2 28. fxe4 Bxd3+ 29. Kg1 Qe2)
+25... Ba6+ 26. Ke3 Qb2 $3 {Elképesztő, hogy a gépek már mi mindent látnak!} 27.
+Kxe4 Qc2+ 28. Ke5 Re8+ 29. Kd6 Rd8+ 30. Ke5 Qc7+) 23. Qxa6 (23. Qb5 {-re} Rxd4
+$1 {az alapmotívum és sötét sakkra üti vissza a vezért.}) 23... Bxa6 {
+Döbbenet! Világosnak gyalogfórja van és látszólag stabil állása és mégse tudja
+elkerülni a súlyos anyagvesztést. Most fenyeget: 24...Rc2 felfedett sakk és
+matt! :)} 24. Rd3 {Egyetlen.} (24. fxe4 Rxd4+ {Meglehetősen peches pozíció,
+világos bástyát veszít.}) 24... Nc5 $1 {Ez még fontos, de egyértelmű.} 25. Kd2
+$8 (25. b4 Rxd4) 25... Nxd3 ({A trükkös} 25... Rb8 $2 {-ra nincs szükség} 26.
+b3 $1) 26. Kxd3 Rc1+ {A legegyszerűbb. Minőségfór és döntő pozíciós előny.} 27.
+Kd2 Rfc8 28. b4 Rb1 {és világos beszüntette az ellenállást, hiszen reménye
+sincs komoly ellenjátékra. A játszmát rendhagyó módon 50 perc felett fejeztem
+be, nem is emlékszem, hogy mikor jött be utoljára ennyire a felkészülésem.
+Mindenesetre nagyon örültem, hogy az esetemben is néha előfordul az, hogy a
+kemény megnyitáselméleti munka meghozza a gyümölcsét.  A Stefansson elleni
+katasztrofális játszmámat leszámítva, teljesítményemmel hellyel-közzel
+elégedett lehetek, kiváló felkészülés volt ez a nagyon fontos csapat-
+világbajnokság előtt.} 0-1
+

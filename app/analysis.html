@@ -16,9 +16,14 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+  <script src="https://pgn.chessbase.com/jquery-3.0.0.min.js"></script>
+
   <link rel="stylesheet" href="assets/chessboardjs-1.0.0/css/chessboard-1.0.0.css">
 
   <script src="assets/chessboardjs-1.0.0/js/chessboard-1.0.0.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://pgn.chessbase.com/CBReplay.css" />
+  <script src="https://pgn.chessbase.com/cbreplay.js" type="text/javascript"></script>
+
   </script>
 
 </head>
@@ -126,105 +131,28 @@
       </div>
 
       <section id="scroll-game">
-        <table id="main-table">
-          <div class="wrapper">
-            <tbody>
-              <tr>
-                <td>
-                  <h3 id="board-title">1. Game analysis: Viktor Erdos - Mamedov Rauf 2017.06.08</h3>
-                </td>
-              </tr>
-              <tr id="analysis-container">
-                <td>
-                  <table>
-                    <tbody>
-                      <tr>
-                        <td class="container-width">
-                          <table id="chess-board-container">
-                            <tbody>
-                              <td>
-                                <table id="chess-board">
-                                  <tbody>
-                                    <div class="chessboard" id="board5" style="margin: 0 auto; width: 400px;">
-                                    </div>
-                                  </tbody>
-                                </table>
-                              </td>
-                              <tr>
-                                <td>
-                                  <div class="navigation-container">
-                                    <div style="margin: 5px auto; width: 400px;">
+        
+        <div class="cbreplay" data-url="assets\chessboards-pgn\board1-Rauf.pgn"></div>
+        <div class="cbreplay" data-url="assets\chessboards-pgn\board2-Nikita.pgn"></div>
+        <div class="cbreplay" data-url="assets\chessboards-pgn\board3-Igor.pgn"></div>
+        <div class="cbreplay" data-url="assets\chessboards-pgn\board4-Ian.pgn"></div>
+        <div class="cbreplay" data-url="assets\chessboards-pgn\board5-Danny.pgn"></div>
 
-                                      <button id="startPositionBtn">
-                                        <img src="assets\images\first-arrow.png" alt="play one move">
-                                      </button>
+      </section>
 
-                                      <button id="prevBtn">
-                                        <img src="assets\images\left-arrow.png" alt="play one move">
-                                      </button>
-
-                                      <button id="resetBtn">
-                                        <img src="assets\images\reload.png" alt="play one move">
-                                      </button>
-
-                                      <button id="nextBtn">
-                                        <img src="assets\images\right-arrow.png" alt="play one move">
-                                      </button>
-
-                                      <button id="endPositionBtn">
-                                        <img src="assets\images\last-arrow.png" alt="play one move">
-                                      </button>
-
-                                      <p><span id="pgn5"></span></p>
-                                    </div>
-                                  </div>
-
-                                </td>
-                              </tr>
-                              <tr>
-                                <td></td>
-                              </tr>
-                              <tr>
-                                <td></td>
-                              </tr>
-                            </tbody>
-
-                          </table>
-                        </td>
-                        <td class="container-width-second">
-                            <div id="moves">
-
-                            </div>
-
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </td>
-              </tr>
-            </tbody>
-        </table>
-    </div>
-    </section>
-  </div>
-  </div>
+      <script src="\assets\scripts\modules\Chessboard.js"></script>
 
 
-  <script src="\assets\scripts\modules\Chessboard.js"></script>
+      <!--Include footer.html-->
 
 
-  <!--Include footer.html-->
+      <footer class="footer"></footer>
 
+      <script>
+        $(".footer").load("_footer.html");
+      </script>
 
-  <footer class="footer"></footer>
-
-  <script>
-    $(".footer").load("_footer.html");
-  </script>
-
-
-
-  <script src="bundled.js"></script>
+      <script src="bundled.js"></script>
 
 </body>
 

@@ -54,9 +54,9 @@
             display: block;
             text-align: center;
         }
+        p:first-letter {
+            padding-left: 20px;
+        }
     }
 }
 
-p:first-letter {
-    padding-left: 20px;
-}

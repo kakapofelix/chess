@@ -1,0 +1,134 @@
+﻿[Event "EICC Minsk"]
+[Site "?"]
+[Date "2017.06.05"]
+[Round "6"]
+[White "Erdős, Viktor"]
+[Black "Matinian, Nikita"]
+[Result "1-0"]
+[ECO "D90"]
+[WhiteElo "2614"]
+[BlackElo "2491"]
+[PlyCount "57"]
+
+{A következő játszmát a 6. fordulóban, közvetlen a szabadnap után
+játszottam. Jól sikerült a felkészülés, szóval feltöltődve és
+motiváltan ültem asztalhoz. A harmadik plusszot a mai nap hozhatja el...!} 1.
+Nf3 Nf6 2. c4 g6 (2... c5 3. Nc3 d5 {A grünfeldesek másik kedvence az angol
+ellen.}) 3. Nc3 {A versenyen már léptem 3.g3-at, de most más terveim voltak.
+Választóponthoz értünk (mivel 4.e4 a következő lépésem), sötétnek
+döntenie kell: királyindiai vagy grünfeld?} d5 {Korábban itt kizárólag
+valamilyen 1.d4-es változatba mentem át különféle lépéssorokkal, de
+ezúttal...} 4. cxd5 Nxd5 5. Qb3 $5 {Meglepetés! Ez a változat jelenleg az
+egyetlen, ami igyekszik megkérdőjelezni az Anti-Grünfeld
+létjogosultságát. A magyarok fiatal gm-ek között eddig is népszerű volt,
+de az igazi inspirációt egy Karpov - Mchedlishvili játszma nyújtotta.
+Bánusz Tomi csapattársa Karpovnak a Bundesligában szereplő Hockenheimben,
+s ő mesélte, hogy nem sokkal a játszma előtt Karpov kért tanácsot
+Buhmann nagymestertől, hogy mit játsszon a grünfeld ellen, s ő röviden
+összefoglalta neki az alapeszméket. Majd az ex-világbajnok erőteljes
+játékkal, gyorsan nyert a játszmában, aminek szerencsére szemtanúja
+lehettem, habár szívesen össze is csaptam volna vele szombaton, de csak
+vasárnap ült be, a grúz ellenfele legnagyobb örömére :)} Nb6 6. d4 Bg7 7.
+Bf4 ({Ez a pozíciós változat közelebb áll a stílusomhoz, mint a vad:} 7.
+e4 Bg4 8. Bb5+ $1 c6 9. Ng5 O-O 10. Be2 Bxe2 11. Nxe2) 7... Be6 8. Qa3 O-O (
+8... c5 $5 {is népszerű lépés, a computeres éra terméke. Ezt
+felkészülés nélkül viszont nem tanácsos bevetni. Pl. az egyik
+főváltozat a következőképp néz ki:} 9. e4 cxd4 10. Nb5 O-O 11. Nc7 Nc6
+12. Nxa8 Qxa8 13. Rc1 f5 14. e5 Nd5 15. Bd2 Nxe5 16. Nxd4 Bf7 17. Be2 Nb6 $1
+$13) (8... Nc6 9. e3 O-O (9... a5 10. Bb5 $1 O-O 11. Bxc6 bxc6 12. Qc5 Nd5 13.
+Bg3 Nxc3 14. Qxc3 {picit kellemesebb fehérrel.}) 10. Bb5 Nd5 (10... a5 {
+Átmegy 9...a5-be.}) 11. Bg3 {jött a fent említett remekműben.} Ncb4 12. Rc1
+Nxc3 13. bxc3 Nd5 14. Be2 Nf6 15. Be5 b6 16. O-O c5 17. Rfd1 Qc8 18. c4 $1 $36
+cxd4 $2 {Csak felgyorsítja az eseményeket.} 19. Nxd4 Bg4 20. f3 Bd7 21. c5 $1
+$18 bxc5 22. Rxc5 Qe8 23. Nb5 Rc8 24. Nc7 Qd8 25. Bb5 {Sötétet teljesen
+összecsomagolták, az anyagvesztés elkerülhetetlen!} a6 26. Ba4 h5 27. Bxf6
+Rxc7 28. Bxg7 {1-0 Karpov - Mchedlishvili, Bundesliga 2014}) 9. e4 c6 (9...
+N8d7 {-tel is kezdik néha.}) 10. Rd1 N8d7 (10... Bg4 {lett volna a másik
+kritikus folytatás, amire 11.h4 vagy 11.Be3 bonyolult harchoz vezet.}) 11. Ng5
+Bc4 {Újítás, de már a jópár éves Delchev könyv is taglalja. Akkor még
+csupán sötét szemszögéből volt érdekes számomra.} (11... Bg4 12. Be2 (
+12. f3 h6 (12... e5 $5 13. dxe5 h6) 13. Be3 $1 (13. fxg4 e5 $1 14. Nf3 exf4 15.
+Be2 (15. e5 $6 Re8 16. Be2 Qe7 $15 {Gelfand - Svidler, Sochi 2008}) 15... c5 $5
+$132) 13... e5 $1 14. d5 Bf6 $1 15. Nxf7 Rxf7 16. fxg4 Bg5 17. Bg1 $1) 12...
+Bxe2 13. Nxe2 h6 14. Nf3 Nc4 15. Qc3 Qa5 16. Qxa5 Nxa5 17. b3 {kicsit jobbnak
+tűnik világossal: Wang - Svidler, Tashkent 2012}) 12. Bxc4 Nxc4 13. Qb3 b5 $6
+{A Delchev könyv is ezt mondja, de lebecsüli világos folytatását.} ({
+Már a felkészülés során felfedeztem, hogy} 13... e5 $1 {után precíz
+játékkal sötét kiegyenlít, de úgy gondoltam} 14. Qxc4 exf4 15. Nf3 c5 $1
+16. dxc5 Bxc3+ (16... Qe7 17. O-O (17. Nd5 Qxc5 18. Qxc5 Nxc5 19. e5 $11) 17...
+Bxc3 $1 18. Qxc3 {Ugyanaz.}) 17. Qxc3 Qe7 18. O-O Nxc5 19. e5 Ne6 20. Rd6 {
+után sötétnek még óvatosnak kell legyen. Mellesleg nem egy túl egyszerű
+változat gép nélkül.}) 14. e5 $1 {Nagyon fontos lépés, emiatt
+döntöttem a változat megjátszása mellett. Látszólag furcsa döntés,
+bezárom a saját futóm, elmerevítem a centrumomat, átadom a d5 mezőt...
+Viszont elveszi az ...e5-ös centrumcsapás lehetőségét, bezárja az
+ellenfél futóját is, ill. teret biztosít egy lehetséges királyszárnyi
+akcióhoz. Néha fenyeget egy e6 tolás is. Ráadásul kiderül hamarosan,
+hogy mivel fekete túl könnyen szánta el magát a ...b5 lépésre így a ...
+c5-ös ellenjátéka gyakorlatilag megszűnt, nem képes gyengítések
+nélkül támadni világos kissé statikussá vált centrumát.} (14. O-O {-ra}
+e5 $1 {Kiegyenlít könnyedén.} 15. dxe5 Qe7 $11) 14... Ndb6 15. O-O Nd5 {
+Sötét azonnal megszállja a meggyengült d5 pontot, de ez tényleg hoz neki
+hasznot? A c5-pontnak nem maradt őrzője, s ez számítani is fog nemsokára.}
+16. Bc1 $1 {Amíg lehet, fent kell tartani a feszültséget, ahogy Almási
+Zoli mindig hangsúlyozza az edzőtáborok alatt :) Amúgy itt ért véget a
+felkészülésem, világos állása kicsit jobb is, míg sötétnek nagyon
+nehéz tervet találnia.} ({Számításba jött, de vigyázni kell:} 16. Nxd5
+cxd5 (16... Qxd5 17. Qh3 h6 18. Nf3 g5 19. Bxg5) 17. Qh3 $6 {pontatlan:} h6 18.
+Nf3 Qc8 $1 {miatt.}) 16... Nc7 {Nehéz szülés eredménye. Ellenfelem
+ezidáig gyorsan húzott relatíve, de ezen legalább fél órát töprengett.
+A lépés értelme, hogy az e6 pontot kontroll alatt tartja, előkészítvén
+a ...Qd7 lehetőséget.} (16... h6 17. Nge4 $14) (16... Nxc3 17. Qxc3 $1 $14)
+17. Rfe1 {Sok lépésjelöltem volt, de úgy gondoltam azzal nem hibázhatok,
+ha az utolsó figurámat is játékba hozom. Mutassa meg az ellenfelem, hogy
+mit szándékozik csinálni!} (17. Qc2 $5) (17. Nce4 h6 18. Nf3 Ne6 19. Qc2 $14
+) 17... f6 {Szóval ez volt a terv? Egy újabb gyengítés, hogy levegőhöz
+jusson sötét.} 18. Nf3 (18. Nge4 {is jó, természetesen.}) 18... Kh8 19. Qc2
+{Szép lassan javítgatom az állásom. Most már sötétnek számolnia kell
+b3-mal is, miután a c6 gyalogra kacsintgatok.} (19. exf6 exf6 20. d5 {-öt is
+komolyan számításba vettem, de} cxd5 21. Nxb5 (21. Bf4 a6 22. Bxc7 Qxc7 23.
+Nxd5 Qc5 24. Nf4 Rfe8 25. Ne6 $14) 21... Rb8 (21... Nxb5 22. Qxb5 Rb8 23. Qxd5
+Qxd5 24. Rxd5 Nxb2 25. Rd7) 22. Qxc4 $1 {A főeszme!} dxc4 (22... Rxb5 23. Qa4
+$16) 23. Rxd8 Nxb5 $1 {nem tűnt elégnek.} (23... Rxb5 24. Rd7 $16) (23...
+Rfxd8 24. Nxc7 $16) 24. Rxb8 Rxb8 25. Bf4 Rd8 26. Kf1 $14) 19... Rc8 {Nehéz
+mit javasolni feketének.} (19... Qd7 20. Ne4 $16 Qf5 $140 21. b3) 20. h4 $1 {
+A b3 lépést itt nem érdemes elkapkodni, inkább folytatom a támadást a
+királyszányon, mellesleg az alapsort is kinyitja, sose lehet tudni.} Qd7 21.
+Ne4 (21. h5 gxh5 $1) 21... Ne6 $6 {Vesztő lépés, de sötét dolga egyre
+nehezebb volt, és megfogyatkozott az ideje is.} (21... Qf5 22. b3 Nb6 23. Qxc6
+$18) (21... Nd5 22. Nc5 Qg4 23. Re4 Qf5 24. Rde1 $16 {se tűnik
+bizalomgerjesztőnek, sötét táborában túl sok a tanácstalan figura.}) 22.
+Nc5 $1 $18 {A döntő akció veszi kezdetét.} Nxc5 23. dxc5 Qc7 (23... Qf5 24.
+Qxf5 gxf5 25. e6 Ne5 26. Nd4 $18 {reménytelen.}) (23... Qg4 {se sokkal
+szívósabb:} 24. Rd4 (24. Re4 Qf5 (24... Qh5 $4 25. g4 $18) 25. Nd4 Qh5 26.
+Ne6 Nxe5 (26... Rf7 27. Red4 $5 $18) 27. Nxf8 $18) 24... Qf5 (24... Qe6 25.
+exf6 Qxf6 26. Rf4 $18) 25. Qxf5 gxf5 26. e6 Ne5 (26... Rfd8 27. Red1 Rxd4 28.
+Nxd4 (28. Rxd4 Ne5 29. h5 $18) 28... Rd8 29. Kf1 $18) 27. h5 $5 $18 {S 28.Nh4
+fenyegetés miatt ütni kell a lovat, miután a bástya betör d7-re és
+eldönti a játszmát.}) 24. h5 (24. Nd4 {is nyer, de én követtem a korábbi
+számításaim.}) 24... gxh5 (24... Nxe5 {után} 25. h6 {elfogja a g7 futót,
+de a gép szerint a 24.Nd4 jobban nyer ennél...ízlések és pofonok :)} Nxf3+
+26. gxf3 Rfd8 27. hxg7+ Kxg7 $18) (24... g5 25. b3 Nxe5 26. Rxe5 g4 27. h6 Bxh6
+28. Rh5 $18) (24... f5 25. h6 $18) 25. b3 $1 {Gonosz lépés, a legalkalmasabb
+pillanatot választottam a huszár elzavarására. Ezt a trükköt már 20.h4
+lépés megtételekor elkezdtem vizualizálni és örültem, hogy ki is jött.}
+Na5 {Szomorú lépés, de az egyetlen, ami nem adja oda a tisztet.} (25... Nxe5
+26. Rxe5 $1 fxe5 27. Ng5 e4 28. Qxe4 $18 {A matt védhetetlen.}) 26. Nd4 (26.
+e6 {Valamiért eszembe jutott, de aztán meggyőztem magam, hogy az e6 mező
+csak a huszáromé lehet!}) 26... Qb7 (26... Rfd8 27. Ne6 Rxd1 28. Qxd1 Qb7 29.
+Nxg7 Kxg7 30. exf6+ exf6 31. Qd6 $18) 27. Ne6 Rg8 (27... fxe5 {-re mindig} 28.
+Ng5 {a poén is matt gyorsan.}) 28. Qf5 {Fantasztikus állás, sötétnek
+egyetlen jól álló figurája sincs, míg világosnak egy kivételével mind
+tökéletes... Annak ellenére, hogy világosnak azonnali fenyegetése sincs,
+sőt gyaloghátránya van, a gépem a szerény +- 13 egészre értékeli a
+pozíciót.} b4 29. Bb2 {Úgy az esztétikus, ha minden a helyére kerül, a
+futónak a nagyátló dukált. Sötétnek nincs lépése, s feladta. Ez a
+könnyed és magabiztos játékkal megszerzett győzelmem megadta a hitet,
+hogy továbbjuthatok a világkupára, s az Artemiev elleni komoly megingást
+eltekintve ki is tartott a verseny végéig.} ({Egy pillanatra majdnem
+elcsábultam} 29. Rd7 {láttán, de aztán arra gondoltam, hogy teljesen
+felesleges cifrázni, s ezért döntöttem a szerény futólépés mellett.}
+Qxd7 {-re a gyönyörű} 30. Ng5 $3 {lenne az eszme, s most fenyeget 31.Qxh7
+matt, s a vezér leütésére 31.Nf7 fojtott matt. Viszont sajnos, 30...
+fxg5-re nincs látványos megoldás, így nem volt miért erőltetni.}) 1-0
+

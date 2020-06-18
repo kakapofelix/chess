@@ -1,8 +1,8 @@
 class MobileMenu {
     constructor() {
         this.menuIcon = document.querySelector(".header__menu-icon")
-        this.menuContent = document.querySelector (".header__navbar")
-        this.header = document.querySelector(".header")
+        this.menuContent = document.querySelector (".header-navbar")
+        this.header = document.querySelector(".header-navbar__title")
         this.events()
     }
 
@@ -11,8 +11,8 @@ class MobileMenu {
     }
 
     toggleTheMenu() {
-        this.menuContent.classList.toggle("header__navbar--is-visible")
-        this.header.classList.toggle("header--is-expanded")
+        this.menuContent.classList.toggle("header-navbar--is-visible")
+        this.header.classList.toggle(".header-navbar__title--is-expanded")
         this.menuIcon.classList.toggle("header__menu-icon--close-x")
     }
 }

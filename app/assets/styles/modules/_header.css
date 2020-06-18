@@ -9,16 +9,6 @@
     background-color: #131010;
     box-shadow: 1px 1px 5px #131010;
 
-
-    &--is-expanded {
-        background-color: #000;
-        height: 200px;
-
-        @mixin atMedium {
-            background-color: transparent;
-        }
-    }
-
     &__menu-icon {
         width: 20px;
         height: 20px;
@@ -102,9 +92,14 @@
 
     }
 
-.header-navbar {
+    .header-navbar {
 
         display: none;
+        text-align: center;
+        margin: 0 auto;
+        height: 230px;
+        background-color: #000;
+        padding-top:10px;
 
         @mixin atMedium {
             display: block;
@@ -113,6 +108,8 @@
             transform: translateX(17%);
             text-align: center;
             transform: translateX(25%);
+            background-color:transparent;
+            padding-top:0;
         }
 
         &__image {
@@ -125,24 +122,27 @@
         }
 
         &__title {
-            list-style: none;
-            display: inline-block;
-            padding: 0;
-            margin: 1.5rem 5rem 0 5rem;
 
-            @mixin atSmall {
-                float: left;
-                padding: 0 7px;
-                margin: 2rem 0 0 0;
+            padding: 5px 10px;
+
+            &--is-expanded {
+                background-color: #000;
             }
 
             @mixin atMedium {
-                padding: 0 10px;
+                padding:  15px;
+                list-style: none;
+                display: inline-block;
+                padding: 0;
+                margin: 1.5rem 5rem 0 5rem;
+                float: left;
+                padding: 0 7px;
+                margin: 2rem 0 0 0;
+    
             }
 
             @mixin atLarge {
                 list-style: none;
-                padding: 0 15px;
                 margin-left: .5rem;
             }
 
@@ -167,6 +167,11 @@
             a:hover::after {
                 width: 100%;
                 transition: width .3s;
+                display:none;
+
+                @mixin atMedium{
+                    display:block;
+                }
             }
         }
 
@@ -180,13 +185,21 @@
 
 .sub-navbar {
     display: none;
+    text-align: center;
 }
 
 .navbar-hover:hover .sub-navbar {
-    display: inline-block;
+
+    display:none;
     background-color: transparent;
     margin-top: 15px;
     margin-left: 10px;
+
+    @mixin atMedium {  
+    display: inline-block;
+    background-color: black;
+    padding: 5px 15px;
+}
 }
 
 .navbar-hover:hover .sub-navbar li {
@@ -199,5 +212,5 @@
     font-size: 10px;
     font-weight: 600;
     display: inline;
-    padding:0;
+    padding: 0;
 }

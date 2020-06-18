@@ -4,15 +4,26 @@
 }
 
 .features-right-aligned {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 2rem;
+    display: block;
+    margin: auto;
+    position: relative;
+    height: 450px;
 
     @mixin atMedium {
+        padding-top: 5rem;
         display: flex;
+        margin: 0;
     }
 
     &__description {
-        margin: 0 0 3rem 3rem;
+        text-align: center;
+
+        @mixin atMedium {
+            margin: 0 0 3rem 3rem;
+            text-align: left;
+            flex: 1;
+        }
 
         p {
             padding-top: 2rem;
@@ -23,20 +34,37 @@
             color: $mainPurple;
         }
     }
+
     &__image {
-        margin: 1rem 0 1rem 3rem;
-        height: auto;
+        position: absolute;
+        top: 60%;
+        left: 25%;
+
+        @mixin atMedium {
+            position: relative;
+            left: 0;
+            top:0;
+            flex: 1;
+        }
     }
 }
 
 .features-left-aligned {
+    display: block;
+    margin: auto;
 
+    @mixin atMedium {
+        display: flex;
+    }
 
     &__description {
-        margin: 1rem 3rem 1rem 0;
+        margin: 3rem 1rem 0 0;
+        text-align: center;
 
         @mixin atMedium {
-            display: flex;
+            margin: 1rem 3rem 1rem 0;
+            text-align: left;
+            flex: 1;
         }
 
         p {
@@ -48,9 +76,14 @@
             color: $mainGreen;
         }
     }
+
     &__image {
+        display: block;
+        text-align: center;
         margin: 1rem 0 1rem 3rem;
-        height: auto;
+
+        @mixin atMedium {
+            flex: 1;
+        }
     }
 }
-

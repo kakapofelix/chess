@@ -38,6 +38,15 @@
                 background-color: $mainPurple;
                 color: #fff;
                 font-weight: 700;
+                width: 120px;
+                height: 30px;
+                font-size: 1rem;
+
+                @mixin atMedium{
+                        width: 160px;
+                        height: 50px;   
+                        font-size: 1.3rem;
+                }
         }
         
         &__submit:hover {

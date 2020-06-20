@@ -4,14 +4,18 @@
 }
 
 .aboutme-background-image {
-    background-image: url("assets/images/aboutme-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
+    height: 300px;
+    background-image: url("assets/images/aboutme-background-small.jpg");
+
+    @mixin atMedium {
+        background-image: url("assets/images/aboutme-background.jpg");
+
+    height: 400px;
     background-attachment: fixed;
-    list-style-type: none;
-    text-align: center;
-    line-height: 2.5;
-    height: 450px;
+    }
 }
 
 .aboutme-description {
@@ -21,10 +25,15 @@
 
     &__introduction {
         box-shadow: 5px 5px 10px $mainPurple;
-        padding: 2rem 25rem 2rem 3rem;
+        padding: 2rem 3rem;
         color: $mainPurple;
         margin-top: -3rem;
         background-color: $mainGrey;  
+
+        @mixin atMedium{
+            padding: 2rem 25rem 2rem 3rem;
+
+        }
         
         .awards {
             text-align: center;
@@ -38,14 +47,23 @@
     }
 
     &__images {
-        position: absolute;
-        width: 238px;
-        top:-20px;
-        right:50px;
-        line-height: 0;
+        position: relative;
+        width: 200px;
+        top:20px;
+        margin: auto;
+
+
+        @mixin atMedium{
+            position: absolute;
+            width: 100%;
+            top:-20px;
+            right:50px;
+            width: 238px;
+
+        }
 
         img {
-            margin-bottom:20px;
+            margin-bottom:5px;
             box-shadow: 5px 5px 10px $mainPurple;
         }
         p {
@@ -57,6 +75,8 @@
         p:first-letter {
             padding-left: 20px;
         }
+
+
     }
 }
 

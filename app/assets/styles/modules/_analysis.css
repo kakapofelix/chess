@@ -1,5 +1,4 @@
 .analysis {
-    height: 4800px;
     position: relative;
     background-image: linear-gradient(to bottom, $mainGreen, #28332F);
 }
@@ -10,11 +9,15 @@
 }
 
 .knight-image-container {
-    height: 380px;
+    height: 320px;
     padding-top: 100px;
     display: flex;
     justify-content: center;
-    position: relative;
+    text-align: center;
+
+    @mixin atMedium{
+        height: 380px;
+    }
 
     p {
         background-color: #131010;
@@ -23,62 +26,94 @@
         padding: 8px;
         position: absolute;
         font-weight: 800;
+        font-size: 0.8rem;
+
+        @mixin atMedium{
+            font-size: 1rem;
+        }
     }
 
     .fun {
-        top:250px;
+        flex: 1;
+        margin-top: 150px;
+
+        @mixin atMedium {
+            margin-top: 190px;
+        }
     }
 
     .tactics {
-        top:200px;
-        left:320px;
+        flex: 1;
+        margin-top: 70px;
+
+        @mixin atMedium {
+            margin-top: 90px;
+        }
     }
 
     .strategy {
-        right:270px;
+        flex: 1;
     }
 
     .knight-label {
         display: block;
         background-color: #28332F;
-        color:red;
+        text-align: left;
     }
 
     .knight1 {
-        flex: 1;
-        width: 117px;
-        height: 117px;
         rotate: 2rem;
-        margin-top: 180px;
         transform: rotate(20deg);
+        width: 80px;
+        margin-left: 20px;
+
+        @mixin atMedium {
+            width: 117px;
+            margin-left:0;
+        }
     }
 
     .knight2 {
-        flex: 1;
-        width: 148px;
-        height: 148px;
-        margin: 90px 120px 0 120px;
+        width: 100px;
         transform: rotate(-20deg);
+        margin: 10px 0 0 22px;
+
+        @mixin atMedium {
+            width: 148px;
+        }
     }
 
     .knight3 {
-        flex: 1;
-        width: 180px;
-        height: 180px;
+        width: 118px;
         transform: rotate(20deg);
+        margin-left:20px;
+
+        @mixin atMedium {
+            width: 170px;
+            margin-left:0;
+        }
     }
 }
 
 .analysing-game {
-    display: flex;
 
+    display: block;
+    @mixin atMedium {
+        display: flex;
+
+    }
 
     &__important {
-        flex: 2;
         background-color: $mainGrey;
-        margin-right: 20px;
         padding: 30px;
         border: solid 5px $mainBlack;
+        margin-bottom: 20px;
+
+        @mixin atMedium{
+            flex: 2;
+            margin-right: 20px;
+            margin-bottom:0;
+        }
 
         h2 {
             text-align: center;
@@ -92,19 +127,31 @@
     }
 
     &__mygame {
-        flex: 1;
         background-color: $mainGrey;
-        margin-left: 20px;
         padding: 30px;
         border: solid 5px $mainBlack;
 
+        @mixin atMedium{
+            flex: 1;
+            margin-left: 20px;
+        }
+
+        ol {
+            padding-left: 20px;
+        }
 
         h2 {
             text-align: center;
             padding-bottom: 60px;
         }
+
         a {
             text-decoration: underline;
+            text-decoration-color: $mainGreen;
+            display: block;
+            padding-bottom: 15px;
+            padding-left: 10px;
+            line-height: 1.5;
         }
     }
 }

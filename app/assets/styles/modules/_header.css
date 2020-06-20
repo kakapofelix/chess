@@ -97,9 +97,8 @@
         display: none;
         text-align: center;
         margin: 0 auto;
-        height: 230px;
-        background-color: #000;
-        padding-top:10px;
+        background-color: #131010;
+        padding-top: 10px;
 
         @mixin atMedium {
             display: block;
@@ -108,13 +107,18 @@
             transform: translateX(17%);
             text-align: center;
             transform: translateX(25%);
-            background-color:transparent;
-            padding-top:0;
+            background-color: transparent;
+            padding-top: 0;
         }
 
         &__image {
-            margin-left: 5rem;
-            top: 30%;
+            margin: 0;
+            text-align: center;
+
+            @mixin atMedium {
+                margin-left: 5rem;
+                margin-top: -0.3rem;
+            }
         }
 
         &--is-visible {
@@ -126,19 +130,18 @@
             padding: 5px 10px;
 
             &--is-expanded {
-                background-color: #000;
+                background-color: #131010;
             }
 
             @mixin atMedium {
-                padding:  15px;
+                padding: 15px;
                 list-style: none;
                 display: inline-block;
                 padding: 0;
-                margin: 1.5rem 5rem 0 5rem;
                 float: left;
                 padding: 0 7px;
                 margin: 2rem 0 0 0;
-    
+
             }
 
             @mixin atLarge {
@@ -167,10 +170,10 @@
             a:hover::after {
                 width: 100%;
                 transition: width .3s;
-                display:none;
+                display: none;
 
-                @mixin atMedium{
-                    display:block;
+                @mixin atMedium {
+                    display: block;
                 }
             }
         }
@@ -190,16 +193,16 @@
 
 .navbar-hover:hover .sub-navbar {
 
-    display:none;
+    display: none;
     background-color: transparent;
-    margin-top: 15px;
+    margin-top: 10px;
     margin-left: 10px;
 
-    @mixin atMedium {  
-    display: inline-block;
-    background-color: black;
-    padding: 5px 15px;
-}
+    @mixin atMedium {
+        display: inline-block;
+        background-color: black;
+        padding: 5px 15px;
+    }
 }
 
 .navbar-hover:hover .sub-navbar li {

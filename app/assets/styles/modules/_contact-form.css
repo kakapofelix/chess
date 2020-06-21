@@ -84,7 +84,6 @@
             &:focus,
             &.not-empty {
                 +.label {
-                    transform: translateY(-24px);
                 }
             }
         }
@@ -94,12 +93,11 @@
 .label {
     position: absolute;
     left: 20px;
-    top: 10px;
+    top: -20px;
     font-size: .8rem;
     line-height: 26px;
     font-weight: 400;
     cursor: text;
-    transition: transform .2s ease-in-out;
     max-width: 554px;
     color: $mainGrey;    
 

@@ -11,97 +11,118 @@
     }
 }
 
-.contact {
+.contact-page {
     opacity: 90%;
-    background-color: $mainGrey;
-    display: flex;
-    justify-content: center;
     padding: 130px 0;
+    background-image: url("assets/images/coaching-site.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 
-    @mixin atLarge{
+    @mixin atLarge {
         padding: 170px 0;
-
     }
+
+}
+
+.contact {
+
+    display: flex;
+    background-image: linear-gradient(90deg, $mainGrey 50%, $mainPurple 80%);
+    padding: 0 40px;
+    border-radius: 1%;
+    border: 4px solid $mainPurple;
 
 
     &__section {
-        background-image: url("assets/images/coaching-site.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;    
-        border-radius: 1%;
         padding: 1rem;
-        width: 80%;
+        height: 500px;
+        flex: 3;
 
-        @mixin atLarge{
-            width: 50%;
-            padding: 2rem;
-        }
 
         &--title {
             text-align: center;
-            text-transform: uppercase;
-            font-size: 1.2rem;
-            padding-bottom: 1rem;
-            color: $mainGrey;
+            font-size: 1.5rem;
+            color: $mainBlack;
+            margin: auto;
 
             @mixin atMedium {
                 font-size: 2.2rem;
+                padding-bottom: 1rem;
+
             }
         }
-    }
-}
 
 
-.contact-form {
+        .contact-form {
 
+            &__field {
+                position: relative;
+                margin: 1rem 0;
+                font-size: 1.2rem;
 
-    &__field {
-        position: relative;
-        margin: 1rem 0;
+                #message {
+                    height: 200px;
+                }
 
-        #message {
-            height: 200px;
-            font-size: 1.2rem;
-            font-weight: 400;
+                &--input-text {
+                    width: 100%;
+                    line-height: 26px;
+                    font-weight: 600;
+                    background-color: transparent;
+                    border: solid 2px $mainPurple;
+                    color: $mainBlack;
+                    overflow-wrap: break-word;
 
-        }
-
-        &--input-text {
-            width: 100%;
-            line-height: 26px;
-            font-weight: 400;
-            background-color: transparent;
-            border: solid 2px $mainGrey;
-            color:white;
-            overflow-wrap: break-word;
-            font-size: 1.2rem;
-
-            &:focus {
-                outline: none;
-            }
-
-            &:focus,
-            &.not-empty {
-                +.label {
+                    &:focus {
+                        outline: none;
+                    }
                 }
             }
         }
     }
-}
 
-.label {
-    position: absolute;
-    left: 20px;
-    top: -20px;
-    font-size: .8rem;
-    line-height: 26px;
-    font-weight: 400;
-    cursor: text;
-    max-width: 554px;
-    color: $mainGrey;    
+    ul {
+        list-style-type: none;
+        flex: 1;
+        margin:auto;
+        text-align: center;
 
-    @mixin atMedium {
-        font-size: 1.2rem;
+
+        &__social-icons {
+            text-decoration: none;
+            display: inline;
+
+        }
+
+        .fa.fa-facebook {
+            color: #3b5998;
+        }
+
+        .fa.fa-twitch {
+            color: #6441a5;
+        }
+
+        .fa.fa-instagram {
+            color: transparent;
+            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+            background-clip: text;
+        }
+
+
+        .fa {
+            font-size: 0.8rem;
+            text-decoration: none;
+            padding: 20px;
+
+            @mixin atSmall {
+                font-size: 1rem;
+            }
+
+            @mixin atMedium {
+                font-size: 3rem;
+            }
+        }
     }
+
 }

@@ -17,6 +17,7 @@ class RunAfterCompile {
     apply(compiler) {
         compiler.hooks.done.tap('Copy images', function() {
             fse.copySync('./app/assets/images', './docs/assets/images')
+            fse.copySync('./app/assets/chessgames', './docs/assets/chessgames')
         })
     }
 }

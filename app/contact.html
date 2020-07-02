@@ -45,9 +45,9 @@
         <li class="header-navbar__title"><a href="tournaments.html">Tournaments</a></li>
         <li class="header-navbar__title"><a href="contact.html">Contact</a></li>
 
-        <li class="header-navbar__title"><a class="no-decoration" href="login.html"> <img
-          class="header-navbar__image" src="assets\images\pawn-white.png" alt="Viktor Erdos chess login">
-      </a></li>
+        <li class="header-navbar__title"><a class="no-decoration" href="login.html"> <img class="header-navbar__image"
+              src="assets\images\pawn-white.png" alt="Viktor Erdos chess login">
+          </a></li>
 
       </ul>
     </nav>
@@ -60,8 +60,21 @@
     <div class="wrapper">
 
       <div class="contact">
-        <div class="contact__section">
-          <h1 class="contact__section--title">Get in touch</h1>
+        <div class="contact__title">
+          <h1>Get in touch</h1>
+          <ul>
+            <li><a class="contact__social-icons" href="https://www.facebook.com/viktor.erdos.16"> <i
+                  class="fa fa-facebook"></i> </a> </li>
+            <li><a class="contact__social-icons" href="https://dashboard.twitch.tv/u/magicmaster17/home"> <i
+                  class="fa fa-twitch"></i> </a> </li>
+            <li><a class="contact__social-icons" href="https://www.instagram.com/magicmaster1987/"> <i
+                  class="fa fa-instagram"></i> </a> </li>
+
+          </ul>
+
+        </div>
+        <div class="contact-form-container">
+
           <form class="contact-form">
             <div class="contact-form__field col x-50">
               <input id="name" placeholder="Name" class="contact-form__field--input-text js-input" type="text" required>
@@ -78,22 +91,8 @@
               <input class="btn btn__submit" type="submit" value="Send">
             </div>
           </form>
-
-
         </div>
-        <ul>
-          <li><a class="contact__social-icons" href="https://www.facebook.com/viktor.erdos.16"> <i
-                class="fa fa-facebook"></i> </a> </li>
-          <li><a class="contact__social-icons" href="https://dashboard.twitch.tv/u/magicmaster17/home"> <i
-                class="fa fa-twitch"></i> </a> </li>
-          <li><a class="contact__social-icons" href="https://www.instagram.com/magicmaster1987/"> <i
-                class="fa fa-instagram"></i> </a> </li>
-
-        </ul>
-
-
       </div>
-
     </div>
   </div>
 
@@ -102,10 +101,10 @@
   <footer class="footer"></footer>
 
   <script type="text/javascript">
-    $(document).ready(function(){
+    $(document).ready(function () {
       $(".footer").load("footer.html");
     });
- </script>
+  </script>
 
 </body>
 

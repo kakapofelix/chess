@@ -1,0 +1,120 @@
+﻿[Event "EU-chT Crete"]
+[Site "?"]
+[Date "2017.10.31"]
+[Round "4"]
+[White "Erdős, Viktor"]
+[Black "Nepomniachtchi, Ian"]
+[Result "1-0"]
+[ECO "A34"]
+[WhiteElo "2624"]
+[BlackElo "2733"]
+[PlyCount "105"]
+
+{Round 4, Russia-Hungary! One of the most decisive rounds came very early. We
+were ready to cause as many problems to our opponents as possible.} 1. Nf3 {
+My opponent is a well-known gruenfeld expert, that day I wasn't ready to test
+his knowledge there. Instead I went for something less forcing since I was
+intending to play some calm positional chess instead of wild complications.} c5
+2. c4 Nf6 3. Nc3 d5 4. cxd5 Nxd5 5. e3 $5 {The first time I opted for this
+line in this move order. Previously I had played 5.Qa4 and 5.e4.} Nxc3 (5... e6
+{is the most solid.}) 6. dxc3 $5 {An old favourite of Ulf Andersson. This
+harmless-looking line has recently been rediscovered. In comparison with 5.e4
+Nxc3?! (...Nb4 is critical) 6.dxc3 white looses an important tempo, but white
+players claim that the arising structure slightly favours white anyways so it
+still make sense to enter this line with a tempo down and what's more, to play
+for a real advantage!} (6. bxc3 g6 7. h4 {or 7.Bb5 are more aggressive tries.})
+6... Qxd1+ ({To me} 6... Qc7 {is a bit more logical, the queen is active here,
+and the position is less dry. During the world cup Bu Xiangzhi couldn't pose
+problems to Svidler in this line.} 7. e4 Nc6 8. Qd2 $5 {was my intended
+novelty, white can still press a little here.}) 7. Kxd1 b6 $5 (7... Nc6 {
+is the most popular here.} 8. e4 b6 9. Kc2 Bb7 10. Be3 e6 11. Nd2 Bd6 12. a4
+Ke7 (12... O-O-O 13. f3 Bc7 {Would have been more reliable, with the idea to
+meet 14.Nc4 with f5!}) 13. f3 Ne5 14. a5 h6 15. h4 Bc6 16. h5 Nd7 17. Nc4 Bc7
+18. Na3 $1 bxa5 19. Bb5 $1 Bxb5 20. Nxb5 Bb6 21. Bf4 e5 22. Bd2 Nb8 23. Na3 Nc6
+24. Nc4 Ke6 25. Be3 $16 {was an instructive game: Lenderman - Tari, Tbilisi
+2017}) (7... Bf5 8. Nd2 $1 Nc6 9. e4 Be6 $6 (9... Bg6) 10. Kc2 g6 11. Bc4 Bd7
+12. Nb3 b6 13. a4 $36 {Radjabov - Svidler, Geneva 2017}) 8. Bb5+ $146 {
+Nepomniachtchi faced 8.e4 in 2016. 8.Ne5 can also be tried. White is happy to
+trade-off the bishops, since it makes the light squares more vulnerable in
+black's camp.} Bd7 9. a4 a6 {Weakens some squares, but forcing white to make a
+decision.} (9... Nc6 10. e4 f6 11. Kc2 O-O-O 12. Be3 e5 13. Nd2 Kc7 14. f3 $14
+{Was one line I had looked at before the game.}) 10. Bxd7+ {10.Bd3 was
+sensible too.} Nxd7 11. e4 e6 12. Bf4 $1 {Black was ready to develop by means
+of ...Bd6, Ke7 and the if necessary the bishop can drop back to c7. This ideal
+setup was to be avoided.} f6 $6 {A commital move. My opponent thought that his
+king belongs to e6, it proved to be wrong.} ({I was expecting something like:} 
+12... Be7 13. Ke2 (13. Kc2 O-O-O 14. Rhd1) 13... O-O-O 14. Rhd1 Kb7 {but it
+turns out, that the black king cannot reach the optimal c6 square and faces
+concret problems here too:} (14... f6 $142 15. Nd2 e5 16. Bg3 Kb7 17. Nc4 Kc6
+18. Ne3 $36) 15. a5 $1 (15. Rxd7+ $2 {doesn't work at all:} Rxd7 16. Ne5 Rdd8
+$1 17. Nxf7 Rdf8 $1 $19) 15... b5 16. Bd6 $1 Rhe8 17. Bxe7 Rxe7 18. Rd6 $1 $16
+{White has a serious initative!}) 13. Nd2 {Around here I started to believe
+that I can win this game.} Be7 $6 (13... O-O-O {was still not too bad.}) 14.
+Nc4 Kf7 15. Kc2 e5 16. Rhd1 $1 {Forcing the K to e6, where he becomes a target.
+} Ke6 17. Be3 $16 {Now it turned out, that black is suffering. Lacks active
+plan, and barely keeps his position together.} Rhb8 {Passive but best.} (17...
+Rhd8 $2 {was not an option} 18. Rxd7 Rxd7 19. Nxb6 {wins a pawn.}) ({After} 
+17... b5 18. axb5 (18. Rxd7 Kxd7 (18... bxc4 19. Rad1 $16) 19. axb5 $1 (19.
+Nb6+ Kc6 20. Nxa8 Rxa8 21. axb5+ Kxb5) 19... Rhb8 20. bxa6 {Looks very good
+too.}) 18... axb5 19. Na3 $5 {was what I liked most:} Rab8 (19... Rhb8 $2 20.
+Nxb5 $1 Rxa1 21. Nc7+ $18) 20. c4 $1 bxc4 (20... b4 21. Nb5 $16) 21. Nxc4 {
++/=/+/-}) 18. f4 $1 {It was time to act forcefully.} exf4 (18... g6 $2 {
+would drop a piece:} 19. f5+ gxf5 20. exf5+ Kxf5 21. Rxd7 $18) 19. Bxf4 Rb7 20.
+Rd5 {Right here, I had a very nice, harmonious position. White is absolutely
+dominating, but to win is never an easy task.} Raa7 {Rock-solid move, securing
+7th rank.} 21. Nd6 ({According to the computer} 21. Rad1 b5 22. Nd6 Bxd6 23.
+Rxd6+ Ke7 24. a5 $1 {was the precise play. Black hardly can make a move, one
+of his pawns (a6 or c5) is likely to drop. White intends to play 25.Rc6 and
+then 26.Rdd6.} Ra8 (24... Nf8 25. e5 Ne6 26. exf6+ $18) 25. Rc6 Kf7 $1 26. Rdd6
+Re8 $5 27. Rxa6 Rxe4 28. Bg3 $16 {is a sample line.}) 21... Bxd6 22. Rxd6+ Ke7
+23. Rc6 (23. a5 $5 {was tempting as well.} bxa5 $5 (23... b5 24. Rad1 {
+transposes to 21.Rad1}) 24. Rxa5 Rb5 25. Raxa6 Rab7 26. Ra2 Nb6 $16) 23... Ra8
+(23... a5 {would have been more stubborn according to Stockfish. However it
+has an obvious drawback such as weakening vital light squares (c4-b5) which
+can be used by white king and also loosing time, so white can go for 24.Re1
+and e5 next.} 24. Re1 (24. Kd3 $5) (24. Kb3 b5 25. Bd6+ Kf7 26. Bxc5 $2 bxa4+ (
+26... Ra6 $1 27. Rc8 Re6 $1) 27. Kc2 Rc7 (27... Nxc5 28. Rxc5) 28. Rxc7 Rxc7
+29. Bd4 $16 {was one line I calculated. However it's better to start with 26.
+Kc2 since 26.Bxc5 allows the sudden resource Ra6 allowing black to come back!})
+24... Kf7 25. e5 fxe5 26. Bxe5 Nxe5 27. Rxe5 {Seems very difficult for the
+defender.}) (23... Ne5 24. Bxe5 fxe5 25. a5 $18) (23... Nb8 24. Rc8 $1 (24.
+Bxb8 Rxb8 25. a5 Rab7 $1) 24... Nd7 25. Rd1 $16) 24. a5 $1 Kf7 (24... b5 25.
+Rd1 $16) 25. axb6 Rxb6 26. Rc7 $1 {Change of plans, I didn't run with
+collecting material, instead I went for dominancy again!} (26. Rxb6 Nxb6 27.
+Be3 (27. Bd6) 27... Nd7 28. Ra5 Re8 $1 {is not easy at all.}) 26... Ke8 $6 {
+Makes my job simpler. The king doesn't secure the d6 square, which I can use
+to my benefit.} (26... Ke6 27. Rd1 Rd8 {At this point my plan was to play 28.
+e5 with the intention to meet fxe5 with 29.Bg5, but it turns out that white
+has a better way to force resignation.} (27... Ne5 28. Rxc5 $18) 28. b4 $3 cxb4
+29. c4 $1 b3+ 30. Kb2 {The idea is to push the 'c' pawn and win a lot of
+material. It was found by young hungarian kids during my training session.} Rb4
+31. Bd6 $1 (31. Rc6+ $2 Kf7 32. Bc7 $2 Ne5 $1) 31... Rbb8 32. Ba3 Rb6 33. c5
+Rbb8 34. c6 $18) (26... Ke7 27. Rd1 Rd8 28. e5 $1 Re6 (28... h6 29. Ra7 $16)
+29. exf6+ gxf6 $16 {looks horrible from black's point of view, but at least
+material is equal for the moment. This would have been a better try since my
+time trouble was approaching.}) 27. Rd1 Rd8 28. Rd6 (28. Bd6 {is at least as
+good.}) 28... g5 $5 {Tricky.} 29. Bg3 {Just relax.} (29. Rcxd7 Rxd7 30. Rxb6
+gxf4 31. Rxf6 Rg7 $1 {was the point behind it!}) 29... Rxd6 30. Bxd6 h5 31.
+Bxc5 Nxc5 32. Rxc5 $18 {Not only one pawn disappeared from black's camp, but
+white also remained in the driving seat.} Kf7 33. Rd5 $1 Re8 34. Kd3 h4 35. b4
+h3 36. g3 $1 {Black simply cannot activate his rook.} Rb8 37. Kd4 (37. Ra5 Rd8+
+) (37. Rd6 $2 a5 $1 38. bxa5 Rb2 {was a nice little trick.}) 37... Ke6 38. Ra5
+Rb6 39. Rc5 Rd6+ 40. Rd5 {Some "hesitation" from my part. The reason was just
+to reach time control without changing anything in the position.} Rb6 41. g4 $1
+{After some time I came up with the simplest winning plan.} Kf7 42. e5 Ke7 $5 (
+42... fxe5+ 43. Rxe5 Rd6+ (43... Kg6 44. Re3) 44. Rd5 Re6 45. Rf5+ Kg6 46. Rf3
+$18) 43. Ke4 $1 {The clearest way. White king is heading for f5!} ({It was not
+too late to go wrong. The greedy} 43. Kc5 $4 {lets the win slip away...} Rb5+
+$1 44. Kc6 {Seemingly black may just resign...} Rxd5 45. Kxd5 f5 $3 {Very
+dirty trick!} 46. gxf5 g4 {and the h pawn is a queen!}) 43... Rc6 (43... Re6
+44. c4 Rb6 45. Kf5 fxe5 46. Rxe5+ Kf7 47. b5 $18) (43... Ke6 44. Rd6+ $1 {
+is the simplest} Rxd6 45. exd6 Kxd6 46. Kf5 Ke7 47. c4 $18) 44. Kf5 $1 fxe5 (
+44... Rxc3 45. exf6+ Kf7 46. Rd7+) 45. Rxe5+ Kf7 46. Re3 $1 {The point! White
+keeps his pawn while collecting the kingside as well. I like giving absolutely
+no chance to the opponents if it's possible. It was the case this time.} a5 47.
+Rxh3 Kg7 (47... a4 48. Rh7+ $1 Kg8 49. Ra7) 48. bxa5 {Simple enough.} Rc5+ 49.
+Ke6 Rxa5 50. c4 Ra6+ 51. Kd5 Kf7 52. Re3 Ra4 53. h3 {I like my pawns :). He
+kept me sitting there for another half an hour, but finally he resigned :).
+Luckily we managed to hold two inferior endgames on board 3 and 4 and won the
+match!} 1-0
+

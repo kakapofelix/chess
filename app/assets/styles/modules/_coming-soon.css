@@ -1,24 +1,36 @@
 .background-color-blue {
     background-image: linear-gradient(to bottom, $mainBlue, #28332F);
-    height: 50rem;
     position: relative;
+    height: 500px;
+
+    @mixin atMedium {
+        height: 700px;
+    }
 }
 
 .background-color-green {
     background-image: linear-gradient(to bottom, $mainGreen, #28332F);
-    height: 50rem;
+    height: 500px;
     position: relative;
+
+    @mixin atMedium {
+        height: 700px;
+    }
 }
 
 
 .coming-soon{
     h6 {
-        position: relative;
         color: white;
         display: block;
         text-align: center;
-        padding-top:20rem;
-        font-size: 3rem;
+        padding-top:15rem;
+        font-size: 2rem;
+
+        @mixin atMedium{
+            font-size: 3rem;
+            padding-top:20rem;
+        }
     }
 }
 

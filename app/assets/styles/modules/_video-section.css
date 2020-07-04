@@ -1,16 +1,26 @@
 #video-section {
     background-color: $mainBlue;
-    height: 600px;
-    display:flex;
+    display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .video-container {
-    margin-top:70px;
+    margin: 40px auto;
+    text-align: center;
 
     h2 {
-        margin-bottom:2rem;
+        margin-bottom: 2rem;
         text-align: center;
+    }
+    #youtube-video {
+        width: 350px;
+        height: 250px;
 
+        @mixin atLarge{
+            width: 550px;
+            height: 350px;
+        }
+      
     }
 }

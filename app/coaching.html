@@ -11,7 +11,6 @@
   <link rel="stylesheet">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 </head>
 
@@ -54,7 +53,7 @@
 
   </header>
 
-  <div class="coaching">
+  <div class="coming-soon background-color-blue">
 
     <h6>Coming soon..</h6>
 
@@ -65,7 +64,8 @@
   <footer class="footer"></footer>
 
   <script type="text/javascript">
-    $(document).ready(function () {
+    jQl.loadjQ('https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js');
+    $('document').ready(function () {
       $(".footer").load("footer.html");
     });
   </script>

@@ -11,9 +11,7 @@
   <link href="styles/styles.css">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
 </head>
 
 <body>
@@ -46,9 +44,9 @@
         <li class="header-navbar__title"><a href="tournaments.html">Tournaments</a></li>
         <li class="header-navbar__title"><a href="contact.html">Contact</a></li>
 
-        <li class="header-navbar__title"><a class="no-decoration" href="login.html"> <img
-          class="header-navbar__image" src="assets\images\pawn-white.png" alt="Viktor Erdos chess login">
-      </a></li>
+        <li class="header-navbar__title"><a class="no-decoration" href="login.html"> <img class="header-navbar__image"
+              src="assets\images\pawn-white.png" alt="Viktor Erdos chess login">
+          </a></li>
 
       </ul>
     </nav>
@@ -131,22 +129,21 @@
             website or follow me on <strong> <a href="https://www.facebook.com/viktor.erdos.16">Facebook</a>.</strong>
           </p>
         </div>
-
-
       </div>
     </div>
   </div>
 
 
   <div id="video-section">
+    <div class="wrapper">
 
-    <div class="video-container">
-      <h2>Academy interview</h2>
-      <iframe id="youtube-video" width="560" height="315" src="https://www.youtube.com/embed/iy3HNzX-f5s"
-        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
+      <div class="video-container">
+        <h2>Academy interview</h2>
+        <iframe id="youtube-video" src="https://www.youtube.com/embed/iy3HNzX-f5s"
+          frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
     </div>
-
   </div>
 
   <!--Include footer.html with jQuery -->
@@ -154,10 +151,9 @@
   <footer class="footer"></footer>
 
   <script type="text/javascript">
-    $(document).ready(function(){
+    jQl.loadjQ('https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js');
       $(".footer").load("footer.html");
-    });
- </script>
+  </script>
 
 </body>
 

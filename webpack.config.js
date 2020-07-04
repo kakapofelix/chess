@@ -49,7 +49,6 @@ let config = {
             cssConfig
         ]
     }
-
 }
 
 if (currentTask == 'dev') {

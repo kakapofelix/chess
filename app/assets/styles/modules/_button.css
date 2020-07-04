@@ -23,7 +23,7 @@
                 background: linear-gradient(to bottom, #605A56 20%, #000000 80%);        }
 
         &__submit {
-                background-color: $mainPurple;
+                background-color: $mainBlack;
                 color: #fff;
                 font-weight: 700;
                 width: 120px;

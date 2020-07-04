@@ -43,7 +43,6 @@
     &__title {
         padding: 10px;
         background-color: $mainGrey;
-        box-shadow: 0px 0px 3px 2px $mainBlue;
 
         @mixin atMedium{
             padding: 20px;
@@ -105,7 +104,6 @@
         background-color: $mainGrey;
         padding: 20px 20px 0 20px;
         display: inline-block;
-        box-shadow: 0px 0px 3px 2px $mainBlue;
 
         .contact-form {
 

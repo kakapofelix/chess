@@ -3,87 +3,95 @@
     margin: 0;
 }
 
-.features-right-aligned {
-    padding-top: 2rem;
-    display: block;
-    margin: auto;
-    position: relative;
-    height: 450px;
+.card {
+    padding: 50px 0 20px 0;
+    width: 100%;
+    float: none;
 
-    @mixin atMedium {
-        padding-top: 5rem;
-        display: flex;
-        margin: 0;
+    @mixin atMedium{
+        padding: 100px 0 200px 0;
     }
 
-    &__description {
-        text-align: center;
-
-        @mixin atMedium {
-            margin: 0 0 3rem 3rem;
-            text-align: left;
-            flex: 1;
-        }
-
-        p {
-            padding-top: 2rem;
-            line-height: 1.8;
-        }
-
-        h2 {
-            color: $mainPurple;
-        }
+    @mixin atLarge{
+        padding: 100px 0 300px 0;
+    }
+}
+.card-padding{
+    @mixin atMedium{
+        padding-bottom: 300px;
     }
 
-    &__image {
-        position: absolute;
-        top: 60%;
-        left: 25%;
-
-        @mixin atMedium {
-            position: relative;
-            left: 0;
-            top:0;
-            flex: 1;
-        }
+    @mixin atLarge{
+        padding-bottom: 400px;
     }
 }
 
-.features-left-aligned {
-    display: block;
+.image {
+    width: 50%;
+
+    @mixin atMedium {
+        width: 40%;
+
+    }
+
+}
+
+.image-right-aligned {
     margin: auto;
 
     @mixin atMedium {
-        display: flex;
+        float: right;
+    }
+}
+
+.image-left-aligned {
+    margin: auto;
+
+    @mixin atMedium {
+        float: left;
+    }
+}
+
+.description {
+    width: 70%;
+    margin-top: 0;
+
+    @mixin atMedium {
+        width: 55%;
     }
 
-    &__description {
-        margin: 3rem 1rem 0 0;
-        text-align: center;
+    p {
+        padding-top: 30px;
+        padding-bottom: 20px;
+        line-height: 1.8;
+    }
+}
 
-        @mixin atMedium {
-            margin: 1rem 3rem 1rem 0;
-            text-align: left;
-            flex: 1;
-        }
+.description-left-aligned {
+    text-align: center;
+    margin: auto;
 
-        p {
-            padding-top: 2rem;
-            line-height: 1.8;
-        }
-
-        h2 {
-            color: $mainGreen;
-        }
+    @mixin atMedium {
+        text-align: left;
+        float: left;
     }
 
-    &__image {
-        display: block;
-        text-align: center;
-        margin: 1rem 0 1rem 3rem;
+    h2 {
+        color: $mainGreen;
+    }
+}
 
-        @mixin atMedium {
-            flex: 1;
-        }
+.description-right-aligned {
+    text-align: center;
+    margin: auto;
+
+    @mixin atMedium {
+        text-align: left;
+        float: right;
+    }
+
+
+    h2 {
+        color: $mainPurple;
     }
 }

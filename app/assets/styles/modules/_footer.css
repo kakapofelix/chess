@@ -19,7 +19,12 @@
 
             &--icons {
                 display: inline-block;
-                padding: 0 5px;
+                padding: 0 8px;
+
+                @mixin atMedium{
+                    padding: 0 10px;
+
+                }
 
                 .fa.fa-facebook {
                     color: #3b5998;
@@ -51,23 +56,28 @@
                 }
 
                 @mixin atMedium{
-                    font-size: 1.8rem;
+                    font-size: 1.6rem;
                 }
             }
 
-            a, p, .fa {
+            a, p {
 
-                font-size: 0.8rem;
                 color:white;
                 text-decoration: none;
+                font-size: 0.9rem;
 
-                @mixin atSmall {
-                    font-size: 1rem;
+                @mixin atMedium {
+                    font-size: 1.2rem;
                 }
+            }
+            .fa {
+                font-size: 1.3rem;
 
                 @mixin atMedium {
                     font-size: 1.4rem;
+
                 }
+
             }
         }
     }

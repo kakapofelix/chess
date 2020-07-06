@@ -19,7 +19,11 @@
     top: 0;
     position: relative;
     height: 800px;
-    padding-top: 200px;
+    padding-top: 150px;
+
+    @mixin atMedium {
+        padding-top: 200px;
+    }
 
 }
 
@@ -33,18 +37,18 @@
 
     @mixin atSmall {
         max-width: 500px;
-      }
-  
-      @mixin atMedium {
+    }
+
+    @mixin atMedium {
         max-width: 560px;
         height: 320px;
-      }  
+    }
 
     &__title {
         padding: 10px;
         background-color: $mainGrey;
 
-        @mixin atMedium{
+        @mixin atMedium {
             padding: 20px;
 
         }
@@ -52,7 +56,7 @@
         h1 {
             text-align: center;
             font-size: 1.5rem;
-            color:$mainBlack;
+            color: $mainBlack;
             display: flex;
             justify-content: center;
 
@@ -99,44 +103,40 @@
             }
         }
     }
+}
 
-    .contact-form-container {
-        background-color: $mainGrey;
-        padding: 20px 20px 0 20px;
-        display: inline-block;
+.contact-form-container {
+    background-color: $mainGrey;
+    padding: 20px 20px 0 20px;
+    display: inline-block;
 
-        .contact-form {
 
-            &__field {
-                position: relative;
-                font-size: 1.2rem;
-                padding:15px;
+    .contact-form {
 
-                #message {
-                    height: 200px;
-                    border: solid 2px $mainBlack;
-                }
+        &__field {
+            position: relative;
+            font-size: 1.2rem;
+            padding: 15px;
 
-                &--input-text {
-                    width: 100%;
-                    line-height: 26px;
-                    font-weight: 600;
-                    background-color: transparent;
-                    border:0;
-                    border-bottom: solid 2px $mainBlack;
-                    color: $mainBlack;
-                    overflow-wrap: break-word;
+            #message {
+                height: 200px;
+                border: solid 2px $mainBlack;
+            }
 
-                    &:focus {
-                        outline: none;
-                    }
+            &--input-text {
+                width: 100%;
+                line-height: 26px;
+                font-weight: 600;
+                background-color: transparent;
+                border: 0;
+                border-bottom: solid 2px $mainBlack;
+                color: $mainBlack;
+                overflow-wrap: break-word;
+
+                &:focus {
+                    outline: none;
                 }
             }
         }
     }
-}
-
-.message-me{
-    text-align: center;
-    color: $mainBlack;
 }

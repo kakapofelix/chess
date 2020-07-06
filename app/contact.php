@@ -43,7 +43,7 @@
 
         </li>
         <li class="header-navbar__title"><a href="tournaments.html">Tournaments</a></li>
-        <li class="header-navbar__title"><a href="contact.html">Contact</a></li>
+        <li class="header-navbar__title"><a href="contact.php">Contact</a></li>
 
         <li class="header-navbar__title"><a class="no-decoration" href="login.html"> <img class="header-navbar__image"
               src="assets\images\pawn-white.png" alt="Viktor Erdos chess login">
@@ -71,10 +71,10 @@
                   class="fa fa-instagram"></i> </a> </li>
 
           </ul>
+
         </div>
         <div class="contact-form-container">
 
-            <h3 class="message-me">Send me message</h3>
             <form class="contact-form" action="contact-form.php" method="post">
               <div class="contact-form__field col x-50">
                 <input id="name" type="text" name="name" class="contact-form__field--input-text js-input" placeholder="Full name">
@@ -93,26 +93,6 @@
               </div>
 
             </form>
-
-
-          <!--
-          <form class="contact-form">
-            <div class="contact-form__field col x-50">
-              <input id="name" placeholder="Name" class="contact-form__field--input-text js-input" type="text" required>
-            </div>
-            <div class="contact-form__field col x-50">
-              <input id="email" placeholder="Email" class="contact-form__field--input-text js-input" type="email"
-                required>
-            </div>
-            <div class="contact-form__field col x-100">
-              <textarea placeholder="Message" id="message" class="contact-form__field--input-text js-input" type="text"
-                required></textarea>
-            </div>
-            <div class="contact-form__field col x-100 align-center">
-              <input class="btn btn__submit" type="submit" value="Submit">
-            </div>
-          </form>
-        -->
 
         </div>
       </div>

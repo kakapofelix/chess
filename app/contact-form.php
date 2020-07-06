@@ -9,8 +9,14 @@ if (isset($_POST['submit'])) {
 	$headers = "From: ".$mailFrom;
 	$txt = "You have received an email from ".$name.".\n\n".$message;
 
-
-	mail($mailTo, $txt, $header);
 	header("Location: contact.php?mailsend");
+	if(mail($mailTo, $txt, $header)) 
 
+	{
+		echo "Message was sent successfully ";
+		}
+		else
+		{
+		echo "Message was not sent, please try again later";
+	}
 }

@@ -74,6 +74,28 @@
         </div>
         <div class="contact-form-container">
 
+            <h3 class="message-me">Send me message</h3>
+            <form class="contact-form" action="contactform.php" method="post">
+              <div class="contact-form__field col x-50">
+                <input id="name" type="text" name="name" class="contact-form__field--input-text js-input" placeholder="Full name">
+              </div>
+
+              <div class="contact-form__field col x-50">
+                <input id="email" type="text" name="mail" class="contact-form__field--input-text js-input" placeholder="Your email">
+              </div>
+
+              <div class="contact-form__field col x-100" >
+                <textarea id="message" name="message" class="contact-form__field--input-text js-input" placeholder="Message"></textarea>
+              </div>
+
+              <div class="contact-form__field col x-100 align-center">
+                <button class="btn btn__submit" type="submit" name="submit">Submit</button>
+              </div>
+
+            </form>
+
+
+          <!--
           <form class="contact-form">
             <div class="contact-form__field col x-50">
               <input id="name" placeholder="Name" class="contact-form__field--input-text js-input" type="text" required>
@@ -90,6 +112,8 @@
               <input class="btn btn__submit" type="submit" value="Submit">
             </div>
           </form>
+        -->
+
         </div>
       </div>
     </div>

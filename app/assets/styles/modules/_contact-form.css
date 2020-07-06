@@ -135,3 +135,8 @@
         }
     }
 }
+
+.message-me{
+    text-align: center;
+    color: $mainBlack;
+}

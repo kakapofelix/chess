@@ -75,7 +75,7 @@
         <div class="contact-form-container">
 
             <h3 class="message-me">Send me message</h3>
-            <form class="contact-form" action="contactform.php" method="post">
+            <form class="contact-form" action="contact-form.php" method="post">
               <div class="contact-form__field col x-50">
                 <input id="name" type="text" name="name" class="contact-form__field--input-text js-input" placeholder="Full name">
               </div>

@@ -12,6 +12,7 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+
 </head>
 
 <body>
@@ -129,10 +130,19 @@
   <footer class="footer"></footer>
 
 
-  <script type="text/javascript">
-    $('document').ready(function () {
-      $(".footer").load("footer.html");
+  <script>
+    $(".footer").load("footer.html", function (data) {
+      // this will execute after load is fired.
     });
+
+    var data = $.ajax({
+      type: "GET",
+      url: "footer.html",
+      async: false
+    }).responseText;
+    // this code waits for the above ajax request.
+
+    $('.footer').html(data)
   </script>
 
 </body>
